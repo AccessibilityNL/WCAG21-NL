@@ -30,7 +30,7 @@ function addTextSemantics() {
   // put level before and parentheses around the conformance level marker
   document.querySelectorAll('p.conformance-level').forEach(function(node){
     var level = node.textContent;
-    node.textContent = '(Niveau ' + level + ')';
+    node.textContent = '(Level ' + level + ')';
   });
   // put principle in principle headings
   document.querySelectorAll('section.sc h2 span.secno').forEach(function(node){
