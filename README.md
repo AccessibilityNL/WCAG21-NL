@@ -4,6 +4,11 @@
 
 Authorized Translation of WCAG 2.1 in Dutch.
 
+## Werkversie
+
+[https://accessibilitynl.github.io/WCAG21-NL/guidelines/](https://accessibilitynl.github.io/WCAG21-NL/guidelines/)
+
+
 ## Gepubliceerde vertalingen
 
 - [Versie 1.0.0 (CAT WCAG21 NL 2019 11 25)](https://accessibilitynl.github.io/WCAG21-NL/translations/CAT-WCAG21-NL-20191125/)
