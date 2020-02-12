@@ -144,6 +144,12 @@ var respecConfig = {
 
   localBiblio: localBiblio,
 
-  postProcess: [addTextSemantics, swapInDefinitions]
+  postProcess: [
+    addTextSemantics,
+    swapInDefinitions,
+    moveTransheaderToTop,
+    replaceHead,
+    replaceSotd
+  ]
 
 };
