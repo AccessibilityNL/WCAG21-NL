@@ -33,19 +33,19 @@ function addTextSemantics() {
     node.textContent = '(Niveau ' + level + ')';
   });
   // put principle in principle headings
-  document.querySelectorAll('section.sc h2 span.secno').forEach(function(node){
+  document.querySelectorAll('section.principle > h2 >bdi.secno').forEach(function(node){
     var num = node.textContent;
-    node.textContent = 'Principle ' + num;
+    node.textContent = 'Principe ' + num;
   });
   // put guideline in GL headings
-  document.querySelectorAll('section.guideline h3 span.secno').forEach(function(node){
+  document.querySelectorAll('section.guideline > h3 > bdi.secno').forEach(function(node){
     var num = node.textContent;
-    node.textContent = 'Guideline ' + num;
+    node.textContent = 'Richtlijn ' + num;
   });
   // put success criterion in SC headings
-  document.querySelectorAll('section.sc h4 span.secno').forEach(function(node){
+  document.querySelectorAll('section.sc > h4 > bdi.secno').forEach(function(node){
     var num = node.textContent;
-    node.textContent = 'Success Criterion ' + num;
+    node.textContent = 'Succes Criterium ' + num;
   });
 }
 
