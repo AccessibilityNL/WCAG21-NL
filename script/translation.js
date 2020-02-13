@@ -43,8 +43,9 @@ function replaceHead() {
 
 // Replacing the generated sotd with translated sotd
 function replaceSotd() {
-  var transSotd = document.querySelector('#sotd-nl');
+  var translation = document.querySelector('#sotd-nl');
   var sotd = document.querySelector('#sotd');
 
-  replaceWith(sotd, transSotd);
+  translation.classList.remove('notoc');
+  replaceWith(sotd, translation);
 }
