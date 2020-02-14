@@ -147,9 +147,12 @@ var respecConfig = {
   postProcess: [
     addTextSemantics,
     swapInDefinitions,
+
+    // Translation modifications
     moveTransheaderToTop,
     replaceHead,
-    replaceSotd
+    replaceSotd,
+    removeRespecReferences
   ]
 
 };

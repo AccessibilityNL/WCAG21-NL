@@ -49,3 +49,12 @@ function replaceSotd() {
   translation.classList.remove('notoc');
   replaceWith(sotd, translation);
 }
+
+function removeRespecReferences() {
+  var respecRefsId = 'references';
+  var respecRefs = document.getElementById(respecRefsId);
+  var respecRefsTocline = document.querySelector('.tocxref[href="#' + respecRefsId + '"]').parentElement;
+
+  respecRefs.parentElement.removeChild(respecRefs);
+  respecRefsTocline.parentElement.removeChild(respecRefsTocline);
+}
