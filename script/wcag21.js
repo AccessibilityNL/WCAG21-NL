@@ -45,7 +45,7 @@ function addTextSemantics() {
   // put success criterion in SC headings
   document.querySelectorAll('section.sc > h4 > .secno').forEach(function(node){
     var num = node.textContent;
-    node.textContent = 'Succes Criterium ' + num;
+    node.textContent = 'Succescriterium ' + num;
   });
 }
 
