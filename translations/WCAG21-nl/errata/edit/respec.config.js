@@ -23,8 +23,8 @@ var respecConfig = (function() {
 
   const _editors = [
     {
-      name: 'Roel Antonisse',
-      mailto: 'r.antonisse@accessibility.nl',
+      name: 'Eric Velleman',
+      mailto: 'e.velleman@accessibility.nl',
       company: 'Stichting Accessibility',
       companyURI: 'https://www.accessibility.nl/'
     }
