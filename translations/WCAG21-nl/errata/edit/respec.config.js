@@ -24,7 +24,7 @@ var respecConfig = (function() {
 
   const _editors = [
     {
-      name: 'Roel Antonisse - Deul',
+      name: 'Roel Antonisse',
       mailto: 'r.antonisse@accessibility.nl',
       company: 'Stichting Accessibility',
       companyURI: 'https://www.accessibility.nl/'

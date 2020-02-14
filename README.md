@@ -17,3 +17,13 @@ Authorized Translation of WCAG 2.1 in Dutch.
 ## Errata
 
 - [Werkversie](https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/errata/edit/)
+
+- [Publicatie](https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/errata/)
+
+  Symbolische link naar laatste publicatie.
+
+- Publicaties:
+
+  https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/errata/versions/
+
+  - [Initiele publicatie (2020/02/14)](https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/errata/versions/20200211/)
