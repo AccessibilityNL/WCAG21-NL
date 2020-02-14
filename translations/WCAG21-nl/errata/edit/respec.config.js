@@ -14,12 +14,11 @@ var respecConfig = (function() {
   const _specConfig = {
     specStatus: 'base',
     shortName: 'WCAG21-nl-errata',
-    license: 'document',
-    edDraftURI: 'https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-NL/errata/edit/',
+    license: 'document'
   };
 
   const _publicationConfig = {
-    publishDate: '2020-02-11'
+    publishDate: '2020-02-20'
   };
 
   const _editors = [
