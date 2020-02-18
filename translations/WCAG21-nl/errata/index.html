@@ -1,481 +1,504 @@
-<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="generator" content="ReSpec 25.2.1"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><style>/* dfn popup panel that list all local references to a dfn */
-dfn {
-  cursor: pointer;
-}
+<!DOCTYPE html>
+<html lang="nl">
 
-.dfn-panel {
-  position: absolute;
-  left: var(--left); /* set via JS */
-  top: var(--top); /* set via JS */
-  z-index: 35;
-  height: auto;
-  width: max-content;
-  max-width: 300px;
-  max-height: 500px;
-  overflow: auto;
-  padding: 0.5em 0.75em;
-  font: small Helvetica Neue, sans-serif, Droid Sans Fallback;
-  background: #dddddd;
-  color: black;
-  border: outset 0.2em;
-}
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="ReSpec 25.2.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+      /* dfn popup panel that list all local references to a dfn */
+      dfn {
+        cursor: pointer;
+      }
 
-.dfn-panel * {
-  margin: 0;
-}
+      .dfn-panel {
+        position: absolute;
+        left: var(--left); /* set via JS */
+        top: var(--top); /* set via JS */
+        z-index: 35;
+        height: auto;
+        width: max-content;
+        max-width: 300px;
+        max-height: 500px;
+        overflow: auto;
+        padding: 0.5em 0.75em;
+        font: small Helvetica Neue, sans-serif, Droid Sans Fallback;
+        background: #dddddd;
+        color: black;
+        border: outset 0.2em;
+      }
 
-.dfn-panel > b {
-  display: block;
-}
+      .dfn-panel * {
+        margin: 0;
+      }
 
-.dfn-panel ul a[href] {
-  color: black;
-}
+      .dfn-panel > b {
+        display: block;
+      }
 
-.dfn-panel a:not(:hover) {
-  text-decoration: none !important;
-  border-bottom: none !important;
-}
+      .dfn-panel ul a[href] {
+        color: black;
+      }
 
-.dfn-panel a[href]:hover {
-  border-bottom-width: 1px;
-}
+      .dfn-panel a:not(:hover) {
+        text-decoration: none !important;
+        border-bottom: none !important;
+      }
 
-.dfn-panel > b + b {
-  margin-top: 0.25em;
-}
+      .dfn-panel a[href]:hover {
+        border-bottom-width: 1px;
+      }
 
-.dfn-panel ul {
-  padding: 0;
-}
+      .dfn-panel > b + b {
+        margin-top: 0.25em;
+      }
 
-.dfn-panel li {
-  list-style: inside;
-}
+      .dfn-panel ul {
+        padding: 0;
+      }
 
-.dfn-panel.docked {
-  display: inline-block;
-  position: fixed;
-  left: 0.5em;
-  top: unset;
-  bottom: 2em;
-  margin: 0 auto;
-  /* 0.75em from padding (x2), 0.5em from left position, 0.2em border (x2) */
-  max-width: calc(100vw - 0.75em * 2 - 0.5em - 0.2em * 2);
-  max-height: 30vh;
-}
-</style>
-    
-    <title>Errata van Nederlandse vertaling voor Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1</title>
+      .dfn-panel li {
+        list-style: inside;
+      }
 
-    
-    
-  <style id="respec-mainstyle">/*****************************************************************
- * ReSpec specific CSS
- *****************************************************************/
-@keyframes pop {
-  0% {
-    transform: scale(1, 1);
-  }
-  25% {
-    transform: scale(1.25, 1.25);
-    opacity: 0.75;
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-}
+      .dfn-panel.docked {
+        display: inline-block;
+        position: fixed;
+        left: 0.5em;
+        top: unset;
+        bottom: 2em;
+        margin: 0 auto;
+        /* 0.75em from padding (x2), 0.5em from left position, 0.2em border (x2) */
+        max-width: calc(100vw - 0.75em * 2 - 0.5em - 0.2em * 2);
+        max-height: 30vh;
+      }
+    </style>
 
-/* Override code highlighter background */
-.hljs {
-  background: transparent !important;
-}
+    <title>
+      Errata van Nederlandse vertaling voor Richtlijnen voor Toegankelijkheid
+      van Webcontent (WCAG) 2.1
+    </title>
 
-/* --- INLINES --- */
-h1 abbr,
-h2 abbr,
-h3 abbr,
-h4 abbr,
-h5 abbr,
-h6 abbr,
-a abbr {
-  border: none;
-}
+    <style id="respec-mainstyle">
+      /*****************************************************************
+       * ReSpec specific CSS
+       *****************************************************************/
+      @keyframes pop {
+        0% {
+          transform: scale(1, 1);
+        }
+        25% {
+          transform: scale(1.25, 1.25);
+          opacity: 0.75;
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      }
 
-dfn {
-  font-weight: bold;
-}
+      /* Override code highlighter background */
+      .hljs {
+        background: transparent !important;
+      }
 
-a.internalDFN {
-  color: inherit;
-  border-bottom: 1px solid #99c;
-  text-decoration: none;
-}
+      /* --- INLINES --- */
+      h1 abbr,
+      h2 abbr,
+      h3 abbr,
+      h4 abbr,
+      h5 abbr,
+      h6 abbr,
+      a abbr {
+        border: none;
+      }
 
-a.externalDFN {
-  color: inherit;
-  border-bottom: 1px dotted #ccc;
-  text-decoration: none;
-}
+      dfn {
+        font-weight: bold;
+      }
 
-a.bibref {
-  text-decoration: none;
-}
+      a.internalDFN {
+        color: inherit;
+        border-bottom: 1px solid #99c;
+        text-decoration: none;
+      }
 
-.respec-offending-element:target {
-  animation: pop 0.25s ease-in-out 0s 1;
-}
+      a.externalDFN {
+        color: inherit;
+        border-bottom: 1px dotted #ccc;
+        text-decoration: none;
+      }
 
-.respec-offending-element,
-a[href].respec-offending-element {
-  text-decoration: red wavy underline;
-}
-@supports not (text-decoration: red wavy underline) {
-  .respec-offending-element:not(pre) {
-    display: inline-block;
-  }
-  .respec-offending-element {
-    /* Red squiggly line */
-    background: url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=)
-      bottom repeat-x;
-  }
-}
+      a.bibref {
+        text-decoration: none;
+      }
 
-#references :target {
-  background: #eaf3ff;
-  animation: pop 0.4s ease-in-out 0s 1;
-}
+      .respec-offending-element:target {
+        animation: pop 0.25s ease-in-out 0s 1;
+      }
 
-cite .bibref {
-  font-style: normal;
-}
+      .respec-offending-element,
+      a[href].respec-offending-element {
+        text-decoration: red wavy underline;
+      }
+      @supports not (text-decoration: red wavy underline) {
+        .respec-offending-element:not(pre) {
+          display: inline-block;
+        }
+        .respec-offending-element {
+          /* Red squiggly line */
+          background: url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=)
+            bottom repeat-x;
+        }
+      }
 
-code {
-  color: #c83500;
-}
+      #references :target {
+        background: #eaf3ff;
+        animation: pop 0.4s ease-in-out 0s 1;
+      }
 
-th code {
-  color: inherit;
-}
+      cite .bibref {
+        font-style: normal;
+      }
 
-a[href].orcid {
-    padding-left: 4px;
-    padding-right: 4px;
-}
+      code {
+        color: #c83500;
+      }
 
-a[href].orcid > svg {
-    margin-bottom: -2px;
-}
+      th code {
+        color: inherit;
+      }
 
-/* --- TOC --- */
+      a[href].orcid {
+        padding-left: 4px;
+        padding-right: 4px;
+      }
 
-.toc a,
-.tof a {
-  text-decoration: none;
-}
+      a[href].orcid > svg {
+        margin-bottom: -2px;
+      }
 
-a .secno,
-a .figno {
-  color: #000;
-}
+      /* --- TOC --- */
 
-ul.tof,
-ol.tof {
-  list-style: none outside none;
-}
+      .toc a,
+      .tof a {
+        text-decoration: none;
+      }
 
-.caption {
-  margin-top: 0.5em;
-  font-style: italic;
-}
+      a .secno,
+      a .figno {
+        color: #000;
+      }
 
-/* --- TABLE --- */
+      ul.tof,
+      ol.tof {
+        list-style: none outside none;
+      }
 
-table.simple {
-  border-spacing: 0;
-  border-collapse: collapse;
-  border-bottom: 3px solid #005a9c;
-}
+      .caption {
+        margin-top: 0.5em;
+        font-style: italic;
+      }
 
-.simple th {
-  background: #005a9c;
-  color: #fff;
-  padding: 3px 5px;
-  text-align: left;
-}
+      /* --- TABLE --- */
 
-.simple th a {
-  color: #fff;
-  padding: 3px 5px;
-  text-align: left;
-}
+      table.simple {
+        border-spacing: 0;
+        border-collapse: collapse;
+        border-bottom: 3px solid #005a9c;
+      }
 
-.simple th[scope="row"] {
-  background: inherit;
-  color: inherit;
-  border-top: 1px solid #ddd;
-}
+      .simple th {
+        background: #005a9c;
+        color: #fff;
+        padding: 3px 5px;
+        text-align: left;
+      }
 
-.simple td {
-  padding: 3px 10px;
-  border-top: 1px solid #ddd;
-}
+      .simple th a {
+        color: #fff;
+        padding: 3px 5px;
+        text-align: left;
+      }
 
-.simple tr:nth-child(even) {
-  background: #f0f6ff;
-}
+      .simple th[scope="row"] {
+        background: inherit;
+        color: inherit;
+        border-top: 1px solid #ddd;
+      }
 
-/* --- DL --- */
+      .simple td {
+        padding: 3px 10px;
+        border-top: 1px solid #ddd;
+      }
 
-.section dd > p:first-child {
-  margin-top: 0;
-}
+      .simple tr:nth-child(even) {
+        background: #f0f6ff;
+      }
 
-.section dd > p:last-child {
-  margin-bottom: 0;
-}
+      /* --- DL --- */
 
-.section dd {
-  margin-bottom: 1em;
-}
+      .section dd > p:first-child {
+        margin-top: 0;
+      }
 
-.section dl.attrs dd,
-.section dl.eldef dd {
-  margin-bottom: 0;
-}
+      .section dd > p:last-child {
+        margin-bottom: 0;
+      }
 
-#issue-summary > ul,
-.respec-dfn-list {
-  column-count: 2;
-}
+      .section dd {
+        margin-bottom: 1em;
+      }
 
-#issue-summary li,
-.respec-dfn-list li {
-  list-style: none;
-}
+      .section dl.attrs dd,
+      .section dl.eldef dd {
+        margin-bottom: 0;
+      }
 
-details.respec-tests-details {
-  margin-left: 1em;
-  display: inline-block;
-  vertical-align: top;
-}
+      #issue-summary > ul,
+      .respec-dfn-list {
+        column-count: 2;
+      }
 
-details.respec-tests-details > * {
-  padding-right: 2em;
-}
+      #issue-summary li,
+      .respec-dfn-list li {
+        list-style: none;
+      }
 
-details.respec-tests-details[open] {
-  z-index: 999999;
-  position: absolute;
-  border: thin solid #cad3e2;
-  border-radius: 0.3em;
-  background-color: white;
-  padding-bottom: 0.5em;
-}
+      details.respec-tests-details {
+        margin-left: 1em;
+        display: inline-block;
+        vertical-align: top;
+      }
 
-details.respec-tests-details[open] > summary {
-  border-bottom: thin solid #cad3e2;
-  padding-left: 1em;
-  margin-bottom: 1em;
-  line-height: 2em;
-}
+      details.respec-tests-details > * {
+        padding-right: 2em;
+      }
 
-details.respec-tests-details > ul {
-  width: 100%;
-  margin-top: -0.3em;
-}
+      details.respec-tests-details[open] {
+        z-index: 999999;
+        position: absolute;
+        border: thin solid #cad3e2;
+        border-radius: 0.3em;
+        background-color: white;
+        padding-bottom: 0.5em;
+      }
 
-details.respec-tests-details > li {
-  padding-left: 1em;
-}
+      details.respec-tests-details[open] > summary {
+        border-bottom: thin solid #cad3e2;
+        padding-left: 1em;
+        margin-bottom: 1em;
+        line-height: 2em;
+      }
 
-a[href].self-link:hover {
-  opacity: 1;
-  text-decoration: none;
-  background-color: transparent;
-}
+      details.respec-tests-details > ul {
+        width: 100%;
+        margin-top: -0.3em;
+      }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  position: relative;
-}
+      details.respec-tests-details > li {
+        padding-left: 1em;
+      }
 
-aside.example .marker > a.self-link {
-  color: inherit;
-}
+      a[href].self-link:hover {
+        opacity: 1;
+        text-decoration: none;
+        background-color: transparent;
+      }
 
-h2 > a.self-link,
-h3 > a.self-link,
-h4 > a.self-link,
-h5 > a.self-link,
-h6 > a.self-link {
-  border: none;
-  color: inherit;
-  font-size: 83%;
-  height: 2em;
-  left: -1.6em;
-  opacity: 0.5;
-  position: absolute;
-  text-align: center;
-  text-decoration: none;
-  top: 0;
-  transition: opacity 0.2s;
-  width: 2em;
-}
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        position: relative;
+      }
 
-h2 > a.self-link::before,
-h3 > a.self-link::before,
-h4 > a.self-link::before,
-h5 > a.self-link::before,
-h6 > a.self-link::before {
-  content: "§";
-  display: block;
-}
+      aside.example .marker > a.self-link {
+        color: inherit;
+      }
 
-@media (max-width: 767px) {
-  dd {
-    margin-left: 0;
-  }
+      h2 > a.self-link,
+      h3 > a.self-link,
+      h4 > a.self-link,
+      h5 > a.self-link,
+      h6 > a.self-link {
+        border: none;
+        color: inherit;
+        font-size: 83%;
+        height: 2em;
+        left: -1.6em;
+        opacity: 0.5;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        top: 0;
+        transition: opacity 0.2s;
+        width: 2em;
+      }
 
-  /* Don't position self-link in headings off-screen */
-  h2 > a.self-link,
-  h3 > a.self-link,
-  h4 > a.self-link,
-  h5 > a.self-link,
-  h6 > a.self-link {
-    left: auto;
-    top: auto;
-  }
-}
+      h2 > a.self-link::before,
+      h3 > a.self-link::before,
+      h4 > a.self-link::before,
+      h5 > a.self-link::before,
+      h6 > a.self-link::before {
+        content: "§";
+        display: block;
+      }
 
-@media print {
-  .removeOnSave {
-    display: none;
-  }
-}
-</style><meta name="description" content="Dit document beschrijft alle fouten gevonden in de door W3C Geautoriseerde vertaling “Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1” na publicatie."><link rel="canonical" href="https://www.w3.org/TR/WCAG21-nl-errata/"><style>var {
-  position: relative;
-  cursor: pointer;
-}
+      @media (max-width: 767px) {
+        dd {
+          margin-left: 0;
+        }
 
-var[data-type]::before,
-var[data-type]::after {
-  position: absolute;
-  left: 50%;
-  top: -6px;
-  opacity: 0;
-  transition: opacity 0.4s;
-  pointer-events: none;
-}
+        /* Don't position self-link in headings off-screen */
+        h2 > a.self-link,
+        h3 > a.self-link,
+        h4 > a.self-link,
+        h5 > a.self-link,
+        h6 > a.self-link {
+          left: auto;
+          top: auto;
+        }
+      }
 
-/* the triangle or arrow or caret or whatever */
-var[data-type]::before {
-  content: "";
-  transform: translateX(-50%);
-  border-width: 4px 6px 0 6px;
-  border-style: solid;
-  border-color: transparent;
-  border-top-color: #000;
-}
+      @media print {
+        .removeOnSave {
+          display: none;
+        }
+      }
+    </style>
+    <meta name="description" content="Dit document beschrijft alle fouten gevonden in de door W3C Geautoriseerde vertaling “Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1” na publicatie.">
+    <link rel="canonical" href="https://www.w3.org/TR/WCAG21-nl-errata/">
+    <style>
+      var {
+        position: relative;
+        cursor: pointer;
+      }
 
-/* actual text */
-var[data-type]::after {
-  content: attr(data-type);
-  transform: translateX(-50%) translateY(-100%);
-  background: #000;
-  text-align: center;
-  /* additional styling */
-  font-family: "Dank Mono", "Fira Code", monospace;
-  font-style: normal;
-  padding: 6px;
-  border-radius: 3px;
-  color: #daca88;
-  text-indent: 0;
-  font-weight: normal;
-}
+      var[data-type]::before,
+      var[data-type]::after {
+        position: absolute;
+        left: 50%;
+        top: -6px;
+        opacity: 0;
+        transition: opacity 0.4s;
+        pointer-events: none;
+      }
 
-var[data-type]:hover::after,
-var[data-type]:hover::before {
-  opacity: 1;
-}
-</style><script id="initialUserConfig" type="application/json">{
-  "trace": true,
-  "useExperimentalStyles": true,
-  "doRDFa": "1.1",
-  "includePermalinks": true,
-  "permalinkEdge": true,
-  "permalinkHide": false,
-  "tocIntroductory": true,
-  "specStatus": "base",
-  "shortName": "WCAG21-nl-errata",
-  "license": "document",
-  "publishDate": "2020-02-20",
-  "editors": [
-    {
-      "name": "Eric Velleman",
-      "mailto": "e.velleman@accessibility.nl",
-      "company": "Stichting Accessibility",
-      "companyURI": "https://www.accessibility.nl/"
-    }
-  ],
-  "publishISODate": "2020-02-20T00:00:00.000Z",
-  "generatedSubtitle": "Document 20 February 2020"
-}</script><link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css"></head>
+      /* the triangle or arrow or caret or whatever */
+      var[data-type]::before {
+        content: "";
+        transform: translateX(-50%);
+        border-width: 4px 6px 0 6px;
+        border-style: solid;
+        border-color: transparent;
+        border-top-color: #000;
+      }
 
-  <body class="h-entry informative toc-inline"><div class="head">
-      <a class="logo" href="https://www.w3.org/"><img alt="W3C" width="72" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C"></a> <h1 id="title" class="title p-name">Errata van Nederlandse vertaling voor Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1</h1>
-      
+      /* actual text */
+      var[data-type]::after {
+        content: attr(data-type);
+        transform: translateX(-50%) translateY(-100%);
+        background: #000;
+        text-align: center;
+        /* additional styling */
+        font-family: "Dank Mono", "Fira Code", monospace;
+        font-style: normal;
+        padding: 6px;
+        border-radius: 3px;
+        color: #daca88;
+        text-indent: 0;
+        font-weight: normal;
+      }
+
+      var[data-type]:hover::after,
+      var[data-type]:hover::before {
+        opacity: 1;
+      }
+    </style>
+    <script id="initialUserConfig" type="application/json">
+      {
+        "trace": true,
+        "useExperimentalStyles": true,
+        "doRDFa": "1.1",
+        "includePermalinks": true,
+        "permalinkEdge": true,
+        "permalinkHide": false,
+        "tocIntroductory": true,
+        "specStatus": "base",
+        "shortName": "WCAG21-nl-errata",
+        "license": "document",
+        "publishDate": "2020-02-20",
+        "editors": [{
+          "name": "Eric Velleman",
+          "mailto": "e.velleman@accessibility.nl",
+          "company": "Stichting Accessibility",
+          "companyURI": "https://www.accessibility.nl/"
+        }],
+        "publishISODate": "2020-02-20T00:00:00.000Z",
+        "generatedSubtitle": "Document 20 February 2020"
+      }
+
+    </script>
+    <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css">
+  </head>
+
+  <body class="h-entry informative toc-inline">
+
+    <div class="head">
+      <a class="logo" href="https://www.w3.org/"><img alt="W3C" width="72" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C"></a>
+      <h1 id="title" class="title p-name">
+        Errata van Nederlandse vertaling voor Richtlijnen voor Toegankelijkheid
+        van Webcontent (WCAG) 2.1
+      </h1>
+
       <h2>
         W3C Document
         <time class="dt-published" datetime="2020-02-20">20 February 2020</time>
       </h2>
       <dl>
-        
-        
-        
-        
-        
-        
-        
         <dt>Redacteur:</dt>
-        <dd class="p-author h-card vcard"><a class="ed_mailto u-email email p-name" href="mailto:e.velleman@accessibility.nl">Eric Velleman</a>
-            (Stichting Accessibility)
-          </dd>
-        
-        
-        
+        <dd class="p-author h-card vcard">
+          <a class="ed_mailto u-email email p-name" href="mailto:e.velleman@accessibility.nl">Eric Velleman</a>
+          (Stichting Accessibility)
+        </dd>
       </dl>
-      
-      
-      
+
       <p class="copyright">
-      <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
-      ©
-      2020
-      
-      <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
-      <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>,
-      <a href="https://ev.buaa.edu.cn/">Beihang</a>). 
-      W3C <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
-      <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a rel="license" href="https://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules
-      apply.
-    </p>
+        <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
+        © 2020
+
+        <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup>(<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
+        <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>,
+        <a href="http://ev.buaa.edu.cn/">Beihang</a>).
+
+        <abbr title="World Wide Web Consortium">W3C</abbr>
+        <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer" hreflang="en">aansprakelijkheid</a>,
+        <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks" hreflang="en">handelsmerken</a>
+        en
+        <a rel="license" href="https://www.w3.org/Consortium/Legal/copyright-documents" hreflang="en">gebruik van documenten</a>
+        zijn van toepassing.
+      </p>
       <hr title="Separator for header">
     </div>
 
-    <section id="abstract" class="introductory"><h2>Samenvatting</h2>
+    <section id="abstract" class="introductory">
+      <h2>Samenvatting</h2>
       <p>
-        Dit document beschrijft alle fouten gevonden in de door <abbr title="World Wide Web Consortium">W3C</abbr> <a href="https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/">Geautoriseerde vertaling “Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1”</a> na publicatie.<br>
+        Dit document beschrijft alle fouten gevonden in de door
+        <abbr title="World Wide Web Consortium">W3C</abbr>
+        <a href="https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/">Geautoriseerde vertaling “Richtlijnen voor Toegankelijkheid van
+          Webcontent (WCAG) 2.1”</a>
+        na publicatie.<br>
       </p>
       <p>
-        De errata zijn: geclassificeerd als <a href="#substantiele-errata">substantieel</a> of <a href="#redactionele-errata">redactioneel</a>, genummerd en in een lijst opgenomen in omgekeerd chronologische volgorde (laatste erratum eerst).<br>
+        De errata zijn: geclassificeerd als
+        <a href="#substantiele-errata">substantieel</a> of
+        <a href="#redactionele-errata">redactioneel</a>, genummerd en in een
+        lijst opgenomen in omgekeerd chronologische volgorde (laatste erratum
+        eerst).<br>
       </p>
-      <p>
-        Elke toevoeging bevat de volgende informatie:<br>
-      </p>
+      <p>Elke toevoeging bevat de volgende informatie:<br></p>
       <ul>
         <li>
           een uniek nummer,
@@ -490,37 +513,63 @@ var[data-type]:hover::before {
           een beschrijving van de fout en waar toepasbaar een correctie en
         </li>
         <li>
-          een beredenering voor het maken van de wijziging. (deze is niet vereist voor redactionele errata)
+          een beredenering voor het maken van de wijziging. (deze is niet
+          vereist voor redactionele errata)
         </li>
       </ul>
 
       <div class="example">
-        <h3 id="voorbeeld-errata-toevoeging">Voorbeeld errata toevoeging<a class="self-link" aria-label="§" href="#voorbeeld-errata-toevoeging"></a></h3>
-        <ol class="errata">
+        <h3 id="voorbeeld-errata-toevoeging">
+          Voorbeeld errata toevoeging<a class="self-link" aria-label="§" href="#voorbeeld-errata-toevoeging"></a>
+        </h3>
+        <ul class="errata">
           <li>
-            <ul>
-              <li>toegevoegd op 2020/02/14</li>
-              <li>in sectie <a href="#abstract">Samenvatting</a></li>
-              <li>Gevonden spelfout in alinea 2, zin “Succescriteria van WCAG 2.1 … aan een technologie.” Het woord “net” moet zijn “niet”.</li>
-            </ul>
+            <p><strong>WCAG21-NL-ERRATA-1</strong></p>
+            <p>toegevoegd op 2020/02/20</p>
+            <p>in sectie <a href="#abstract">Samenvatting</a></p>
+            <p>
+              Gevonden spelfout in alinea 2, zin “Succescriteria van WCAG 2.1
+              … aan een technologie.” Het woord “net” moet zijn “niet”.
+            </p>
           </li>
-        </ol>
+        </ul>
       </div>
-    </section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#substantiele-errata"><bdi class="secno">1. </bdi>Substantiële errata</a></li><li class="tocline"><a class="tocxref" href="#redactionele-errata"><bdi class="secno">2. </bdi>Redactionele errata</a></li></ol></nav>
+    </section>
+    <nav id="toc">
+      <h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2>
+      <ol class="toc">
+        <li class="tocline">
+          <a class="tocxref" href="#abstract">Samenvatting</a>
+        </li>
+        <li class="tocline">
+          <a class="tocxref" href="#substantiele-errata"><bdi class="secno">1. </bdi>Substantiële errata</a>
+        </li>
+        <li class="tocline">
+          <a class="tocxref" href="#redactionele-errata"><bdi class="secno">2. </bdi>Redactionele errata</a>
+        </li>
+      </ol>
+    </nav>
 
     <section id="substantiele-errata">
-  <h2 id="x1-substantiele-errata"><bdi class="secno">1. </bdi>Substantiële errata<a class="self-link" aria-label="§" href="#substantiele-errata"></a></h2>Momenteel zijn er geen substantiële errata aanwezig.<p></p>
-
-  
-</section>
-
+      <h2 id="x1-substantiele-errata">
+        <bdi class="secno">1. </bdi>Substantiële errata<a class="self-link" aria-label="§" href="#substantiele-errata"></a>
+      </h2>
+      Momenteel zijn er geen substantiële errata aanwezig.
+      <p></p>
+    </section>
 
     <section id="redactionele-errata">
-  <h2 id="x2-redactionele-errata"><bdi class="secno">2. </bdi>Redactionele errata<a class="self-link" aria-label="§" href="#redactionele-errata"></a></h2>Momenteel zijn er geen redactionele errata aanwezig.<p></p>
-</section>
+      <h2 id="x2-redactionele-errata">
+        <bdi class="secno">2. </bdi>Redactionele errata<a class="self-link" aria-label="§" href="#redactionele-errata"></a>
+      </h2>
+      Momenteel zijn er geen redactionele errata aanwezig.
+      <p></p>
+    </section>
 
+    <p role="navigation" id="back-to-top">
+      <a href="#title"><abbr title="Back to Top">↑</abbr></a>
+    </p>
+    <script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script>
+  </body>
 
-  
-
-
-<p role="navigation" id="back-to-top"><a href="#title"><abbr title="Back to Top">↑</abbr></a></p><script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script></body></html>
+</html>
