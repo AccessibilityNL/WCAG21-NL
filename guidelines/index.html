@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl">
-
   <head>
     <meta charset="UTF-8" />
     <title>Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1</title>
-    <script src="../submodules/respec/builds/respec-w3c-common.js" class="remove"></script>
+    <script
+      src="../submodules/respec/builds/respec-w3c-common.js"
+      class="remove"
+    ></script>
     <script src="../biblio.js" class="remove"></script>
     <script src="../script/wcag21.js" class="remove"></script>
     <script src="../script/translation.js" class="remove"></script>
     <script src="respec-config.js" class="remove"></script>
-    <link rel="stylesheet" type="text/css" href="../css/sources.css" class="remove" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../css/sources.css"
+      class="remove"
+    />
     <link rel="stylesheet" type="text/css" href="guidelines.css" />
     <style type="text/css">
       .transheader {
@@ -25,13 +32,14 @@
         background: #eeeedd;
         font-weight: bolder;
       }
-
     </style>
   </head>
 
   <body>
-
-    <div data-include="status-translation.html" data-include-replace="true"></div>
+    <div
+      data-include="status-translation.html"
+      data-include-replace="true"
+    ></div>
 
     <div data-include="document-header.html" data-include-replace="true"></div>
 
@@ -41,13 +49,46 @@
       <h2>Samenvatting</h2>
 
       <p>
-        De Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1 bevatten een groot aantal aanbevelingen om webcontent toegankelijker te maken. Het volgen van deze richtlijnen maakt content toegankelijker voor meer mensen met functiebeperkingen, waaronder blindheid en slechtziendheid, doofheid en gehoorverlies, leerproblemen, cognitieve beperkingen, motorische beperkingen, spraakproblemen, overgevoeligheid voor licht en combinaties daarvan; maar het voorziet niet in elke gebruikersbehoefte van mensen met deze beperkingen. Deze richtlijnen zijn van toepassing op de toegankelijkheid van webcontent op computers, laptops, tablets en mobiele apparaten. Het volgen van deze richtlijnen maakt webcontent doorgaans ook beter bruikbaar voor gebruikers in het algemeen.
+        De Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1 bevatten
+        een groot aantal aanbevelingen om webcontent toegankelijker te maken.
+        Het volgen van deze richtlijnen maakt content toegankelijker voor meer
+        mensen met functiebeperkingen, waaronder blindheid en slechtziendheid,
+        doofheid en gehoorverlies, leerproblemen, cognitieve beperkingen,
+        motorische beperkingen, spraakproblemen, overgevoeligheid voor licht en
+        combinaties daarvan; maar het voorziet niet in elke gebruikersbehoefte
+        van mensen met deze beperkingen. Deze richtlijnen zijn van toepassing op
+        de toegankelijkheid van webcontent op computers, laptops, tablets en
+        mobiele apparaten. Het volgen van deze richtlijnen maakt webcontent
+        doorgaans ook beter bruikbaar voor gebruikers in het algemeen.
       </p>
       <p>
-        Succescriteria van WCAG 2.1 zijn toetsbaar geformuleerd en zijn niet gebonden aan een technologie. W3C levert in aparte documenten ondersteuning voor het voldoen aan de succescriteria bij gebruik van specifieke technologieën en algemene informatie over de interpretatie van de succescriteria. Zie het <a href="http://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a> voor een inleiding en links naar technisch en educatief WCAG-materiaal.
+        Succescriteria van WCAG 2.1 zijn toetsbaar geformuleerd en zijn niet
+        gebonden aan een technologie. W3C levert in aparte documenten
+        ondersteuning voor het voldoen aan de succescriteria bij gebruik van
+        specifieke technologieën en algemene informatie over de interpretatie
+        van de succescriteria. Zie het
+        <a href="http://www.w3.org/WAI/standards-guidelines/wcag/"
+          >Web Content Accessibility Guidelines (WCAG) Overview</a
+        >
+        voor een inleiding en links naar technisch en educatief WCAG-materiaal.
       </p>
       <p>
-        Dit document, de Nederlandse vertaling van WCAG 2.1, is een uitbreiding van de <a href="https://www.w3.org/Translations/WCAG20-nl/">Richtlijnen voor Toegankelijkheid van Webcontent 2.0</a> [[WCAG20]]. Dit is de Nederlandse vertaling van de Web Content Accessibility Guidelines (WCAG) 2.0, gepubliceerd als W3C Aanbeveling in december 2008. De content die voldoet aan WCAG 2.1 voldoet ook aan WCAG 2.0. De WG (Werkgroep) wil dat voor beleid dat conformiteit met WCAG 2.0 vereist, WCAG 2.1 als alternatief voor conformiteit kan worden gebruikt. De publicatie van WCAG 2.1 leidt niet tot de afschaffing of vervanging van WCAG 2.0. Hoewel WCAG 2.0 een W3C Aanbeveling blijft, beveelt het W3C het gebruik van WCAG 2.1 aan om de toepassing van toegankelijkheid in de toekomst te maximaliseren. Het W3C moedigt daarnaast het gebruik van de meest recente versie van WCAG aan bij het ontwikkelen of bijwerken van beleid over webtoegankelijkheid.
+        Dit document, de Nederlandse vertaling van WCAG 2.1, is een uitbreiding
+        van de
+        <a href="https://www.w3.org/Translations/WCAG20-nl/"
+          >Richtlijnen voor Toegankelijkheid van Webcontent 2.0</a
+        >
+        [[WCAG20]]. Dit is de Nederlandse vertaling van de Web Content
+        Accessibility Guidelines (WCAG) 2.0, gepubliceerd als W3C Aanbeveling in
+        december 2008. De content die voldoet aan WCAG 2.1 voldoet ook aan WCAG
+        2.0. De WG (Werkgroep) wil dat voor beleid dat conformiteit met WCAG 2.0
+        vereist, WCAG 2.1 als alternatief voor conformiteit kan worden gebruikt.
+        De publicatie van WCAG 2.1 leidt niet tot de afschaffing of vervanging
+        van WCAG 2.0. Hoewel WCAG 2.0 een W3C Aanbeveling blijft, beveelt het
+        W3C het gebruik van WCAG 2.1 aan om de toepassing van toegankelijkheid
+        in de toekomst te maximaliseren. Het W3C moedigt daarnaast het gebruik
+        van de meest recente versie van WCAG aan bij het ontwikkelen of
+        bijwerken van beleid over webtoegankelijkheid.
       </p>
     </section>
 
@@ -59,31 +100,77 @@
       <section>
         <h3>Achtergrond van WCAG 2</h3>
         <p>
-          De Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1 definiëren hoe je webcontent toegankelijker maakt voor mensen met een functiebeperking. Toegankelijkheid betreft een breed scala van functiebeperkingen, waaronder visuele, auditieve, fysieke, spraak-, cognitieve, taal-, leer- en neurologische functiebeperkingen. Hoewel deze richtlijnen een breed scala van aandachtspunten bestrijken, zijn ze niet in staat om in de behoeften van mensen met alle soorten, gradaties en combinaties van functiebeperkingen te voorzien. Deze richtlijnen maken webcontent ook beter bruikbaar voor ouderen, bij wie de vaardigheden door ouderdom veranderen, en verbeteren de bruikbaarheid voor gebruikers in het algemeen.
+          De Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1
+          definiëren hoe je webcontent toegankelijker maakt voor mensen met een
+          functiebeperking. Toegankelijkheid betreft een breed scala van
+          functiebeperkingen, waaronder visuele, auditieve, fysieke, spraak-,
+          cognitieve, taal-, leer- en neurologische functiebeperkingen. Hoewel
+          deze richtlijnen een breed scala van aandachtspunten bestrijken, zijn
+          ze niet in staat om in de behoeften van mensen met alle soorten,
+          gradaties en combinaties van functiebeperkingen te voorzien. Deze
+          richtlijnen maken webcontent ook beter bruikbaar voor ouderen, bij wie
+          de vaardigheden door ouderdom veranderen, en verbeteren de
+          bruikbaarheid voor gebruikers in het algemeen.
         </p>
         <p>
-          WCAG 2.1 is ontwikkeld door middel van het <a href="https://www.w3.org/WAI/standards-guidelines/w3c-process/">W3C process</a> in samenwerking met individuen en organisaties wereldwijd, met het doel om een gemeenschappelijke standaard voor toegankelijkheid van webcontent te leveren, die internationaal tegemoetkomt aan de behoeften van individuen, organisaties en overheden. WCAG 2.1 bouwt voort op WCAG 2.0 [[WCAG20]], die op zijn beurt voortbouwt op WCAG 1.0 [[WAI-WEBCONTENT]] en is ontworpen om breed van toepassing te zijn op verschillende webtechnologieën voor nu en in de toekomst en om testbaar te zijn met een combinatie van automatisch testen en menselijke evaluatie. Voor een inleiding tot WCAG, zie het <a href="http://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a>.
+          WCAG 2.1 is ontwikkeld door middel van het
+          <a href="https://www.w3.org/WAI/standards-guidelines/w3c-process/"
+            >W3C process</a
+          >
+          in samenwerking met individuen en organisaties wereldwijd, met het
+          doel om een gemeenschappelijke standaard voor toegankelijkheid van
+          webcontent te leveren, die internationaal tegemoetkomt aan de
+          behoeften van individuen, organisaties en overheden. WCAG 2.1 bouwt
+          voort op WCAG 2.0 [[WCAG20]], die op zijn beurt voortbouwt op WCAG 1.0
+          [[WAI-WEBCONTENT]] en is ontworpen om breed van toepassing te zijn op
+          verschillende webtechnologieën voor nu en in de toekomst en om
+          testbaar te zijn met een combinatie van automatisch testen en
+          menselijke evaluatie. Voor een inleiding tot WCAG, zie het
+          <a href="http://www.w3.org/WAI/standards-guidelines/wcag/"
+            >Web Content Accessibility Guidelines (WCAG) Overview</a
+          >.
         </p>
         <p>
-          Tijdens het definiëren van aanvullende criteria voor cognitieve, taal- en leerbeperkingen werden we geconfronteerd met aanzienlijke uitdagingen, waaronder een korte tijdlijn voor de ontwikkeling en ook het bereiken van consensus over testbaarheid, uitvoerbaarheid, en internationale overwegingen van voorstellen. Werk op dit gebied wordt voortgezet in toekomstige versies van WCAG. We moedigen auteurs aan om te verwijzen naar onze aanvullende documenten over <a href="http://www.w3.org/WAI/standards-guidelines/wcag/#supplement">het verbeteren van de inclusie voor mensen met functiebeperkingen, inclusief leer- en cognitieve beperkingen, slechtziendheid en andere</a>.
+          Tijdens het definiëren van aanvullende criteria voor cognitieve, taal-
+          en leerbeperkingen werden we geconfronteerd met aanzienlijke
+          uitdagingen, waaronder een korte tijdlijn voor de ontwikkeling en ook
+          het bereiken van consensus over testbaarheid, uitvoerbaarheid, en
+          internationale overwegingen van voorstellen. Werk op dit gebied wordt
+          voortgezet in toekomstige versies van WCAG. We moedigen auteurs aan om
+          te verwijzen naar onze aanvullende documenten over
+          <a href="http://www.w3.org/WAI/standards-guidelines/wcag/#supplement"
+            >het verbeteren van de inclusie voor mensen met functiebeperkingen,
+            inclusief leer- en cognitieve beperkingen, slechtziendheid en
+            andere</a
+          >.
         </p>
         <p>
-          Webtoegankelijkheid hangt niet alleen af van de toegankelijkheid van content maar ook van de toegankelijkheid van webbrowsers en andere user agents. Authoring tools hebben ook een belangrijke rol in webtoegankelijkheid. Voor een overzicht van hoe deze componenten van webontwikkeling en interactie samenwerken, zie:
+          Webtoegankelijkheid hangt niet alleen af van de toegankelijkheid van
+          content maar ook van de toegankelijkheid van webbrowsers en andere
+          user agents. Authoring tools hebben ook een belangrijke rol in
+          webtoegankelijkheid. Voor een overzicht van hoe deze componenten van
+          webontwikkeling en interactie samenwerken, zie:
         </p>
         <ul>
           <li>
             <strong>
-              <a href="https://www.w3.org/WAI/fundamentals/components/">Essential Components of Web Accessibility</a>
+              <a href="https://www.w3.org/WAI/fundamentals/components/"
+                >Essential Components of Web Accessibility</a
+              >
             </strong>
           </li>
           <li>
             <strong>
-              <a href="https://www.w3.org/WAI/standards-guidelines/uaag/">User Agent Accessibility Guidelines (UAAG) Overview</a>
+              <a href="https://www.w3.org/WAI/standards-guidelines/uaag/"
+                >User Agent Accessibility Guidelines (UAAG) Overview</a
+              >
             </strong>
           </li>
           <li>
             <strong>
-              <a href="https://www.w3.org/WAI/standards-guidelines/atag/">Authoring Tool Accessibility Guidelines (ATAG) Overview</a>
+              <a href="https://www.w3.org/WAI/standards-guidelines/atag/"
+                >Authoring Tool Accessibility Guidelines (ATAG) Overview</a
+              >
             </strong>
           </li>
         </ul>
@@ -92,174 +179,358 @@
       <section>
         <h3>De gelaagde structuur van WCAG 2</h3>
         <p>
-          De personen en organisaties die WCAG gebruiken zijn sterk gevarieerd en omvatten webontwerpers, webontwikkelaars, beleidsmakers, inkopers, leraren en studenten. Om aan de verschillende behoeften van deze groepen te voldoen, worden verschillende lagen van advies geleverd, waaronder globale <em>principes</em>, algemene <em>richtlijnen</em>, toetsbare <em>succescriteria</em> en een uitgebreide verzameling <em>afdoende technieken</em>, <em>aanbevolen technieken</em> en <em>gedocumenteerde gangbare fouten</em> met voorbeelden, links naar hulpmiddelen en broncode.
+          De personen en organisaties die WCAG gebruiken zijn sterk gevarieerd
+          en omvatten webontwerpers, webontwikkelaars, beleidsmakers, inkopers,
+          leraren en studenten. Om aan de verschillende behoeften van deze
+          groepen te voldoen, worden verschillende lagen van advies geleverd,
+          waaronder globale
+          <em>principes</em>, algemene <em>richtlijnen</em>, toetsbare
+          <em>succescriteria</em> en een uitgebreide verzameling
+          <em>afdoende technieken</em>, <em>aanbevolen technieken</em> en
+          <em>gedocumenteerde gangbare fouten</em> met voorbeelden, links naar
+          hulpmiddelen en broncode.
         </p>
         <ul>
           <li>
             <p>
-              <strong>Principes</strong> - Bovenaan staan vier principes die het fundament voor webtoegankelijkheid vormen: <em>waarneembaar, bedienbaar, begrijpelijk en robuust</em>. <a href="https://www.w3.org/WAI/WCAG21/Understanding/intro#understanding-the-four-principles-of-accessibility">Understanding the Four Principles of Accessibility</a>.
+              <strong>Principes</strong> - Bovenaan staan vier principes die het
+              fundament voor webtoegankelijkheid vormen:
+              <em>waarneembaar, bedienbaar, begrijpelijk en robuust</em>.
+              <a
+                href="https://www.w3.org/WAI/WCAG21/Understanding/intro#understanding-the-four-principles-of-accessibility"
+                >Understanding the Four Principles of Accessibility</a
+              >.
             </p>
           </li>
           <li>
             <p>
-              <strong>Richtlijnen</strong> - Onder de principes vallen richtlijnen. De 13 richtlijnen vormen de hoofddoelen die auteurs moeten nastreven om content toegankelijker te maken voor gebruikers met verschillende functiebeperkingen. De richtlijnen zijn niet toetsbaar, maar leveren het kader en de algemene doelen om auteurs te helpen de succescriteria te begrijpen en de technieken beter te implementeren.
+              <strong>Richtlijnen</strong> - Onder de principes vallen
+              richtlijnen. De 13 richtlijnen vormen de hoofddoelen die auteurs
+              moeten nastreven om content toegankelijker te maken voor
+              gebruikers met verschillende functiebeperkingen. De richtlijnen
+              zijn niet toetsbaar, maar leveren het kader en de algemene doelen
+              om auteurs te helpen de succescriteria te begrijpen en de
+              technieken beter te implementeren.
             </p>
           </li>
           <li>
             <p>
-              <strong>Succescriteria</strong> - Elke richtlijn is voorzien van toetsbare succescriteria, zodat WCAG 2.0 gebruikt kan worden waar vereisten en toetsen op conformiteit noodzakelijk zijn, zoals bij het specificeren van het ontwerp, inkoop, regulering en contractuele overeenkomsten. Om aan de behoeften van verschillende groepen en verschillende situaties te voldoen, zijn drie niveaus van conformiteit gedefinieerd: A (laagst), AA en AAA (hoogst). Aanvullende informatie over WCAG-niveaus is te vinden in <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels">Understanding Levels of Conformance</a>.
+              <strong>Succescriteria</strong> - Elke richtlijn is voorzien van
+              toetsbare succescriteria, zodat WCAG 2.0 gebruikt kan worden waar
+              vereisten en toetsen op conformiteit noodzakelijk zijn, zoals bij
+              het specificeren van het ontwerp, inkoop, regulering en
+              contractuele overeenkomsten. Om aan de behoeften van verschillende
+              groepen en verschillende situaties te voldoen, zijn drie niveaus
+              van conformiteit gedefinieerd: A (laagst), AA en AAA (hoogst).
+              Aanvullende informatie over WCAG-niveaus is te vinden in
+              <a
+                href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels"
+                >Understanding Levels of Conformance</a
+              >.
             </p>
           </li>
           <li>
             <p>
-              <strong>Afdoende en aanbevolen technieken</strong> - Voor elk van de <em>richtlijnen</em> en <em>succescriteria</em> in het WCAG 2.0 document zelf heeft de Werkgroep ook een breed scala van <em>technieken</em> gedocumenteerd. De technieken zijn informatief en vallen onder twee categorieën: zij die <em>afdoende</em> zijn om aan de succescriteria te voldoen en zij die <em>aanbevolen</em> zijn. De aanbevolen technieken gaan verder dan wat vanuit de individuele succescriteria wordt geëist en maken het auteurs mogelijk zich beter aan de richtlijnen te houden. Sommige aanbevolen technieken richten zich op toegankelijkheidsbarrières die niet afgedekt worden door de testbare succescriteria. Waar gangbare fouten bekend zijn, worden die ook gedocumenteerd. Zie ook <a href="https://www.w3.org/WAI/WCAG21/Understanding/understanding-techniques">Sufficient and Advisory Techniques in Understanding WCAG 2.0</a>.
+              <strong>Afdoende en aanbevolen technieken</strong> - Voor elk van
+              de <em>richtlijnen</em> en <em>succescriteria</em> in het WCAG 2.0
+              document zelf heeft de Werkgroep ook een breed scala van
+              <em>technieken</em> gedocumenteerd. De technieken zijn informatief
+              en vallen onder twee categorieën: zij die <em>afdoende</em> zijn
+              om aan de succescriteria te voldoen en zij die
+              <em>aanbevolen</em> zijn. De aanbevolen technieken gaan verder dan
+              wat vanuit de individuele succescriteria wordt geëist en maken het
+              auteurs mogelijk zich beter aan de richtlijnen te houden. Sommige
+              aanbevolen technieken richten zich op toegankelijkheidsbarrières
+              die niet afgedekt worden door de testbare succescriteria. Waar
+              gangbare fouten bekend zijn, worden die ook gedocumenteerd. Zie
+              ook
+              <a
+                href="https://www.w3.org/WAI/WCAG21/Understanding/understanding-techniques"
+                >Sufficient and Advisory Techniques in Understanding WCAG 2.0</a
+              >.
             </p>
           </li>
         </ul>
         <p>
-          De gelaagde adviezen (principes, richtlijnen, succescriteria en afdoende en aanbevolen technieken) leveren samen een compleet advies over het toegankelijk maken van content. Auteurs worden aangemoedigd om alle lagen te bekijken en toe te passen indien mogelijk, met inbegrip van de aanbevolen technieken, om zich optimaal te richten op de behoeften van een zo groot mogelijke groep gebruikers.
+          De gelaagde adviezen (principes, richtlijnen, succescriteria en
+          afdoende en aanbevolen technieken) leveren samen een compleet advies
+          over het toegankelijk maken van content. Auteurs worden aangemoedigd
+          om alle lagen te bekijken en toe te passen indien mogelijk, met
+          inbegrip van de aanbevolen technieken, om zich optimaal te richten op
+          de behoeften van een zo groot mogelijke groep gebruikers.
         </p>
         <p>
-          Bedenk dat zelfs content die conformeert aan het hoogste niveau (AAA) niet toegankelijk zal zijn voor individuen met alle soorten, gradaties of combinaties van functiebeperkingen, in het bijzonder in de cognitieve gebieden van taal en leren. Auteurs worden aangemoedigd om het volledige scala van technieken, inclusief de aanbevolen technieken te overwegen, en ook om advies te vragen wat de huidige beste praktijk is om webcontent voor deze doelgroep zo toegankelijk mogelijk te maken. <a href="https://www.w3.org/WAI/WCAG21/Understanding/understanding-metadata">Metadata</a> kan gebruikers helpen om content te vinden die het best aansluit bij hun behoeften.
+          Bedenk dat zelfs content die conformeert aan het hoogste niveau (AAA)
+          niet toegankelijk zal zijn voor individuen met alle soorten, gradaties
+          of combinaties van functiebeperkingen, in het bijzonder in de
+          cognitieve gebieden van taal en leren. Auteurs worden aangemoedigd om
+          het volledige scala van technieken, inclusief de aanbevolen technieken
+          te overwegen, en ook om advies te vragen wat de huidige beste praktijk
+          is om webcontent voor deze doelgroep zo toegankelijk mogelijk te
+          maken.
+          <a
+            href="https://www.w3.org/WAI/WCAG21/Understanding/understanding-metadata"
+            >Metadata</a
+          >
+          kan gebruikers helpen om content te vinden die het best aansluit bij
+          hun behoeften.
         </p>
       </section>
 
       <section>
         <h3>Documenten die WCAG 2.1 ondersteunen</h3>
         <p>
-          Het WCAG 2.0 document is ontworpen om tegemoet te komen aan de behoeften van degenen die een stabiele technische standaard nodig hebben waarnaar verwezen kan worden. Andere documenten, zogeheten ondersteunende documenten, zijn gebaseerd op het WCAG 2.0 document en richten zich op andere belangrijke doelen, inclusief de mogelijkheid om geüpdatet te worden zodat beschreven kan worden hoe WCAG bij nieuwe technologieën zou worden toegepast. Ondersteunende documenten bestaan uit:
+          Het WCAG 2.0 document is ontworpen om tegemoet te komen aan de
+          behoeften van degenen die een stabiele technische standaard nodig
+          hebben waarnaar verwezen kan worden. Andere documenten, zogeheten
+          ondersteunende documenten, zijn gebaseerd op het WCAG 2.0 document en
+          richten zich op andere belangrijke doelen, inclusief de mogelijkheid
+          om geüpdatet te worden zodat beschreven kan worden hoe WCAG bij nieuwe
+          technologieën zou worden toegepast. Ondersteunende documenten bestaan
+          uit:
         </p>
         <ol class="enumar">
           <li>
             <p>
               <strong>
-                <a href="https://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG 2.1</a>
-              </strong> - Een op maat aan te passen snelle verwijzing naar WCAG 2.1; deze omvat alle richtlijnen, succescriteria en technieken voor auteurs om te gebruiken als ze webcontent ontwikkelen en evalueren. Het omvat content uit WCAG 2.0 en WCAG 2.1 en er kunnen diverse filters worden ingesteld, zodat auteurs zich kunnen focussen op relevante content.
+                <a href="https://www.w3.org/WAI/WCAG21/quickref/"
+                  >How to Meet WCAG 2.1</a
+                >
+              </strong>
+              - Een op maat aan te passen snelle verwijzing naar WCAG 2.1; deze
+              omvat alle richtlijnen, succescriteria en technieken voor auteurs
+              om te gebruiken als ze webcontent ontwikkelen en evalueren. Het
+              omvat content uit WCAG 2.0 en WCAG 2.1 en er kunnen diverse
+              filters worden ingesteld, zodat auteurs zich kunnen focussen op
+              relevante content.
             </p>
           </li>
           <li>
             <p>
               <strong>
-                <a href="https://www.w3.org/WAI/WCAG21/Understanding/">Understanding WCAG 2.1</a>
-              </strong> - Een gids om WCAG 2.1 te begrijpen en te implementeren. Er is in WCAG 2.1 een kort "uitleg"-document voor elke richtlijn en voor elk succescriterium en uitleg van belangrijke onderwerpen.
+                <a href="https://www.w3.org/WAI/WCAG21/Understanding/"
+                  >Understanding WCAG 2.1</a
+                >
+              </strong>
+              - Een gids om WCAG 2.1 te begrijpen en te implementeren. Er is in
+              WCAG 2.1 een kort "uitleg"-document voor elke richtlijn en voor
+              elk succescriterium en uitleg van belangrijke onderwerpen.
             </p>
           </li>
           <li>
             <p>
               <strong>
-                <a href="https://www.w3.org/WAI/WCAG21/Techniques/">Techniques for WCAG 2.1</a>
-              </strong> - Een verzameling technieken en algemeen gangbare fouten, elk in een apart document dat een beschrijving, voorbeelden, codering en tests bevat.
+                <a href="https://www.w3.org/WAI/WCAG21/Techniques/"
+                  >Techniques for WCAG 2.1</a
+                >
+              </strong>
+              - Een verzameling technieken en algemeen gangbare fouten, elk in
+              een apart document dat een beschrijving, voorbeelden, codering en
+              tests bevat.
             </p>
           </li>
           <li>
             <p>
               <strong>
-                <a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">The WCAG Documents</a>
-              </strong> - Een diagram en beschrijving van hoe de technische documenten zich tot elkaar verhouden en verbonden zijn.
+                <a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/"
+                  >The WCAG Documents</a
+                >
+              </strong>
+              - Een diagram en beschrijving van hoe de technische documenten
+              zich tot elkaar verhouden en verbonden zijn.
             </p>
           </li>
         </ol>
         <p>
-          Zie <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a> voor een beschrijving van het WCAG 2.0 hulpmateriaal, waaronder leermateriaal gerelateerd aan WCAG 2. Aanvullende bronnen die onderwerpen behandelen zoals de businesscase voor webtoegankelijkheid, het plannen van de implementatie om de toegankelijkheid van websites te verbeteren en toegankelijkheidsbeleid, zijn te vinden in <a href="http://www.w3.org/WAI/Resources/Overview">WAI Resources</a>.
+          Zie
+          <a href="https://www.w3.org/WAI/standards-guidelines/wcag/"
+            >Web Content Accessibility Guidelines (WCAG) Overview</a
+          >
+          voor een beschrijving van het WCAG 2.0 hulpmateriaal, waaronder
+          leermateriaal gerelateerd aan WCAG 2. Aanvullende bronnen die
+          onderwerpen behandelen zoals de businesscase voor webtoegankelijkheid,
+          het plannen van de implementatie om de toegankelijkheid van websites
+          te verbeteren en toegankelijkheidsbeleid, zijn te vinden in
+          <a href="http://www.w3.org/WAI/Resources/Overview">WAI Resources</a>.
         </p>
       </section>
 
       <section>
         <h3>Eisen aan WCAG 2.1</h3>
         <p>
-          WCAG 2.1 voldoet aan een reeks <a href="https://w3c.github.io/wcag21/requirements/">eisen die aan WCAG 2.1 worden gesteld</a>. Deze eisen zijn op hun beurt afgeleid van WCAG 2.0. De gestelde eisen zorgen voor het gestructureerde kader voor de richtlijnen en garanderen compatibiliteit met eerdere versies. De Werkgroep heeft ook minder formele acceptatiecriteria voor de succescriteria gebruikt, zodat de stijl en kwaliteit van de succescriteria overeenkomen met die van de criteria in WCAG 2.0. Deze eisen vormden een beperking voor wat kon worden opgenomen in WCAG 2.1. Deze beperking was belangrijk om de aard als dot-release van WCAG 2 te behouden.
+          WCAG 2.1 voldoet aan een reeks
+          <a href="https://w3c.github.io/wcag21/requirements/"
+            >eisen die aan WCAG 2.1 worden gesteld</a
+          >. Deze eisen zijn op hun beurt afgeleid van WCAG 2.0. De gestelde
+          eisen zorgen voor het gestructureerde kader voor de richtlijnen en
+          garanderen compatibiliteit met eerdere versies. De Werkgroep heeft ook
+          minder formele acceptatiecriteria voor de succescriteria gebruikt,
+          zodat de stijl en kwaliteit van de succescriteria overeenkomen met die
+          van de criteria in WCAG 2.0. Deze eisen vormden een beperking voor wat
+          kon worden opgenomen in WCAG 2.1. Deze beperking was belangrijk om de
+          aard als dot-release van WCAG 2 te behouden.
         </p>
       </section>
 
       <section>
         <h3>Vergelijking met WCAG 2.0</h3>
         <p>
-          WCAG 2.1 werd gestart met het doel de aanbevelingen over toegankelijkheid te verbeteren voor drie grote groepen: gebruikers met een leer- of cognitieve functiebeperking, slechtzienden en gebruikers met functiebeperkingen bij het gebruik van mobiele apparaten. Er werden veel voorstellen gedaan en geëvalueerd en de Werkgroep heeft uiteindelijk een aantal van deze voorstellen uitgewerkt. De definitieve succescriteria in deze versie zijn gebaseerd op de structurele eisen uit WCAG 2.0, de duidelijkheid en impact van de voorstellen en de tijdlijn. Volgens de Werkgroep zijn de aanbevelingen voor toegankelijkheid van webcontent voor al deze gebieden in WCAG 2.1 aanzienlijk verbeterd, maar de Werkgroep benadrukt dat deze richtlijnen niet in alle behoeften van gebruikers voorzien.
+          WCAG 2.1 werd gestart met het doel de aanbevelingen over
+          toegankelijkheid te verbeteren voor drie grote groepen: gebruikers met
+          een leer- of cognitieve functiebeperking, slechtzienden en gebruikers
+          met functiebeperkingen bij het gebruik van mobiele apparaten. Er
+          werden veel voorstellen gedaan en geëvalueerd en de Werkgroep heeft
+          uiteindelijk een aantal van deze voorstellen uitgewerkt. De
+          definitieve succescriteria in deze versie zijn gebaseerd op de
+          structurele eisen uit WCAG 2.0, de duidelijkheid en impact van de
+          voorstellen en de tijdlijn. Volgens de Werkgroep zijn de aanbevelingen
+          voor toegankelijkheid van webcontent voor al deze gebieden in WCAG 2.1
+          aanzienlijk verbeterd, maar de Werkgroep benadrukt dat deze
+          richtlijnen niet in alle behoeften van gebruikers voorzien.
         </p>
         <p>
-          WCAG 2.1 bouwt voort op en is compatibel met de voorgaande versie WCAG 2.0. Dit betekent dat webpagina's die conformeren aan WCAG 2.1 ook conformeren aan WCAG 2.0. Auteurs die beleidsmatig verplicht zijn om te voldoen aan WCAG 2.0, kunnen content bijwerken naar WCAG 2.1 zonder dat dit ten koste gaat van de conformiteit met WCAG 2.0. Auteurs die beide sets van richtlijnen volgen, moeten rekening houden met de volgende verschillen:
+          WCAG 2.1 bouwt voort op en is compatibel met de voorgaande versie WCAG
+          2.0. Dit betekent dat webpagina's die conformeren aan WCAG 2.1 ook
+          conformeren aan WCAG 2.0. Auteurs die beleidsmatig verplicht zijn om
+          te voldoen aan WCAG 2.0, kunnen content bijwerken naar WCAG 2.1 zonder
+          dat dit ten koste gaat van de conformiteit met WCAG 2.0. Auteurs die
+          beide sets van richtlijnen volgen, moeten rekening houden met de
+          volgende verschillen:
         </p>
 
         <section>
           <h4>Nieuwe kenmerken in WCAG 2.1</h4>
           <p>
-            WCAG 2.1 bouwt voort op WCAG 2.0 met de toevoeging van nieuwe succescriteria en hun definities, richtlijnen om de toevoegingen te structureren, en een aantal toevoegingen aan het hoofdstuk Conformiteit. Deze aanpak met aanvullingen helpt om duidelijk te maken dat sites die conformeren aan WCAG 2.1 ook conformeren aan WCAG 2.0 en daarmee voldoen aan de specifieke conformiteitsverplichtingen van WCAG 2.0. De Accessibility Guidelines Werkgroep beveelt aan dat sites WCAG 2.1 als nieuw conformiteitsniveau gebruiken, zelfs wanneer formele verplichtingen verwijzen naar WCAG 2.0, zodat zij een verbeterde toegankelijkheid kunnen bieden en inspelen op toekomstige veranderingen in beleid.
+            WCAG 2.1 bouwt voort op WCAG 2.0 met de toevoeging van nieuwe
+            succescriteria en hun definities, richtlijnen om de toevoegingen te
+            structureren, en een aantal toevoegingen aan het hoofdstuk
+            Conformiteit. Deze aanpak met aanvullingen helpt om duidelijk te
+            maken dat sites die conformeren aan WCAG 2.1 ook conformeren aan
+            WCAG 2.0 en daarmee voldoen aan de specifieke
+            conformiteitsverplichtingen van WCAG 2.0. De Accessibility
+            Guidelines Werkgroep beveelt aan dat sites WCAG 2.1 als nieuw
+            conformiteitsniveau gebruiken, zelfs wanneer formele verplichtingen
+            verwijzen naar WCAG 2.0, zodat zij een verbeterde toegankelijkheid
+            kunnen bieden en inspelen op toekomstige veranderingen in beleid.
           </p>
           <p>
             De volgende succescriteria zijn toegevoegd aan WCAG 2.1:
           </p>
           <ul>
+            <li>1.3.4 <a href="#weergavestand">Weergavestand</a> (AA)</li>
             <li>
-              1.3.4 <a href="#weergavestand">Weergavestand</a> (AA)
+              1.3.5
+              <a href="#identificeer-het-doel-van-de-input"
+                >Identificeer het doel van de input</a
+              >
+              (AA)
             </li>
             <li>
-              1.3.5 <a href="#identificeer-het-doel-van-de-input">Identificeer het doel van de input</a> (AA)
+              1.3.6
+              <a href="#identificeer-het-doel">Identificeer het doel</a> (AAA)
+            </li>
+            <li>1.4.10 <a href="#reflow">Reflow</a> (AA)</li>
+            <li>
+              1.4.11
+              <a href="#contrast-van-niet-tekstuele-content"
+                >Contrast van niet-tekstuele content</a
+              >
+              (AA)
+            </li>
+            <li>1.4.12 <a href="#tekstafstand">Tekstafstand</a> (AA)</li>
+            <li>
+              1.4.13
+              <a href="#content-bij-hover-of-focus"
+                >Content bij hover of focus</a
+              >
+              (AA)
             </li>
             <li>
-              1.3.6 <a href="#identificeer-het-doel">Identificeer het doel</a> (AAA)
+              2.1.4
+              <a href="#sneltoetsen-tekentoets">Sneltoetsen tekentoets</a> (A)
             </li>
+            <li>2.2.6 <a href="#time-outs">Time-outs</a> (AAA)</li>
             <li>
-              1.4.10 <a href="#reflow">Reflow</a> (AA)
+              2.3.3
+              <a href="#animatie-uit-interacties">Animatie uit interacties</a>
+              (AAA)
             </li>
-            <li>
-              1.4.11 <a href="#contrast-van-niet-tekstuele-content">Contrast van niet-tekstuele content</a> (AA)
-            </li>
-            <li>
-              1.4.12 <a href="#tekstafstand">Tekstafstand</a> (AA)
-            </li>
-            <li>
-              1.4.13 <a href="#content-bij-hover-of-focus">Content bij hover of focus</a> (AA)
-            </li>
-            <li>
-              2.1.4 <a href="#sneltoetsen-tekentoets">Sneltoetsen tekentoets</a> (A)
-            </li>
-            <li>
-              2.2.6 <a href="#time-outs">Time-outs</a> (AAA)
-            </li>
-            <li>
-              2.3.3 <a href="#animatie-uit-interacties">Animatie uit interacties</a> (AAA)
-            </li>
-            <li>
-              2.5.1 <a href="#aanwijzergebaren">Aanwijzergebaren</a> (A)
-            </li>
+            <li>2.5.1 <a href="#aanwijzergebaren">Aanwijzergebaren</a> (A)</li>
             <li>
               2.5.2 <a href="#aanwijzerannulering">Aanwijzerannulering</a> (A)
             </li>
-            <li>
-              2.5.3 <a href="#label-in-naam">Label in naam</a> (A)
-            </li>
+            <li>2.5.3 <a href="#label-in-naam">Label in naam</a> (A)</li>
             <li>
               2.5.4 <a href="#bewegingsactivering">Bewegingsactivering</a> (A)
             </li>
             <li>
-              2.5.5 <a href="#grootte-van-het-aanwijsgebied">Grootte van het aanwijsgebied</a> (AAA)
+              2.5.5
+              <a href="#grootte-van-het-aanwijsgebied"
+                >Grootte van het aanwijsgebied</a
+              >
+              (AAA)
             </li>
             <li>
-              2.5.6 <a href="#input-gelijktijdige-invoermechanismen">Input gelijktijdige invoermechanismen</a> (AAA)
+              2.5.6
+              <a href="#input-gelijktijdige-invoermechanismen"
+                >Input gelijktijdige invoermechanismen</a
+              >
+              (AAA)
             </li>
-            <li>
-              4.1.3 <a href="#statusberichten">Statusberichten</a> (AA)
-            </li>
+            <li>4.1.3 <a href="#statusberichten">Statusberichten</a> (AA)</li>
           </ul>
           <p>
-            Veel van deze succescriteria bevatten nieuwe termen. Deze zijn aan de verklarende woordenlijst toegevoegd en maken onderdeel uit van de normatieve eisen van de succescriteria.
+            Veel van deze succescriteria bevatten nieuwe termen. Deze zijn aan
+            de verklarende woordenlijst toegevoegd en maken onderdeel uit van de
+            normatieve eisen van de succescriteria.
           </p>
           <p>
-            In het hoofdstuk Conformiteit is een derde opmerking over paginavarianten toegevoegd aan <a href="#cc2">Volledige pagina's</a>. Daarnaast is een optie voor machine-leesbare metadata toegevoegd aan <a href="#optionele-componenten-van-een-conformiteitsclaim">Optionele componenten van een conformiteitsclaim</a>.
+            In het hoofdstuk Conformiteit is een derde opmerking over
+            paginavarianten toegevoegd aan
+            <a href="#cc2">Volledige pagina's</a>. Daarnaast is een optie voor
+            machine-leesbare metadata toegevoegd aan
+            <a href="#optionele-componenten-van-een-conformiteitsclaim"
+              >Optionele componenten van een conformiteitsclaim</a
+            >.
           </p>
         </section>
 
         <section>
           <h4>Nummering in WCAG 2.1</h4>
           <p>
-            Om verwarring te voorkomen bij uitvoerders die veel waarde hechten aan achterwaartse compatibiliteit met WCAG 2.0, zijn de nieuwe succescriteria in WCAG 2.1 aan het einde van de reeks succescriteria van de betreffende richtlijn toegevoegd. Hierdoor hoeft de paragraafnummering van de succescriteria in WCAG 2.0 niet te worden aangepast. Dat zou wel noodzakelijk zijn geweest als de nieuwe succescriteria tussen de bestaande succescriteria waren toegevoegd. Het gevolg is wel dat de succescriteria van elke richtlijn niet meer per conformiteitsniveau zijn gegroepeerd. De volgorde van de succescriteria van elke richtlijn geeft geen informatie over het conformiteitsniveau; dit kan alleen worden afgeleid uit de indicaties (A / AA / AAA) behorende bij het betreffende succescriterium. De <a href="https://www.w3.org/WAI/WCAG21/quickref/">Snelle verwijzing naar WCAG 2.1</a> beschrijft manieren om succescriteria gegroepeerd per conformiteitsniveau te bekijken samen met andere filter- en sorteermogelijkheden.
+            Om verwarring te voorkomen bij uitvoerders die veel waarde hechten
+            aan achterwaartse compatibiliteit met WCAG 2.0, zijn de nieuwe
+            succescriteria in WCAG 2.1 aan het einde van de reeks succescriteria
+            van de betreffende richtlijn toegevoegd. Hierdoor hoeft de
+            paragraafnummering van de succescriteria in WCAG 2.0 niet te worden
+            aangepast. Dat zou wel noodzakelijk zijn geweest als de nieuwe
+            succescriteria tussen de bestaande succescriteria waren toegevoegd.
+            Het gevolg is wel dat de succescriteria van elke richtlijn niet meer
+            per conformiteitsniveau zijn gegroepeerd. De volgorde van de
+            succescriteria van elke richtlijn geeft geen informatie over het
+            conformiteitsniveau; dit kan alleen worden afgeleid uit de
+            indicaties (A / AA / AAA) behorende bij het betreffende
+            succescriterium. De
+            <a href="https://www.w3.org/WAI/WCAG21/quickref/"
+              >Snelle verwijzing naar WCAG 2.1</a
+            >
+            beschrijft manieren om succescriteria gegroepeerd per
+            conformiteitsniveau te bekijken samen met andere filter- en
+            sorteermogelijkheden.
           </p>
         </section>
 
         <section>
           <h4>Conformiteit met WCAG 2.1</h4>
           <p>
-            WCAG 2.1 gebruikt hetzelfde conformiteitsmodel als WCAG 2.0, maar met een aantal toevoegingen. Dit model is beschreven in het hoofdstuk <a href="#conformiteit">Conformiteit</a>. Het is de bedoeling dat sites die conformeren aan WCAG 2.1 ook conformeren aan WCAG 2.0. Dit betekent dat ze voldoen aan de eisen in alle beleidsmaatregelen die verwijzen naar WCAG 2.0, terwijl ook beter wordt voldaan aan de behoeften van gebruikers van het huidige web.
+            WCAG 2.1 gebruikt hetzelfde conformiteitsmodel als WCAG 2.0, maar
+            met een aantal toevoegingen. Dit model is beschreven in het
+            hoofdstuk
+            <a href="#conformiteit">Conformiteit</a>. Het is de bedoeling dat
+            sites die conformeren aan WCAG 2.1 ook conformeren aan WCAG 2.0. Dit
+            betekent dat ze voldoen aan de eisen in alle beleidsmaatregelen die
+            verwijzen naar WCAG 2.0, terwijl ook beter wordt voldaan aan de
+            behoeften van gebruikers van het huidige web.
           </p>
         </section>
       </section>
@@ -267,7 +538,21 @@
       <section>
         <h3>Latere versies van de Richtlijnen voor Toegankelijkheid</h3>
         <p>
-          Naast WCAG 2.1 ontwikkelt de Accessibility Guidelines Werkgroep een nieuwe hoofdversie van de richtlijnen voor toegankelijkheid. Het verwachte resultaat van dit werk is een meer substantiële herstructurering van de toegankelijkheidsrichtlijnen dan realistisch zou zijn voor een dot-release van WCAG 2. Er wordt een op onderzoeksresultaten en gebruikers gerichte ontwerpmethode gevolgd om het meest effectieve en flexibele resultaat te creëren, inclusief de rollen van <em>content authoring</em>, <em>user agent support</em> en <em>authoring tool support</em>. Omdat het gaat om een meerjarige inspanning, is WCAG 2.1 nodig als interim maatregel. WCAG 2.1 omvat bijgewerkte aanbevelingen voor toegankelijkheid een weerspiegeling zijn van de veranderingen op het web sinds de publicatie van WCAG 2.0. De Werkgroep kan op korte termijn meer interim-versies maken, beginnend met WCAG 2.2, om extra ondersteuning te bieden terwijl de hoofdversie wordt voltooid.
+          Naast WCAG 2.1 ontwikkelt de Accessibility Guidelines Werkgroep een
+          nieuwe hoofdversie van de richtlijnen voor toegankelijkheid. Het
+          verwachte resultaat van dit werk is een meer substantiële
+          herstructurering van de toegankelijkheidsrichtlijnen dan realistisch
+          zou zijn voor een dot-release van WCAG 2. Er wordt een op
+          onderzoeksresultaten en gebruikers gerichte ontwerpmethode gevolgd om
+          het meest effectieve en flexibele resultaat te creëren, inclusief de
+          rollen van <em>content authoring</em>, <em>user agent support</em> en
+          <em>authoring tool support</em>. Omdat het gaat om een meerjarige
+          inspanning, is WCAG 2.1 nodig als interim maatregel. WCAG 2.1 omvat
+          bijgewerkte aanbevelingen voor toegankelijkheid een weerspiegeling
+          zijn van de veranderingen op het web sinds de publicatie van WCAG 2.0.
+          De Werkgroep kan op korte termijn meer interim-versies maken,
+          beginnend met WCAG 2.2, om extra ondersteuning te bieden terwijl de
+          hoofdversie wordt voltooid.
         </p>
       </section>
     </section>
@@ -275,16 +560,22 @@
     <section class="principle">
       <h2>Waarneembaar</h2>
       <p>
-        Informatie en componenten van de gebruikersinterface moeten toonbaar zijn aan gebruikers op voor hen waarneembare wijze.
+        Informatie en componenten van de gebruikersinterface moeten toonbaar
+        zijn aan gebruikers op voor hen waarneembare wijze.
       </p>
 
       <section class="guideline">
         <h3>Tekstalternatieven</h3>
         <p>
-          Lever tekstalternatieven voor alle niet-tekstuele content, zodat die veranderd kan worden in andere vormen die mensen nodig hebben, zoals grote letters, braille, spraak, symbolen of eenvoudigere taal.
+          Lever tekstalternatieven voor alle niet-tekstuele content, zodat die
+          veranderd kan worden in andere vormen die mensen nodig hebben, zoals
+          grote letters, braille, spraak, symbolen of eenvoudigere taal.
         </p>
 
-        <section data-include="sc/20/non-text-content.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/non-text-content.html"
+          data-include-replace="true"
+        ></section>
       </section>
 
       <section class="guideline">
@@ -293,82 +584,170 @@
           Lever alternatieven voor op tijd gebaseerde media.
         </p>
 
-        <section data-include="sc/20/audio-only-and-video-only-prerecorded.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/audio-only-and-video-only-prerecorded.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/captions-prerecorded.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/captions-prerecorded.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/audio-description-or-media-alternative-prerecorded.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/audio-description-or-media-alternative-prerecorded.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/captions-live.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/captions-live.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/audio-description-prerecorded.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/audio-description-prerecorded.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/sign-language-prerecorded.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/sign-language-prerecorded.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/extended-audio-description-prerecorded.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/extended-audio-description-prerecorded.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/media-alternative-prerecorded.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/media-alternative-prerecorded.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/audio-only-live.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/audio-only-live.html"
+          data-include-replace="true"
+        ></section>
       </section>
 
       <section class="guideline">
         <h3>Aanpasbaar</h3>
         <p>
-          Creëer content die op verschillende manieren gepresenteerd kan worden (bijvoorbeeld eenvoudiger lay-out) zonder verlies van informatie of structuur.
+          Creëer content die op verschillende manieren gepresenteerd kan worden
+          (bijvoorbeeld eenvoudiger lay-out) zonder verlies van informatie of
+          structuur.
         </p>
 
-        <section data-include="sc/20/info-and-relationships.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/info-and-relationships.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/meaningful-sequence.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/meaningful-sequence.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/sensory-characteristics.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/sensory-characteristics.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/orientation.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/orientation.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/identify-input-purpose.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/identify-input-purpose.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/identify-purpose.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/identify-purpose.html"
+          data-include-replace="true"
+        ></section>
       </section>
 
       <section class="guideline">
         <h3>Onderscheidbaar</h3>
         <p>
-          Maak het voor gebruikers gemakkelijker om content te horen en te zien, waaronder scheiding van voorgrond en achtergrond.
+          Maak het voor gebruikers gemakkelijker om content te horen en te zien,
+          waaronder scheiding van voorgrond en achtergrond.
         </p>
 
-        <section data-include="sc/20/use-of-color.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/use-of-color.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/audio-control.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/audio-control.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/contrast-minimum.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/contrast-minimum.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/resize-text.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/resize-text.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/images-of-text.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/images-of-text.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/contrast-enhanced.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/contrast-enhanced.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/low-or-no-background-audio.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/low-or-no-background-audio.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/visual-presentation.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/visual-presentation.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/images-of-text-no-exception.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/images-of-text-no-exception.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/reflow.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/reflow.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/non-text-contrast.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/non-text-contrast.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/text-spacing.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/text-spacing.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/content-on-hover-or-focus.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/content-on-hover-or-focus.html"
+          data-include-replace="true"
+        ></section>
       </section>
     </section>
 
     <section class="principle">
       <h2>Bedienbaar</h2>
       <p>
-        Componenten van de gebruikersinterface en navigatie moeten bedienbaar zijn.
+        Componenten van de gebruikersinterface en navigatie moeten bedienbaar
+        zijn.
       </p>
 
       <section class="guideline">
@@ -377,13 +756,25 @@
           Maak alle functionaliteit beschikbaar vanaf een toetsenbord.
         </p>
 
-        <section data-include="sc/20/keyboard.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/keyboard.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/no-keyboard-trap.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/no-keyboard-trap.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/keyboard-no-exception.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/keyboard-no-exception.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/character-key-shortcuts.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/character-key-shortcuts.html"
+          data-include-replace="true"
+        ></section>
       </section>
 
       <section class="guideline">
@@ -392,85 +783,163 @@
           Geef gebruikers genoeg tijd om content te lezen en te gebruiken.
         </p>
 
-        <section data-include="sc/20/timing-adjustable.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/timing-adjustable.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/pause-stop-hide.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/pause-stop-hide.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/no-timing.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/no-timing.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/interruptions.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/interruptions.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/re-authenticating.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/re-authenticating.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/timeouts.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/timeouts.html"
+          data-include-replace="true"
+        ></section>
       </section>
 
       <section class="guideline new">
         <h3>Toevallen en fysieke reacties</h3>
         <p>
-          Ontwerp content niet op een manier waarvan bekend is dat die toevallen of fysieke reacties veroorzaakt.
+          Ontwerp content niet op een manier waarvan bekend is dat die toevallen
+          of fysieke reacties veroorzaakt.
         </p>
 
-        <section data-include="sc/20/three-flashes-or-below-threshold.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/three-flashes-or-below-threshold.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/three-flashes.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/three-flashes.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/animation-from-interactions.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/animation-from-interactions.html"
+          data-include-replace="true"
+        ></section>
       </section>
 
       <section class="guideline">
         <h3>Navigeerbaar</h3>
         <p>
-          Lever manieren om gebruikers te helpen navigeren, content te vinden en te bepalen waar ze zijn.
+          Lever manieren om gebruikers te helpen navigeren, content te vinden en
+          te bepalen waar ze zijn.
         </p>
 
-        <section data-include="sc/20/bypass-blocks.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/bypass-blocks.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/page-titled.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/page-titled.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/focus-order.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/focus-order.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/link-purpose-in-context.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/link-purpose-in-context.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/multiple-ways.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/multiple-ways.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/headings-and-labels.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/headings-and-labels.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/focus-visible.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/focus-visible.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/location.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/location.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/link-purpose-link-only.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/link-purpose-link-only.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/section-headings.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/section-headings.html"
+          data-include-replace="true"
+        ></section>
       </section>
 
       <section class="guideline new">
         <h3>Input Modaliteiten</h3>
-        <p class="change">New
-        </p>
+        <p class="change">New</p>
         <p>
-          Maak het eenvoudiger voor gebruikers om de functionaliteit te bedienen met andere vormen van invoer dan alleen het toetsenbord.
+          Maak het eenvoudiger voor gebruikers om de functionaliteit te bedienen
+          met andere vormen van invoer dan alleen het toetsenbord.
         </p>
 
-        <section data-include="sc/21/pointer-gestures.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/pointer-gestures.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/pointer-cancellation.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/pointer-cancellation.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/label-in-name.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/label-in-name.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/motion-actuation.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/motion-actuation.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/target-size.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/target-size.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/concurrent-input-mechanisms.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/concurrent-input-mechanisms.html"
+          data-include-replace="true"
+        ></section>
       </section>
     </section>
 
     <section class="principle">
       <h2>Begrijpelijk</h2>
       <p>
-        Informatie en de bediening van de gebruikersinterface moeten begrijpelijk zijn.
+        Informatie en de bediening van de gebruikersinterface moeten
+        begrijpelijk zijn.
       </p>
 
       <section class="guideline">
@@ -479,17 +948,35 @@
           Maak tekstcontent leesbaar en begrijpelijk.
         </p>
 
-        <section data-include="sc/20/language-of-page.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/language-of-page.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/language-of-parts.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/language-of-parts.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/unusual-words.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/unusual-words.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/abbreviations.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/abbreviations.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/reading-level.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/reading-level.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/pronunciation.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/pronunciation.html"
+          data-include-replace="true"
+        ></section>
       </section>
 
       <section class="guideline">
@@ -498,77 +985,141 @@
           Maak het uiterlijk en de bediening van webpagina's voorspelbaar.
         </p>
 
-        <section data-include="sc/20/on-focus.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/on-focus.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/on-input.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/on-input.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/consistent-navigation.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/consistent-navigation.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/consistent-identification.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/consistent-identification.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/change-on-request.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/change-on-request.html"
+          data-include-replace="true"
+        ></section>
       </section>
 
       <section class="guideline">
-        <h3>Assistentie bij invoer </h3>
+        <h3>Assistentie bij invoer</h3>
         <p>
           Help gebruikers om fouten te vermijden en ze te verbeteren.
         </p>
 
-        <section data-include="sc/20/error-identification.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/error-identification.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/labels-or-instructions.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/labels-or-instructions.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/error-suggestion.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/error-suggestion.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/error-prevention-legal-financial-data.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/error-prevention-legal-financial-data.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/help.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/help.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/error-prevention-all.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/error-prevention-all.html"
+          data-include-replace="true"
+        ></section>
       </section>
     </section>
 
     <section class="principle">
       <h2>Robuust</h2>
       <p>
-        Content moet voldoende robuust zijn om betrouwbaar geïnterpreteerd te kunnen worden door een breed scala van user agents, met inbegrip van hulptechnologieën.
+        Content moet voldoende robuust zijn om betrouwbaar geïnterpreteerd te
+        kunnen worden door een breed scala van user agents, met inbegrip van
+        hulptechnologieën.
       </p>
 
       <section class="guideline">
         <h3>Compatibel</h3>
         <p>
-          Maximaliseer compatibiliteit met huidige en toekomstige user agents, met inbegrip van hulptechnologieën.
+          Maximaliseer compatibiliteit met huidige en toekomstige user agents,
+          met inbegrip van hulptechnologieën.
         </p>
 
-        <section data-include="sc/20/parsing.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/parsing.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/20/name-role-value.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/20/name-role-value.html"
+          data-include-replace="true"
+        ></section>
 
-        <section data-include="sc/21/status-messages.html" data-include-replace="true"></section>
+        <section
+          data-include="sc/21/status-messages.html"
+          data-include-replace="true"
+        ></section>
       </section>
     </section>
 
     <section>
       <h1>Conformiteit</h1>
       <p>
-        Dit hoofdstuk zet <a>conformiteitseisen</a> voor WCAG 2.1 op een rij. Het geeft ook informatie over het maken van conformiteitsclaims. Conformiteitsclaims zijn optioneel. Ten slotte beschrijft dit hoofdstuk wat het betekent om door toegankelijkheid ondersteund te zijn, aangezien alleen <a>door toegankelijkheid ondersteunde</a> manieren om technologie te gebruiken <a>gesteund worden</a> voor conformiteit. <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding Conformance</a> geeft verdere uitleg van het begrip door toegankelijkheid ondersteund.
+        Dit hoofdstuk zet <a>conformiteitseisen</a> voor WCAG 2.1 op een rij.
+        Het geeft ook informatie over het maken van conformiteitsclaims.
+        Conformiteitsclaims zijn optioneel. Ten slotte beschrijft dit hoofdstuk
+        wat het betekent om door toegankelijkheid ondersteund te zijn, aangezien
+        alleen <a>door toegankelijkheid ondersteunde</a> manieren om technologie
+        te gebruiken <a>gesteund worden</a> voor conformiteit.
+        <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance"
+          >Understanding Conformance</a
+        >
+        geeft verdere uitleg van het begrip door toegankelijkheid ondersteund.
       </p>
 
       <section>
         <h2>Normatieve eisen interpreteren</h2>
         <p>
-          De belangrijkste inhoud van WCAG 2.1 is <a>normatief</a> en definieert de eisen die invloed hebben op conformiteitsclaims. Inleidend materiaal, bijlagen, paragrafen die zijn gemarkeerd als "niet-normatief", schema's, voorbeelden en opmerkingen zijn <a>informatief</a> (niet-normatief). Niet-normatief materiaal geeft advies en informatie over het interpreteren van de richtlijnen, maar schrijft geen eisen voor die gevolgen hebben voor een conformiteitsclaim.
+          De belangrijkste inhoud van WCAG 2.1 is <a>normatief</a> en definieert
+          de eisen die invloed hebben op conformiteitsclaims. Inleidend
+          materiaal, bijlagen, paragrafen die zijn gemarkeerd als
+          "niet-normatief", schema's, voorbeelden en opmerkingen zijn
+          <a>informatief</a> (niet-normatief). Niet-normatief materiaal geeft
+          advies en informatie over het interpreteren van de richtlijnen, maar
+          schrijft geen eisen voor die gevolgen hebben voor een
+          conformiteitsclaim.
         </p>
         <p>
-          De belangrijke woorden MOGEN, MOETEN, MOETEN NIET, NIET AANBEVOLEN, AANBEVOLEN, ZOUDEN MOETEN en ZOUDEN NIET MOETEN, moeten worden geïnterpreteerd zoals beschreven in [[RFC2119]].
+          De belangrijke woorden MOGEN, MOETEN, MOETEN NIET, NIET AANBEVOLEN,
+          AANBEVOLEN, ZOUDEN MOETEN en ZOUDEN NIET MOETEN, moeten worden
+          geïnterpreteerd zoals beschreven in [[RFC2119]].
         </p>
       </section>
 
       <section>
         <h2>Conformiteitseisen</h2>
         <p>
-          Een webpagina is conform WCAG 2.1 als deze aan alle volgende conformiteitseisen voldoet:
+          Een webpagina is conform WCAG 2.1 als deze aan alle volgende
+          conformiteitseisen voldoet:
         </p>
 
         <section id="cc1">
@@ -578,78 +1129,158 @@
           </p>
           <ul>
             <li>
-              Voor conformiteit van Niveau A (het minimumniveau van conformiteit) <a>voldoet</a> de <a>webpagina</a> aan alle succescriteria van Niveau A, of er is een <a>conforme alternatieve versie</a> beschikbaar. </li>
+              Voor conformiteit van Niveau A (het minimumniveau van
+              conformiteit)
+              <a>voldoet</a> de <a>webpagina</a> aan alle succescriteria van
+              Niveau A, of er is een
+              <a>conforme alternatieve versie</a> beschikbaar.
+            </li>
             <li>
-              Voor conformiteit van Niveau AA voldoet de webpagina aan alle succescriteria van Niveau A en Niveau AA of er is een conforme alternatieve versie van Niveau AA beschikbaar. </li>
+              Voor conformiteit van Niveau AA voldoet de webpagina aan alle
+              succescriteria van Niveau A en Niveau AA of er is een conforme
+              alternatieve versie van Niveau AA beschikbaar.
+            </li>
             <li>
-              Voor conformiteit van Niveau AAA voldoet de webpagina aan alle succescriteria van Niveau A, Niveau AA en Niveau AAA of er is een conforme alternatieve versie van Niveau AAA beschikbaar. </li>
+              Voor conformiteit van Niveau AAA voldoet de webpagina aan alle
+              succescriteria van Niveau A, Niveau AA en Niveau AAA of er is een
+              conforme alternatieve versie van Niveau AAA beschikbaar.
+            </li>
           </ul>
-          <p class="note"> Hoewel conformiteit alleen op de vermelde niveaus kan worden bereikt, worden auteurs aangemoedigd om (in hun claim) te rapporteren welke vooruitgang ze boeken bij het voldoen aan succescriteria van alle niveaus hoger dan het bereikte niveau van conformiteit.
+          <p class="note">
+            Hoewel conformiteit alleen op de vermelde niveaus kan worden
+            bereikt, worden auteurs aangemoedigd om (in hun claim) te
+            rapporteren welke vooruitgang ze boeken bij het voldoen aan
+            succescriteria van alle niveaus hoger dan het bereikte niveau van
+            conformiteit.
           </p>
-          <p class="note">Het is niet aan te bevelen om beleidsmatig conformiteit op Niveau AAA te eisen voor hele sites, omdat het voor sommige content niet mogelijk is om aan alle succescriteria van Niveau AAA te voldoen.
+          <p class="note">
+            Het is niet aan te bevelen om beleidsmatig conformiteit op Niveau
+            AAA te eisen voor hele sites, omdat het voor sommige content niet
+            mogelijk is om aan alle succescriteria van Niveau AAA te voldoen.
           </p>
         </section>
 
         <section id="cc2">
           <h3>Volledige pagina's</h3>
           <p>
-            <a>Conformiteit</a> (en conformiteitsniveau) is slechts voor volledige <a>webpagina(s)</a> en kan niet worden bereikt als een deel van de webpagina wordt uitgesloten.
+            <a>Conformiteit</a> (en conformiteitsniveau) is slechts voor
+            volledige <a>webpagina(s)</a> en kan niet worden bereikt als een
+            deel van de webpagina wordt uitgesloten.
           </p>
-          <p class="note"> Om de conformiteit te bepalen, worden alternatieven voor een deel van de content van de pagina beschouwd als deel van de pagina als de alternatieven direct uit de pagina verkregen kunnen worden, bijvoorbeeld een lange beschrijving of een alternatieve weergave van een video.
+          <p class="note">
+            Om de conformiteit te bepalen, worden alternatieven voor een deel
+            van de content van de pagina beschouwd als deel van de pagina als de
+            alternatieven direct uit de pagina verkregen kunnen worden,
+            bijvoorbeeld een lange beschrijving of een alternatieve weergave van
+            een video.
           </p>
-          <p class="note"> Auteurs van webpagina's, die niet kunnen conformeren omdat ze te maken hebben met content waar zij geen zeggenschap over hebben, kunnen een <a href="#verklaring-van-partiele-conformiteit-content-van-derden">verklaring van partiële conformiteit</a> overwegen.
+          <p class="note">
+            Auteurs van webpagina's, die niet kunnen conformeren omdat ze te
+            maken hebben met content waar zij geen zeggenschap over hebben,
+            kunnen een
+            <a href="#verklaring-van-partiele-conformiteit-content-van-derden"
+              >verklaring van partiële conformiteit</a
+            >
+            overwegen.
           </p>
           <p class="note new">
-            <span class="change"></span> Een volledige pagina omvat elke variant van die pagina die automatisch door de pagina wordt weergegeven voor verschillende schermgroottes (bijvoorbeeld varianten van een responsieve webpagina). Voor conformiteit van de gehele pagina moeten alle varianten van de pagina conformeren (of er moet een alternatieve versie beschikbaar zijn die conformeert).
+            <span class="change"></span> Een volledige pagina omvat elke variant
+            van die pagina die automatisch door de pagina wordt weergegeven voor
+            verschillende schermgroottes (bijvoorbeeld varianten van een
+            responsieve webpagina). Voor conformiteit van de gehele pagina
+            moeten alle varianten van de pagina conformeren (of er moet een
+            alternatieve versie beschikbaar zijn die conformeert).
           </p>
         </section>
 
         <section id="cc3">
           <h3>Volledige processen</h3>
           <p>
-            Als een <a>webpagina</a> één is uit een serie van webpagina's die een <a>proces</a> vormen (d.w.z. een rij stappen die voltooid moet worden om een activiteit tot stand te brengen), conformeren alle webpagina's in het proces aan het gespecificeerde niveau of beter. (Conformiteit is niet mogelijk op een bepaald niveau als om het even welke pagina in het proces niet aan dat niveau of beter conformeert.)
+            Als een <a>webpagina</a> één is uit een serie van webpagina's die
+            een <a>proces</a> vormen (d.w.z. een rij stappen die voltooid moet
+            worden om een activiteit tot stand te brengen), conformeren alle
+            webpagina's in het proces aan het gespecificeerde niveau of beter.
+            (Conformiteit is niet mogelijk op een bepaald niveau als om het even
+            welke pagina in het proces niet aan dat niveau of beter
+            conformeert.)
           </p>
-          <p class="example">Een online warenhuis heeft een serie pagina's die gebruikt worden om producten te selecteren en te kopen. Alle pagina's in de serie van begin tot eind (kassa) conformeren om elke willekeurige pagina die deel van het proces is te laten conformeren.
+          <p class="example">
+            Een online warenhuis heeft een serie pagina's die gebruikt worden om
+            producten te selecteren en te kopen. Alle pagina's in de serie van
+            begin tot eind (kassa) conformeren om elke willekeurige pagina die
+            deel van het proces is te laten conformeren.
           </p>
         </section>
 
         <section id="cc4">
-          <h3>Louter door toegankelijkheid ondersteunde manieren om technologieën te gebruiken</h3>
+          <h3>
+            Louter door toegankelijkheid ondersteunde manieren om technologieën
+            te gebruiken
+          </h3>
           <p>
-            Om te voldoen aan succescriteria wordt gesteund op de beschikbaarheid van louter <a>door toegankelijkheid ondersteunde</a> manieren om <a>technologieën</a> te gebruiken. Elke informatie of functionaliteit die geleverd wordt op een manier die niet door toegankelijkheid ondersteund wordt, is ook beschikbaar op een manier die door toegankelijkheid ondersteund is. (Zie <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding accessibility support</a>.)
+            Om te voldoen aan succescriteria wordt gesteund op de
+            beschikbaarheid van louter
+            <a>door toegankelijkheid ondersteunde</a> manieren om
+            <a>technologieën</a> te gebruiken. Elke informatie of
+            functionaliteit die geleverd wordt op een manier die niet door
+            toegankelijkheid ondersteund wordt, is ook beschikbaar op een manier
+            die door toegankelijkheid ondersteund is. (Zie
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance"
+              >Understanding accessibility support</a
+            >.)
           </p>
         </section>
 
         <section id="cc5">
           <h3>Niet-interferentie</h3>
           <p>
-            Als <a>technologieën</a> gebruikt worden op een manier die niet door <a>toegankelijkheid ondersteund</a> wordt of als ze gebruikt worden op een niet-conforme manier, dan blokkeren ze niet het vermogen van de gebruiker om de rest van de pagina te bereiken. Bovendien blijft de <a>webpagina</a> als geheel voldoen aan de conformiteitseisen onder elk van de volgende voorwaarden:
+            Als <a>technologieën</a> gebruikt worden op een manier die niet door
+            <a>toegankelijkheid ondersteund</a> wordt of als ze gebruikt worden
+            op een niet-conforme manier, dan blokkeren ze niet het vermogen van
+            de gebruiker om de rest van de pagina te bereiken. Bovendien blijft
+            de <a>webpagina</a> als geheel voldoen aan de conformiteitseisen
+            onder elk van de volgende voorwaarden:
           </p>
           <ol>
             <li>
-              als om het even welke technologie waarop niet <a>gesteund wordt</a>, is aangezet in een user agent, </li>
+              als om het even welke technologie waarop niet
+              <a>gesteund wordt</a>, is aangezet in een user agent,
+            </li>
             <li>
-              als om het even welke technologie waarop niet gesteund wordt, is uitgezet in een user agent, </li>
+              als om het even welke technologie waarop niet gesteund wordt, is
+              uitgezet in een user agent,
+            </li>
             <li>
-              als om het even welke technologie waarop niet gesteund wordt, niet ondersteund wordt door een user agent. </li>
+              als om het even welke technologie waarop niet gesteund wordt, niet
+              ondersteund wordt door een user agent.
+            </li>
           </ol>
           <p>
-            Verder zijn de volgende succescriteria van toepassing op alle content op de pagina, met inbegrip van content waarop niet op een andere manier gesteund wordt om te voldoen aan conformiteit, omdat content die niet aan deze criteria voldoet elk gebruik van de pagina kan belemmeren:
+            Verder zijn de volgende succescriteria van toepassing op alle
+            content op de pagina, met inbegrip van content waarop niet op een
+            andere manier gesteund wordt om te voldoen aan conformiteit, omdat
+            content die niet aan deze criteria voldoet elk gebruik van de pagina
+            kan belemmeren:
           </p>
           <ul>
+            <li><strong>1.4.2 - Geluidsbediening</strong>,</li>
+            <li><strong>2.1.2 - Geen toetsenbordval</strong>,</li>
             <li>
-              <strong>1.4.2 - Geluidsbediening</strong>, </li>
-            <li>
-              <strong>2.1.2 - Geen toetsenbordval</strong>, </li>
-            <li>
-              <strong>2.3.1 - Drie flitsen of beneden drempelwaarde</strong>, en </li>
-            <li>
-              <strong>2.2.2 - Pauzeren, stoppen, verbergen</strong>. </li>
+              <strong>2.3.1 - Drie flitsen of beneden drempelwaarde</strong>, en
+            </li>
+            <li><strong>2.2.2 - Pauzeren, stoppen, verbergen</strong>.</li>
           </ul>
-          <p class="note">Als een pagina niet kan conformeren (bijvoorbeeld, een conformiteitstest pagina of een voorbeeldpagina), kan ze niet worden meegenomen binnen de scope van de conformiteit of in een conformiteitsclaim.
+          <p class="note">
+            Als een pagina niet kan conformeren (bijvoorbeeld, een
+            conformiteitstest pagina of een voorbeeldpagina), kan ze niet worden
+            meegenomen binnen de scope van de conformiteit of in een
+            conformiteitsclaim.
           </p>
           <p>
-            Voor meer informatie, inclusief voorbeelden zie <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding Conformance Requirements</a>.
+            Voor meer informatie, inclusief voorbeelden zie
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance"
+              >Understanding Conformance Requirements</a
+            >.
           </p>
         </section>
       </section>
@@ -657,68 +1288,119 @@
       <section id="conformiteitsclaims">
         <h2>Conformiteitsclaims (optioneel)</h2>
         <p>
-          Conformiteit is alleen gedefinieerd voor <a>webpagina's</a>. Er kan evenwel een conformiteitsclaim gemaakt worden voor één pagina, voor een serie pagina's of voor meerdere verwante webpagina's.
+          Conformiteit is alleen gedefinieerd voor <a>webpagina's</a>. Er kan
+          evenwel een conformiteitsclaim gemaakt worden voor één pagina, voor
+          een serie pagina's of voor meerdere verwante webpagina's.
         </p>
 
         <section>
           <h3>Vereiste componenten van een conformiteitsclaim</h3>
           <p>
-            Conformiteitsclaims zijn <strong>niet verplicht</strong>. Auteurs kunnen conformeren aan WCAG 2.1 zonder hierop aanspraak te maken. Als evenwel een conformiteitsclaim gemaakt wordt, dan <strong>moet</strong> de conformiteitsclaim de volgende informatie bevatten:
+            Conformiteitsclaims zijn <strong>niet verplicht</strong>. Auteurs
+            kunnen conformeren aan WCAG 2.1 zonder hierop aanspraak te maken.
+            Als evenwel een conformiteitsclaim gemaakt wordt, dan
+            <strong>moet</strong> de conformiteitsclaim de volgende informatie
+            bevatten:
           </p>
           <ol>
+            <li><strong>Datum</strong> van de claim</li>
             <li>
-              <strong>Datum</strong> van de claim <li>
-              <strong>Titel, versie en URI</strong> van de richtlijnen "Web Content Accessibility Guidelines 2.1 <a href="https://www.w3.org/TR/WCAG21/">https://www.w3.org/TR/WCAG21/</a>"
+              <strong>Titel, versie en URI</strong> van de richtlijnen "Web
+              Content Accessibility Guidelines 2.1
+              <a href="https://www.w3.org/TR/WCAG21/"
+                >https://www.w3.org/TR/WCAG21/</a
+              >"
             </li>
             <li>
-              <strong>Conformiteitsniveau </strong> waaraan voldaan is: (Niveau A, AA of AAA)
+              <strong>Conformiteitsniveau </strong> waaraan voldaan is: (Niveau
+              A, AA of AAA)
             </li>
             <li>
               <p>
-                <strong> Een beknopte beschrijving van de webpagina's</strong>, zoals een lijst van URI's waarvoor de claim is gemaakt, inclusief de informatie of deelgebieden zijn inbegrepen in de claim.
+                <strong> Een beknopte beschrijving van de webpagina's</strong>,
+                zoals een lijst van URI's waarvoor de claim is gemaakt,
+                inclusief de informatie of deelgebieden zijn inbegrepen in de
+                claim.
               </p>
-              <p class="note">De webpagina's kunnen beschreven worden door een lijst of door een expressie die alle in de claim inbegrepen URI's beschrijft.
+              <p class="note">
+                De webpagina's kunnen beschreven worden door een lijst of door
+                een expressie die alle in de claim inbegrepen URI's beschrijft.
               </p>
-              <p class="note">Webgerelateerde producten die geen URI hebben vóór installatie op de website van de klant kunnen een verklaring hebben dat het product zou conformeren, indien geïnstalleerd.
+              <p class="note">
+                Webgerelateerde producten die geen URI hebben vóór installatie
+                op de website van de klant kunnen een verklaring hebben dat het
+                product zou conformeren, indien geïnstalleerd.
               </p>
             </li>
             <li>
-              Een lijst van de <strong>
+              Een lijst van de
+              <strong>
                 <a>web content technologieën</a>
-                <a>waarop wordt gesteund</a>
-              </strong>.
+                <a>waarop wordt gesteund</a> </strong
+              >.
             </li>
           </ol>
-          <p class="note">Als een conformiteitslogo wordt gebruikt, zou dat een claim zijn en moet het samengaan met de eerder genoemde componenten van een conformiteitsclaim.
+          <p class="note">
+            Als een conformiteitslogo wordt gebruikt, zou dat een claim zijn en
+            moet het samengaan met de eerder genoemde componenten van een
+            conformiteitsclaim.
           </p>
         </section>
 
         <section>
           <h3>Optionele componenten van een conformiteitsclaim</h3>
           <p>
-            Overweeg, behalve de eerder genoemde vereiste componenten van een conformiteitsclaim, het aanbieden van extra informatie om gebruikers te assisteren. Aanbevolen extra informatie omvat:
+            Overweeg, behalve de eerder genoemde vereiste componenten van een
+            conformiteitsclaim, het aanbieden van extra informatie om gebruikers
+            te assisteren. Aanbevolen extra informatie omvat:
           </p>
           <ul>
             <li>
-              Een lijst van succescriteria boven het niveau van conformiteitsclaim waaraan voldaan is. Deze informatie zou aangeboden moeten worden in een vorm die bruikbaar is voor gebruikers, bij voorkeur machine-leesbare metadata. </li>
-            <li>
-              Een lijst van de specifieke technologieën die "<em>gebruikt worden, maar waarop niet <a>gesteund wordt</a>
-              </em>."
+              Een lijst van succescriteria boven het niveau van
+              conformiteitsclaim waaraan voldaan is. Deze informatie zou
+              aangeboden moeten worden in een vorm die bruikbaar is voor
+              gebruikers, bij voorkeur machine-leesbare metadata.
             </li>
             <li>
-              Een lijst van user agents, met inbegrip van hulptechnologieën die gebruikt zijn om de content te testen. </li>
-            <li class="new">Een lijst van specifieke toegankelijkheidskenmerken van de content, in machine-leesbare metadata. </li>
+              Een lijst van de specifieke technologieën die "<em
+                >gebruikt worden, maar waarop niet <a>gesteund wordt</a> </em
+              >."
+            </li>
             <li>
-              Informatie betreffende extra stappen die zijn genomen om verder dan de succescriteria te gaan om toegankelijkheid te verbeteren. </li>
+              Een lijst van user agents, met inbegrip van hulptechnologieën die
+              gebruikt zijn om de content te testen.
+            </li>
+            <li class="new">
+              Een lijst van specifieke toegankelijkheidskenmerken van de
+              content, in machine-leesbare metadata.
+            </li>
             <li>
-              Een machine-leesbare metadataversie van de lijst van specifieke technologieën waarop <a>gesteund wordt</a>. </li>
+              Informatie betreffende extra stappen die zijn genomen om verder
+              dan de succescriteria te gaan om toegankelijkheid te verbeteren.
+            </li>
             <li>
-              Een machine-leesbare metadataversie van de lijst van de conformiteitsclaim.
+              Een machine-leesbare metadataversie van de lijst van specifieke
+              technologieën waarop <a>gesteund wordt</a>.
+            </li>
+            <li>
+              Een machine-leesbare metadataversie van de lijst van de
+              conformiteitsclaim.
             </li>
           </ul>
-          <p class="note">We verwijzen naar <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding Conformance Claims</a> voor meer informatie en voorbeeld conformiteitsclaims.
+          <p class="note">
+            We verwijzen naar
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance"
+              >Understanding Conformance Claims</a
+            >
+            voor meer informatie en voorbeeld conformiteitsclaims.
           </p>
-          <p class="note">We verwijzen naar <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixC">Understanding Metadata</a> voor meer informatie over het gebruik van metadata in conformiteitsclaims.
+          <p class="note">
+            We verwijzen naar
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixC"
+              >Understanding Metadata</a
+            >
+            voor meer informatie over het gebruik van metadata in
+            conformiteitsclaims.
           </p>
         </section>
       </section>
@@ -726,31 +1408,62 @@
       <section>
         <h2>Verklaring van partiële conformiteit – Content van derden</h2>
         <p>
-          Soms worden webpagina's gecreëerd waaraan later aanvullende content wordt toegevoegd. Bijvoorbeeld een e-mailprogramma, een blog, een artikel dat gebruikers toestaat commentaar toe te voegen of applicaties die door de gebruiker bijgedragen content ondersteunen. Nog een voorbeeld zou een pagina zijn, zoals een portal of een nieuwssite, die is samengesteld uit content die wordt samengesteld vanuit meerdere leveranciers, of websites die automatisch in de loop van tijd content uit andere bronnen invoegen, zoals wanneer advertenties dynamisch worden ingevoegd.
+          Soms worden webpagina's gecreëerd waaraan later aanvullende content
+          wordt toegevoegd. Bijvoorbeeld een e-mailprogramma, een blog, een
+          artikel dat gebruikers toestaat commentaar toe te voegen of
+          applicaties die door de gebruiker bijgedragen content ondersteunen.
+          Nog een voorbeeld zou een pagina zijn, zoals een portal of een
+          nieuwssite, die is samengesteld uit content die wordt samengesteld
+          vanuit meerdere leveranciers, of websites die automatisch in de loop
+          van tijd content uit andere bronnen invoegen, zoals wanneer
+          advertenties dynamisch worden ingevoegd.
         </p>
         <p>
-          In deze gevallen is het niet mogelijk om op het tijdstip van de oorspronkelijke bijdrage te weten wat de niet-gecontroleerde content van de pagina's zal zijn. Het is belangrijk op te merken dat de niet-gecontroleerde content ook de toegankelijkheid van de gereguleerde content kan beïnvloeden. Twee opties zijn beschikbaar:
+          In deze gevallen is het niet mogelijk om op het tijdstip van de
+          oorspronkelijke bijdrage te weten wat de niet-gecontroleerde content
+          van de pagina's zal zijn. Het is belangrijk op te merken dat de
+          niet-gecontroleerde content ook de toegankelijkheid van de
+          gereguleerde content kan beïnvloeden. Twee opties zijn beschikbaar:
         </p>
         <ol>
           <li>
             <p>
-              Conformiteit kan worden vastgesteld naar beste weten. Als een pagina van dit type binnen twee werkdagen wordt gemonitord en gerepareerd (niet-conforme content wordt verwijderd of conform gemaakt), dan kan een besluit tot conformiteitsclaim worden gemaakt aangezien de pagina conformeert, op fouten in extern bijgedragen content na, die verwijderd of verbeterd worden als ze worden aangetroffen. Geen conformiteitsclaim kan worden gemaakt als het niet mogelijk is om niet-conforme content te monitoren of te verbeteren;
+              Conformiteit kan worden vastgesteld naar beste weten. Als een
+              pagina van dit type binnen twee werkdagen wordt gemonitord en
+              gerepareerd (niet-conforme content wordt verwijderd of conform
+              gemaakt), dan kan een besluit tot conformiteitsclaim worden
+              gemaakt aangezien de pagina conformeert, op fouten in extern
+              bijgedragen content na, die verwijderd of verbeterd worden als ze
+              worden aangetroffen. Geen conformiteitsclaim kan worden gemaakt
+              als het niet mogelijk is om niet-conforme content te monitoren of
+              te verbeteren;
             </p>
             <p>
               <strong> OF</strong>
-
             </p>
           </li>
           <li>
             <p>
-              Een "verklaring van partiële conformiteit" kan worden gemaakt: de pagina conformeert niet, maar zou kunnen conformeren als zekere onderdelen verwijderd zouden worden. De formulering van de verklaring zou zijn: "Deze pagina conformeert niet maar zou aan WCAG 2.1 conformeren op niveau X als de volgende onderdelen afkomstig uit niet gecontroleerde bronnen verwijderd werden." Verder zou het volgende ook waar zijn van niet-gecontroleerde content die beschreven wordt in de verklaring van partiële conformiteit:
+              Een "verklaring van partiële conformiteit" kan worden gemaakt: de
+              pagina conformeert niet, maar zou kunnen conformeren als zekere
+              onderdelen verwijderd zouden worden. De formulering van de
+              verklaring zou zijn: "Deze pagina conformeert niet maar zou aan
+              WCAG 2.1 conformeren op niveau X als de volgende onderdelen
+              afkomstig uit niet gecontroleerde bronnen verwijderd werden."
+              Verder zou het volgende ook waar zijn van niet-gecontroleerde
+              content die beschreven wordt in de verklaring van partiële
+              conformiteit:
             </p>
             <ol>
               <li>
                 Het is geen content waar de auteur zeggenschap over heeft.
               </li>
               <li>
-                Ze wordt beschreven op een manier die gebruikers kunnen identificeren (ze kunnen bijvoorbeeld niet beschreven worden als "alle onderdelen waar wij geen zeggenschap over hebben", tenzij ze duidelijk als zodanig zijn gemarkeerd). </li>
+                Ze wordt beschreven op een manier die gebruikers kunnen
+                identificeren (ze kunnen bijvoorbeeld niet beschreven worden als
+                "alle onderdelen waar wij geen zeggenschap over hebben", tenzij
+                ze duidelijk als zodanig zijn gemarkeerd).
+              </li>
             </ol>
           </li>
         </ol>
@@ -759,7 +1472,13 @@
       <section>
         <h2>Verklaring van partiële conformiteit – Taal</h2>
         <p>
-          Een "Verklaring van partiële conformiteit vanwege taal" kan worden afgegeven als de pagina niet conformeert, maar zou conformeren als <a>toegankelijkheidsondersteuning</a> bestond voor de taal (elk van de talen) die op de pagina gebruikt worden. De formulering van die verklaring zou zijn: "Deze pagina conformeert niet, maar zou aan WCAG 2.1 conformeren op niveau X als toegankelijkheidsondersteuning bestond voor de volgende taal (talen):"
+          Een "Verklaring van partiële conformiteit vanwege taal" kan worden
+          afgegeven als de pagina niet conformeert, maar zou conformeren als
+          <a>toegankelijkheidsondersteuning</a> bestond voor de taal (elk van de
+          talen) die op de pagina gebruikt worden. De formulering van die
+          verklaring zou zijn: "Deze pagina conformeert niet, maar zou aan WCAG
+          2.1 conformeren op niveau X als toegankelijkheidsondersteuning bestond
+          voor de volgende taal (talen):"
         </p>
       </section>
     </section>
@@ -768,197 +1487,455 @@
       <h1>Verklarende woordenlijst</h1>
       <dl id="terms">
         <!--aanvullende content-->
-        <dt data-include="terms/20/supplemental-content.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/supplemental-content.html"
+          data-include-replace="true"
+        ></dt>
         <!--aanwijzerinvoer-->
-        <dt data-include="terms/21/pointer-input.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/pointer-input.html"
+          data-include-replace="true"
+        ></dt>
         <!--afbeeldingen van tekst-->
-        <dt data-include="terms/20/image-of-text.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/image-of-text.html"
+          data-include-replace="true"
+        ></dt>
         <!--afkortingen-->
-        <dt data-include="terms/20/abbreviation.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/abbreviation.html"
+          data-include-replace="true"
+        ></dt>
         <!--algemene flits- en rodeflitsdrempelwaarden-->
-        <dt data-include="terms/20/general-flash-and-red-flash-thresholds.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/general-flash-and-red-flash-thresholds.html"
+          data-include-replace="true"
+        ></dt>
         <!--alternatief geleverd voor op tijd gebaseerde media-->
-        <dt data-include="terms/20/alternative-for-time-based-media.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/alternative-for-time-based-media.html"
+          data-include-replace="true"
+        ></dt>
         <!--ASCII-art-->
-        <dt data-include="terms/20/ascii-art.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/ascii-art.html"
+          data-include-replace="true"
+        ></dt>
         <!--audio-->
         <dt data-include="terms/20/audio.html" data-include-replace="true"></dt>
         <!--audiodescriptie-->
-        <dt data-include="terms/20/audio-description.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/audio-description.html"
+          data-include-replace="true"
+        ></dt>
         <!--basisonderwijsniveau-->
-        <dt data-include="terms/20/primary-education-level.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/primary-education-level.html"
+          data-include-replace="true"
+        ></dt>
         <!--bewegingsanimatie-->
-        <dt data-include="terms/21/motion-animation.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/motion-animation.html"
+          data-include-replace="true"
+        ></dt>
         <!--CAPTCHA-->
-        <dt data-include="terms/20/captcha.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/captcha.html"
+          data-include-replace="true"
+        ></dt>
         <!--componenten van de gebruikersinterface-->
-        <dt data-include="terms/20/user-interface-component.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/user-interface-component.html"
+          data-include-replace="true"
+        ></dt>
         <!--conforme alternatieve versie-->
-        <dt data-include="terms/20/conforming-alternate-version.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/conforming-alternate-version.html"
+          data-include-replace="true"
+        ></dt>
         <!--conformiteit-->
-        <dt data-include="terms/20/conformance.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/conformance.html"
+          data-include-replace="true"
+        ></dt>
         <!--content-->
-        <dt data-include="terms/20/content.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/content.html"
+          data-include-replace="true"
+        ></dt>
         <!--contextgevoelige hulp-->
-        <dt data-include="terms/20/context-sensitive-help.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/context-sensitive-help.html"
+          data-include-replace="true"
+        ></dt>
         <!--contextwijziging-->
-        <dt data-include="terms/20/changes-of-context.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/changes-of-context.html"
+          data-include-replace="true"
+        ></dt>
         <!--contrastverhouding-->
-        <dt data-include="terms/20/contrast-ratio.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/contrast-ratio.html"
+          data-include-replace="true"
+        ></dt>
         <!--correcte leesvolgorde-->
-        <dt data-include="terms/20/correct-reading-sequence.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/correct-reading-sequence.html"
+          data-include-replace="true"
+        ></dt>
         <!--CSS-pixels-->
-        <dt data-include="terms/21/css-pixel.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/css-pixel.html"
+          data-include-replace="true"
+        ></dt>
         <!--dezelfde functionaliteit-->
-        <dt data-include="terms/20/same-functionality.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/same-functionality.html"
+          data-include-replace="true"
+        ></dt>
         <!--dezelfde relatieve volgorde-->
-        <dt data-include="terms/20/same-relative-order.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/same-relative-order.html"
+          data-include-replace="true"
+        ></dt>
         <!--Doelgebied-->
-        <dt data-include="terms/21/target.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/target.html"
+          data-include-replace="true"
+        ></dt>
         <!--door software bepaald-->
-        <dt data-include="terms/20/programmatically-determined.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/programmatically-determined.html"
+          data-include-replace="true"
+        ></dt>
         <!--door software bepaalde linkcontext-->
-        <dt data-include="terms/20/programmatically-determined-link-context.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/programmatically-determined-link-context.html"
+          data-include-replace="true"
+        ></dt>
         <!--door software ingesteld-->
-        <dt data-include="terms/20/programmatically-set.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/programmatically-set.html"
+          data-include-replace="true"
+        ></dt>
         <!--door toegankelijkheid ondersteunde-->
-        <dt data-include="terms/20/accessibility-supported.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/accessibility-supported.html"
+          data-include-replace="true"
+        ></dt>
         <!--down-event-->
-        <dt data-include="terms/21/down-event.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/down-event.html"
+          data-include-replace="true"
+        ></dt>
         <!--dubbelzinnig voor gebruikers in het algemeen-->
-        <dt data-include="terms/20/ambiguous-to-users-in-general.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/ambiguous-to-users-in-general.html"
+          data-include-replace="true"
+        ></dt>
         <!--enkele aanwijzer-->
-        <dt data-include="terms/21/single-pointer.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/single-pointer.html"
+          data-include-replace="true"
+        ></dt>
         <!--essentieel-->
-        <dt data-include="terms/20/essential.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/essential.html"
+          data-include-replace="true"
+        ></dt>
         <!--flits-->
         <dt data-include="terms/20/flash.html" data-include-replace="true"></dt>
         <!--functionaliteit-->
-        <dt data-include="terms/20/functionality.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/functionality.html"
+          data-include-replace="true"
+        ></dt>
         <!--gebarentaal-->
-        <dt data-include="terms/20/sign-language.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/sign-language.html"
+          data-include-replace="true"
+        ></dt>
         <!--gebarentaalvertolking-->
-        <dt data-include="terms/20/sign-language-interpretation.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/sign-language-interpretation.html"
+          data-include-replace="true"
+        ></dt>
         <!--gebruikers bedienbaar-->
-        <dt data-include="terms/20/user-controllable.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/user-controllable.html"
+          data-include-replace="true"
+        ></dt>
         <!--gebruikersinactiviteit-->
-        <dt data-include="terms/21/user-inactivity.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/user-inactivity.html"
+          data-include-replace="true"
+        ></dt>
         <!--gesteund worden-->
-        <dt data-include="terms/20/relied-upon.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/relied-upon.html"
+          data-include-replace="true"
+        ></dt>
         <!--gesynchroniseerde media-->
-        <dt data-include="terms/20/synchronized-media.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/synchronized-media.html"
+          data-include-replace="true"
+        ></dt>
         <!--grote-->
-        <dt data-include="terms/20/large-scale.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/large-scale.html"
+          data-include-replace="true"
+        ></dt>
         <!--hulptechnologie-->
-        <dt data-include="terms/20/assistive-technology.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/assistive-technology.html"
+          data-include-replace="true"
+        ></dt>
         <!--idiomatische uitdrukkingen-->
         <dt data-include="terms/20/idiom.html" data-include-replace="true"></dt>
         <!--informatief-->
-        <dt data-include="terms/20/informative.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/informative.html"
+          data-include-replace="true"
+        ></dt>
         <!--invoerfout-->
-        <dt data-include="terms/20/input-error.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/input-error.html"
+          data-include-replace="true"
+        ></dt>
         <!--jargon-->
-        <dt data-include="terms/20/jargon.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/jargon.html"
+          data-include-replace="true"
+        ></dt>
         <!--knipperen-->
-        <dt data-include="terms/20/blinking.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/blinking.html"
+          data-include-replace="true"
+        ></dt>
         <!--label-->
         <dt data-include="terms/20/label.html" data-include-replace="true"></dt>
         <!--lager middelbaar onderwijsniveau-->
-        <dt data-include="terms/20/lower-secondary-education-level.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/lower-secondary-education-level.html"
+          data-include-replace="true"
+        ></dt>
         <!--linkdoel-->
-        <dt data-include="terms/20/link-purpose.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/link-purpose.html"
+          data-include-replace="true"
+        ></dt>
         <!--live-->
         <dt data-include="terms/20/live.html" data-include-replace="true"></dt>
         <!--louter-geluid-->
-        <dt data-include="terms/20/audio-only.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/audio-only.html"
+          data-include-replace="true"
+        ></dt>
         <!--louter-videobeeld-->
-        <dt data-include="terms/20/video-only.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/video-only.html"
+          data-include-replace="true"
+        ></dt>
         <!--mechanisme-->
-        <dt data-include="terms/20/mechanism.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/mechanism.html"
+          data-include-replace="true"
+        ></dt>
         <!--media-alternatief voor tekst-->
-        <dt data-include="terms/20/media-alternative-for-text.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/media-alternative-for-text.html"
+          data-include-replace="true"
+        ></dt>
         <!--menselijke taal-->
-        <dt data-include="terms/20/human-language.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/human-language.html"
+          data-include-replace="true"
+        ></dt>
         <!--naam-->
         <dt data-include="terms/20/name.html" data-include-replace="true"></dt>
         <!--niet-tekstuele content-->
-        <dt data-include="terms/20/non-text-content.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/non-text-content.html"
+          data-include-replace="true"
+        ></dt>
         <!--noodsituatie-->
-        <dt data-include="terms/20/emergency.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/emergency.html"
+          data-include-replace="true"
+        ></dt>
         <!--normatief-->
-        <dt data-include="terms/20/normative.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/normative.html"
+          data-include-replace="true"
+        ></dt>
         <!--ondertitels-->
-        <dt data-include="terms/20/captions.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/captions.html"
+          data-include-replace="true"
+        ></dt>
         <!--op een ongebruikelijke of beperkte manier gebruikt-->
-        <dt data-include="terms/20/used-in-an-unusual-or-restricted-way.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/used-in-an-unusual-or-restricted-way.html"
+          data-include-replace="true"
+        ></dt>
         <!--op een venster even groot als het volle beeld-->
-        <dt data-include="terms/20/on-a-full-screen-window.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/on-a-full-screen-window.html"
+          data-include-replace="true"
+        ></dt>
         <!--paragraaf-->
-        <dt data-include="terms/20/section.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/section.html"
+          data-include-replace="true"
+        ></dt>
         <!--pauzeren-->
-        <dt data-include="terms/20/paused.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/paused.html"
+          data-include-replace="true"
+        ></dt>
         <!--presentatie-->
-        <dt data-include="terms/20/presentation.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/presentation.html"
+          data-include-replace="true"
+        ></dt>
         <!--proces-->
-        <dt data-include="terms/20/process.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/process.html"
+          data-include-replace="true"
+        ></dt>
         <!--puur decoratief-->
-        <dt data-include="terms/20/pure-decoration.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/pure-decoration.html"
+          data-include-replace="true"
+        ></dt>
         <!--real-time gebeurtenissen-->
-        <dt data-include="terms/20/real-time-event.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/real-time-event.html"
+          data-include-replace="true"
+        ></dt>
         <!--regio's-->
-        <dt data-include="terms/21/region.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/region.html"
+          data-include-replace="true"
+        ></dt>
         <!--relaties-->
-        <dt data-include="terms/20/relationships.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/relationships.html"
+          data-include-replace="true"
+        ></dt>
         <!--relatieve luminantie-->
-        <dt data-include="terms/20/relative-luminance.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/relative-luminance.html"
+          data-include-replace="true"
+        ></dt>
         <!--rol-->
         <dt data-include="terms/20/role.html" data-include-replace="true"></dt>
         <!--sequentieel genavigeerd-->
-        <dt data-include="terms/20/navigated-sequentially.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/navigated-sequentially.html"
+          data-include-replace="true"
+        ></dt>
         <!--sneltoets-->
-        <dt data-include="terms/21/keyboard-shortcut.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/keyboard-shortcut.html"
+          data-include-replace="true"
+        ></dt>
         <!--specifieke zintuiglijke ervaring-->
-        <dt data-include="terms/20/specific-sensory-experience.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/specific-sensory-experience.html"
+          data-include-replace="true"
+        ></dt>
         <!--status-->
         <dt data-include="terms/21/state.html" data-include-replace="true"></dt>
         <!--statusbericht-->
-        <dt data-include="terms/21/status-message.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/status-message.html"
+          data-include-replace="true"
+        ></dt>
         <!--stijleigenschap-->
-        <dt data-include="terms/21/style-property.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/style-property.html"
+          data-include-replace="true"
+        ></dt>
         <!--structuur-->
-        <dt data-include="terms/20/structure.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/structure.html"
+          data-include-replace="true"
+        ></dt>
         <!--technologie-->
-        <dt data-include="terms/20/technology.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/technology.html"
+          data-include-replace="true"
+        ></dt>
         <!--tekst-->
         <dt data-include="terms/20/text.html" data-include-replace="true"></dt>
         <!--tekstalternatief-->
-        <dt data-include="terms/20/text-alternative.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/text-alternative.html"
+          data-include-replace="true"
+        ></dt>
         <!--tekstblokken-->
-        <dt data-include="terms/20/blocks-of-text.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/blocks-of-text.html"
+          data-include-replace="true"
+        ></dt>
         <!--toetsenbordinterface-->
-        <dt data-include="terms/20/keyboard-interface.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/keyboard-interface.html"
+          data-include-replace="true"
+        ></dt>
         <!--up-event-->
-        <dt data-include="terms/21/up-event.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/up-event.html"
+          data-include-replace="true"
+        ></dt>
         <!--user agent-->
-        <dt data-include="terms/20/user-agent.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/user-agent.html"
+          data-include-replace="true"
+        ></dt>
         <!--verlengde audiodescriptie-->
-        <dt data-include="terms/20/extended-audio-description.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/extended-audio-description.html"
+          data-include-replace="true"
+        ></dt>
         <!--verzameling webpagina's-->
-        <dt data-include="terms/21/set-of-web-pages.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/21/set-of-web-pages.html"
+          data-include-replace="true"
+        ></dt>
         <!--video-->
         <dt data-include="terms/20/video.html" data-include-replace="true"></dt>
         <!--visueel aangepast-->
-        <dt data-include="terms/20/visually-customized.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/visually-customized.html"
+          data-include-replace="true"
+        ></dt>
         <!--voldoet aan een succescriterium-->
-        <dt data-include="terms/20/satisfies-a-success-criterion.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/satisfies-a-success-criterion.html"
+          data-include-replace="true"
+        ></dt>
         <!--vooraf opgenomen-->
-        <dt data-include="terms/20/prerecorded.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/prerecorded.html"
+          data-include-replace="true"
+        ></dt>
         <!--webpagina's-->
-        <dt data-include="terms/20/web-page.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/web-page.html"
+          data-include-replace="true"
+        ></dt>
         <!--weergavekader-->
-        <dt data-include="terms/20/viewport.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/viewport.html"
+          data-include-replace="true"
+        ></dt>
         <!--wettelijke verplichtingen-->
-        <dt data-include="terms/20/legal-commitments.html" data-include-replace="true"></dt>
+        <dt
+          data-include="terms/20/legal-commitments.html"
+          data-include-replace="true"
+        ></dt>
       </dl>
     </section>
 
@@ -970,7 +1947,8 @@
       </p>
     </div>
 
-    <div data-include="./references.html" data-include-replace="true">Na momentopname referenties vervangen door `references.html`.</div>
+    <div data-include="./references.html" data-include-replace="true">
+      Na momentopname referenties vervangen door `references.html`.
+    </div>
   </body>
-
 </html>
