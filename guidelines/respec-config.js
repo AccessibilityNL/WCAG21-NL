@@ -152,7 +152,11 @@ var respecConfig = {
     moveTransheaderToTop,
     replaceHead,
     replaceSotd,
-    removeRespecReferences
+    removeRespecReferences,
+    function translateIds() {
+      translateId('abstract', 'samenvatting');
+      translateId('sotd', 'status-van-dit-document');
+    }
   ]
 
 };

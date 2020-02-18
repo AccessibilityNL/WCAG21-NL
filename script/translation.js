@@ -58,3 +58,13 @@ function removeRespecReferences() {
   respecRefs.parentElement.removeChild(respecRefs);
   respecRefsTocline.parentElement.removeChild(respecRefsTocline);
 }
+
+function translateId(currentId, newId) {
+  var element = document.getElementById(currentId);
+  var linkElements = document.querySelectorAll('[href="#' + currentId + '"]');
+
+  element.id = newId;
+  linkElements.forEach(function (link) {
+    link.href = '#' + newId;
+  });
+}
