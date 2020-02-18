@@ -38,6 +38,8 @@
     <div data-include="status-document.html" data-include-replace="true"></div>
 
     <section id="abstract">
+      <h2>Samenvatting</h2>
+
       <p>
         De Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1 bevatten een groot aantal aanbevelingen om webcontent toegankelijker te maken. Het volgen van deze richtlijnen maakt content toegankelijker voor meer mensen met functiebeperkingen, waaronder blindheid en slechtziendheid, doofheid en gehoorverlies, leerproblemen, cognitieve beperkingen, motorische beperkingen, spraakproblemen, overgevoeligheid voor licht en combinaties daarvan; maar het voorziet niet in elke gebruikersbehoefte van mensen met deze beperkingen. Deze richtlijnen zijn van toepassing op de toegankelijkheid van webcontent op computers, laptops, tablets en mobiele apparaten. Het volgen van deze richtlijnen maakt webcontent doorgaans ook beter bruikbaar voor gebruikers in het algemeen.
       </p>
@@ -51,7 +53,7 @@
 
     <section id="sotd"></section>
 
-    <section class="informative introductory" id="inleiding">
+    <section class="informative introductory">
       <h2>Inleiding</h2>
 
       <section>
@@ -243,7 +245,7 @@
             Veel van deze succescriteria bevatten nieuwe termen. Deze zijn aan de verklarende woordenlijst toegevoegd en maken onderdeel uit van de normatieve eisen van de succescriteria.
           </p>
           <p>
-            In het hoofdstuk Conformiteit is een derde opmerking over paginavarianten toegevoegd aan <a href="#cc2">Volledige pagina's</a>. Daarnaast is een optie voor machine-leesbare metadata toegevoegd aan <a href="#conformance-optional">Optionele componenten van een conformiteitsclaim</a>.
+            In het hoofdstuk Conformiteit is een derde opmerking over paginavarianten toegevoegd aan <a href="#cc2">Volledige pagina's</a>. Daarnaast is een optie voor machine-leesbare metadata toegevoegd aan <a href="#optionele-componenten-van-een-conformiteitsclaim">Optionele componenten van een conformiteitsclaim</a>.
           </p>
         </section>
 
@@ -270,7 +272,7 @@
       </section>
     </section>
 
-    <section class="principle" id="perceivable">
+    <section class="principle">
       <h2>Waarneembaar</h2>
       <p>
         Informatie en componenten van de gebruikersinterface moeten toonbaar zijn aan gebruikers op voor hen waarneembare wijze.
@@ -363,7 +365,7 @@
       </section>
     </section>
 
-    <section class="principle" id="operable">
+    <section class="principle">
       <h2>Bedienbaar</h2>
       <p>
         Componenten van de gebruikersinterface en navigatie moeten bedienbaar zijn.
@@ -465,7 +467,7 @@
       </section>
     </section>
 
-    <section class="principle" id="understandable">
+    <section class="principle">
       <h2>Begrijpelijk</h2>
       <p>
         Informatie en de bediening van de gebruikersinterface moeten begrijpelijk zijn.
@@ -527,7 +529,7 @@
       </section>
     </section>
 
-    <section class="principle" id="robust">
+    <section class="principle">
       <h2>Robuust</h2>
       <p>
         Content moet voldoende robuust zijn om betrouwbaar geïnterpreteerd te kunnen worden door een breed scala van user agents, met inbegrip van hulptechnologieën.
@@ -563,7 +565,7 @@
         </p>
       </section>
 
-      <section id="conformance-reqs">
+      <section>
         <h2>Conformiteitseisen</h2>
         <p>
           Een webpagina is conform WCAG 2.1 als deze aan alle volgende conformiteitseisen voldoet:
@@ -595,7 +597,7 @@
           </p>
           <p class="note"> Om de conformiteit te bepalen, worden alternatieven voor een deel van de content van de pagina beschouwd als deel van de pagina als de alternatieven direct uit de pagina verkregen kunnen worden, bijvoorbeeld een lange beschrijving of een alternatieve weergave van een video.
           </p>
-          <p class="note"> Auteurs van webpagina's, die niet kunnen conformeren omdat ze te maken hebben met content waar zij geen zeggenschap over hebben, kunnen een <a href="#conformance-partial">verklaring van partiële conformiteit</a> overwegen.
+          <p class="note"> Auteurs van webpagina's, die niet kunnen conformeren omdat ze te maken hebben met content waar zij geen zeggenschap over hebben, kunnen een <a href="#verklaring-van-partiele-conformiteit-content-van-derden">verklaring van partiële conformiteit</a> overwegen.
           </p>
           <p class="note new">
             <span class="change"></span> Een volledige pagina omvat elke variant van die pagina die automatisch door de pagina wordt weergegeven voor verschillende schermgroottes (bijvoorbeeld varianten van een responsieve webpagina). Voor conformiteit van de gehele pagina moeten alle varianten van de pagina conformeren (of er moet een alternatieve versie beschikbaar zijn die conformeert).
@@ -652,13 +654,13 @@
         </section>
       </section>
 
-      <section id="conformance-claims">
+      <section id="conformiteitsclaims">
         <h2>Conformiteitsclaims (optioneel)</h2>
         <p>
           Conformiteit is alleen gedefinieerd voor <a>webpagina's</a>. Er kan evenwel een conformiteitsclaim gemaakt worden voor één pagina, voor een serie pagina's of voor meerdere verwante webpagina's.
         </p>
 
-        <section id="conformance-required">
+        <section>
           <h3>Vereiste componenten van een conformiteitsclaim</h3>
           <p>
             Conformiteitsclaims zijn <strong>niet verplicht</strong>. Auteurs kunnen conformeren aan WCAG 2.1 zonder hierop aanspraak te maken. Als evenwel een conformiteitsclaim gemaakt wordt, dan <strong>moet</strong> de conformiteitsclaim de volgende informatie bevatten:
@@ -691,7 +693,7 @@
           </p>
         </section>
 
-        <section id="conformance-optional">
+        <section>
           <h3>Optionele componenten van een conformiteitsclaim</h3>
           <p>
             Overweeg, behalve de eerder genoemde vereiste componenten van een conformiteitsclaim, het aanbieden van extra informatie om gebruikers te assisteren. Aanbevolen extra informatie omvat:
@@ -721,7 +723,7 @@
         </section>
       </section>
 
-      <section id="conformance-partial">
+      <section>
         <h2>Verklaring van partiële conformiteit – Content van derden</h2>
         <p>
           Soms worden webpagina's gecreëerd waaraan later aanvullende content wordt toegevoegd. Bijvoorbeeld een e-mailprogramma, een blog, een artikel dat gebruikers toestaat commentaar toe te voegen of applicaties die door de gebruiker bijgedragen content ondersteunen. Nog een voorbeeld zou een pagina zijn, zoals een portal of een nieuwssite, die is samengesteld uit content die wordt samengesteld vanuit meerdere leveranciers, of websites die automatisch in de loop van tijd content uit andere bronnen invoegen, zoals wanneer advertenties dynamisch worden ingevoegd.
@@ -754,7 +756,7 @@
         </ol>
       </section>
 
-      <section id="conformance-partial-lang">
+      <section>
         <h2>Verklaring van partiële conformiteit – Taal</h2>
         <p>
           Een "Verklaring van partiële conformiteit vanwege taal" kan worden afgegeven als de pagina niet conformeert, maar zou conformeren als <a>toegankelijkheidsondersteuning</a> bestond voor de taal (elk van de talen) die op de pagina gebruikt worden. De formulering van die verklaring zou zijn: "Deze pagina conformeert niet, maar zou aan WCAG 2.1 conformeren op niveau X als toegankelijkheidsondersteuning bestond voor de volgende taal (talen):"
@@ -762,7 +764,7 @@
       </section>
     </section>
 
-    <section id="glossary">
+    <section>
       <h1>Verklarende woordenlijst</h1>
       <dl id="terms">
         <!--aanvullende content-->
