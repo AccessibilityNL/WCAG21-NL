@@ -22,7 +22,18 @@ function linkUnderstanding() {
   });
 }
 
+function createSpan(title) {
+  var prefixElement = document.createElement('span');
+  prefixElement.textContent = title;
+
+  return prefixElement;
+}
+
 function addTextSemantics() {
+  var principlePrefix = createSpan('Principe');
+  var guidelinePrefix = createSpan('Richtlijn');
+  var scPrefix = createSpan('Succescriterium');
+
   // remove the change marker
   document.querySelectorAll('p.change').forEach(function(node){
     node.parentNode.removeChild(node);
@@ -34,18 +45,15 @@ function addTextSemantics() {
   });
   // put principle in principle headings
   document.querySelectorAll('section.principle > h2 > .secno').forEach(function(node){
-    var num = node.textContent;
-    node.textContent = 'Principe ' + num;
+    node.parentElement.insertBefore(principlePrefix.cloneNode(true), node);
   });
   // put guideline in GL headings
   document.querySelectorAll('section.guideline > h3 > .secno').forEach(function(node){
-    var num = node.textContent;
-    node.textContent = 'Richtlijn ' + num;
+    node.parentElement.insertBefore(guidelinePrefix.cloneNode(true), node);
   });
   // put success criterion in SC headings
   document.querySelectorAll('section.sc > h4 > .secno').forEach(function(node){
-    var num = node.textContent;
-    node.textContent = 'Succescriterium ' + num;
+    node.parentElement.insertBefore(scPrefix.cloneNode(true), node);
   });
 }
 
