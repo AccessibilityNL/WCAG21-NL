@@ -34,3 +34,15 @@ span.screenreader {position: absolute; left: -10000px}
 span + .secno {
   margin-left: 0.25em;
 }
+
+/* Fix accessibility */
+/* Increase specificity with top html */
+html #toc-nav:not(:hover) > a:not(:focus) > span + span {
+  display: block;
+  position: absolute;
+  top: auto;
+  left: -999999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
