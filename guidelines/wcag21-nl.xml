@@ -48,7 +48,6 @@
                 voor aanvullende eisen ten aanzien van bedieningselementen en content die gebruikersinvoer accepteren.)
               </p>
             </dd>
-
             <dt>Op tijd gebaseerde media</dt>
             <dd>
               <p>
@@ -57,7 +56,6 @@
                 voor aanvullende eisen ten aanzien van media.)
               </p>
             </dd>
-
             <dt>Test</dt>
             <dd>
               <p>
@@ -66,7 +64,6 @@
                 gepresenteerd wordt onjuist zou zijn, dan leveren tekstalternatieven ten minste een beschrijving van de niet-tekstuele content.
               </p>
             </dd>
-
             <dt>Zintuiglijk</dt>
             <dd>
               <p>
@@ -75,7 +72,6 @@
                 te creëren, dan leveren tekstalternatieven ten minste een beschrijving van de niet-tekstuele content.
               </p>
             </dd>
-
             <dt>
               <a>CAPTCHA</a>
             </dt>
@@ -85,7 +81,6 @@
                 worden alternatieve vormen van CAPTCHA aangeboden gebruikmakend van uitvoermodes voor verschillende soorten van zintuiglijke perceptie om tegemoet te komen aan verschillende functiebeperkingen.
               </p>
             </dd>
-
             <dt>Decoratie, opmaak, onzichtbaar</dt>
             <dd>
               <p>
@@ -134,7 +129,6 @@
                 dat equivalente informatie geeft voor vooraf opgenomen louter-geluid content.
               </p>
             </dd>
-
             <dt>Vooraf opgenomen louter-videobeeld</dt>
             <dd>
               <p>
@@ -433,7 +427,7 @@
           <p xmlns="http://www.w3.org/1999/xhtml" class="note">
             Dit succescriterium richt zich specifiek op kleurperceptie. Andere vormen van perceptie worden behandeld in
             <a href="#aanpasbaar">Richtlijn 1.3</a>
-            inclusief softwarematige toegang tot kleur en andere codering van visuele-presentatie.
+            inclusief softwarematige toegang tot kleur en andere codering van visuele presentatie.
           </p>
         </content>
         <level>A</level>
@@ -481,7 +475,6 @@
                 tekst en afbeeldingen van grote tekst hebben een contrastverhouding van ten minste 3:1;
               </p>
             </dd>
-
             <dt>Incidenteel</dt>
             <dd>
               <p>
@@ -491,8 +484,7 @@
                 zijn, die voor niemand zichtbaar zijn, of die onderdeel zijn van een afbeelding die significant andere visuele content bevat, hebben geen contrasteis.
               </p>
             </dd>
-
-            <dt>Logotypes</dt>
+            <dt>Woordmerken</dt>
             <dd>
               <p>
                 Tekst die onderdeel is van een logo of merknaam heeft geen contrasteis.
@@ -514,7 +506,7 @@
             voor doven en slechthorenden en
             <a>afbeeldingen van tekst</a>, kan tekst zonder
             <a>hulptechnologie</a>
-            tot 200 procent schalen zonder verlies van content of functionaliteit.
+            tot 200% geschaald worden zonder verlies van content of functionaliteit.
           </p>
         </content>
         <level>AA</level>
@@ -541,7 +533,6 @@
                 worden aan de eisen van de gebruiker;
               </p>
             </dd>
-
             <dt>Essentieel</dt>
             <dd>
               <p>
@@ -552,7 +543,7 @@
             </dd>
           </dl>
           <p xmlns="http://www.w3.org/1999/xhtml" class="note">
-            Logotypes (tekst die onderdeel is van een logo of merknaam) worden als essentieel beschouwd.
+            Woordmerken (tekst die onderdeel is van een logo of merknaam) worden als essentieel beschouwd.
           </p>
         </content>
         <level>AA</level>
@@ -580,7 +571,6 @@
                 tekst en afbeeldingen van grote tekst hebben een contrastverhouding van ten minste 4,5:1;
               </p>
             </dd>
-
             <dt>Incidenteel</dt>
             <dd>
               <p>
@@ -590,8 +580,7 @@
                 zijn, die voor niemand zichtbaar zijn, of die onderdeel zijn van een afbeelding die significant andere visuele content bevat, hebben geen contrasteis.
               </p>
             </dd>
-
-            <dt>Logotypes</dt>
+            <dt>Woordmerken</dt>
             <dd>
               <p>
                 Tekst die onderdeel is van een logo of merknaam heeft geen contrasteis.
@@ -616,26 +605,19 @@
           <dl xmlns="http://www.w3.org/1999/xhtml">
             <dt>Geen achtergrond:</dt>
             <dd>
-              <p>
-                De geluidsopname bevat geen achtergrondgeluiden.
-              </p>
+              <p>De geluidsopname bevat geen achtergrondgeluiden.</p>
             </dd>
-
             <dt>Uitzetten</dt>
             <dd>
-              <p>
-                De achtergrondgeluiden kunnen uitgezet worden.
-              </p>
+              <p>De achtergrondgeluiden kunnen uitgezet worden.</p>
             </dd>
-
             <dt>20 dB</dt>
             <dd>
               <p>
-                De achtergrondgeluiden zijn ten minste 20 decibel lager dan voorgrondspraak content, met uitzondering van incidentele geluiden die slechts één of twee seconden duren.
+                De achtergrondgeluiden zijn ten minste 20 decibel lager dan spraak content die op de voorgrond klinkt, met uitzondering van incidentele geluiden die slechts één of twee seconden duren.
               </p>
-
               <p class="note">
-                Uit de definitie van "decibel" volgt dat achtergrondgeluid dat aan deze eis voldoet ongeveer vier keer zachter klinkt dan de spraakcontent op de voorgrond.
+                Uit de definitie van "decibel" volgt dat achtergrondgeluid dat aan deze eis voldoet ongeveer vier keer zachter klinkt dan de spraak content op de voorgrond.
               </p>
             </dd>
           </dl>
@@ -692,7 +674,7 @@
             is voor de informatie die wordt overgebracht.
           </p>
           <p xmlns="http://www.w3.org/1999/xhtml" class="note">
-            Opmerking: logotypes (tekst die onderdeel is van een logo of merknaam) worden als essentieel beschouwd.
+            Opmerking: woordmerken (tekst die onderdeel is van een logo of merknaam) worden als essentieel beschouwd.
           </p>
         </content>
         <level>AAA</level>
@@ -750,7 +732,6 @@
               <a>statussen</a>
               te identificeren, met uitzondering van inactieve componenten of componenten waarvan de weergave van de component wordt bepaald door de user agent en niet wordt aangepast door de auteur;
             </dd>
-
             <dt>Grafische objecten</dt>
             <dd>
               Delen van afbeeldingen die vereist zijn om de content te begrijpen, behalve wanneer een specifieke weergave van afbeeldingen
@@ -813,12 +794,10 @@
               <a>invoerfout</a>
               communiceert of andere content niet verbergt of vervangt;
             </dd>
-
             <dt>Aanwijsbaar</dt>
             <dd>
               Wanneer een aanwijzer hover aanvullende content kan activeren, dan kan de aanwijzer over de aanvullende content worden bewogen zonder dat deze verdwijnt;
             </dd>
-
             <dt>Aanhouden</dt>
             <dd>
               De aanvullende content blijft zichtbaar totdat de oorzaak voor de hover of focus is verwijderd, de gebruiker de content sluit of de informatie niet langer geldig is.
@@ -920,10 +899,10 @@
         <level>AAA</level>
         <file href="toetsenbord-geen-uitzondering"/>
       </success-criterion>
-      <success-criterion id="sneltoetsen-tekentoets">
+      <success-criterion id="enkel-teken-sneltoetsen">
         <version>WCAG21</version>
         <num>2.1.4</num>
-        <name>Sneltoetsen tekentoets</name>
+        <name>Enkel teken sneltoetsen</name>
         <content>
           <p xmlns="http://www.w3.org/1999/xhtml">
             Wanneer een
@@ -937,12 +916,10 @@
               <a>mechanisme</a>
               beschikbaar waarmee de sneltoets kan worden uitgezet;
             </dd>
-
             <dt>Opnieuw toewijzen</dt>
             <dd>
               Er is een mechanisme beschikbaar om de sneltoets opnieuw toe te wijzen aan één of meerdere niet-afdrukbare tekens (bijv. Ctrl, Alt, enz.);
             </dd>
-
             <dt>Alleen actief bij focus</dt>
             <dd>
               De sneltoets voor een
@@ -952,7 +929,7 @@
           </dl>
         </content>
         <level>A</level>
-        <file href="sneltoetsen-tekentoets"/>
+        <file href="enkel-teken-sneltoetsen"/>
       </success-criterion>
     </guideline>
     <guideline id="genoeg-tijd">
@@ -980,14 +957,12 @@
                 De gebruiker kan de tijdslimiet uitzetten voordat die wordt bereikt; of
               </p>
             </dd>
-
             <dt>Aanpassen</dt>
             <dd>
               <p>
                 De gebruiker mag de tijdslimiet aanpassen voordat deze is verstreken over een bereik van ten minste tien keer de standaardinstelling; of
               </p>
             </dd>
-
             <dt>Verlengen</dt>
             <dd>
               <p>
@@ -995,14 +970,12 @@
                 verlengen; of
               </p>
             </dd>
-
             <dt>Real-time uitzondering:</dt>
             <dd>
               <p>
                 De tijdslimiet is onderdeel van een realtime gebeurtenis (een veiling bijvoorbeeld) en er is geen alternatief voor de tijdslimiet mogelijk; of
               </p>
             </dd>
-
             <dt>Essentiële uitzondering:</dt>
             <dd>
               <p>
@@ -1011,7 +984,6 @@
                 en verlenging zou de activiteit ongeldig maken; of
               </p>
             </dd>
-
             <dt>20 uur uitzondering:</dt>
             <dd>
               <p>
@@ -1047,7 +1019,6 @@
                 is en
               </p>
             </dd>
-
             <dt>Automatisch actualiserend:</dt>
             <dd>
               <p>
@@ -1234,8 +1205,7 @@
         <content>
           <p xmlns="http://www.w3.org/1999/xhtml">
             <a>Webpagina's</a>
-            hebben titels die het onderwerp of doel beschrijven.
-          </p>
+            hebben titels die het onderwerp of doel beschrijven.</p>
         </content>
         <level>A</level>
         <file href="paginatitel"/>
@@ -1349,8 +1319,7 @@
         <content>
           <p xmlns="http://www.w3.org/1999/xhtml">
             <a>Paragraaf</a>
-            koppen worden gebruikt om de content te structureren.
-          </p>
+            koppen worden gebruikt om de content te structureren.</p>
           <p xmlns="http://www.w3.org/1999/xhtml" class="note">
             "Kop" wordt in algemene zin gebruikt met inbegrip van titels en andere manieren om een kop aan verschillende soorten content te geven.
           </p>
@@ -1413,7 +1382,6 @@
               <a>down-event</a>
               van de aanwijzer wordt niet gebruikt om enig onderdeel van de functie uit te voeren;
             </dd>
-
             <dt>Afbreken of ongedaan maken</dt>
             <dd>
               De functie wordt voltooid door het
@@ -1422,12 +1390,10 @@
               <a>mechanisme</a>
               beschikbaar om de functie af te breken voordat deze wordt voltooid of om de functie ongedaan te maken als deze is voltooid;
             </dd>
-
             <dt>Up reversal</dt>
             <dd>
               Met het up-event wordt elk resultaat van het voorgaande down-event ongedaan gemaakt;
             </dd>
-
             <dt>Essentieel</dt>
             <dd>
               Het voltooien van de functie met het down-event is
@@ -1486,7 +1452,6 @@
               <a>door toegankelijkheid ondersteunde</a>
               interface;
             </dd>
-
             <dt>Essentieel</dt>
             <dd>
               De beweging is
@@ -1516,17 +1481,14 @@
             <dd>
               Het doel is beschikbaar via een gelijkwaardige link of een bedieningselement van ten minste 44 bij 44 CSS-pixels op dezelfde pagina;
             </dd>
-
             <dt>Inline</dt>
             <dd>
               Het doel bevindt zich in een regel of tekstblok;
             </dd>
-
             <dt>User agent control</dt>
             <dd>
               De doelgrootte wordt bepaald door de user agent en wordt niet aangepast door de auteur.
             </dd>
-
             <dt>Essentieel</dt>
             <dd>
               Een specifieke weergave van het doel is
@@ -1601,7 +1563,7 @@
             <a>menselijke taal</a>
             van elke passage of zin in de content kan
             <a>door software bepaald</a>
-            worden, behalve waar het gaat om eigennamen, technische termen, woorden van onbepaalde taal en woorden of zinsdelen die deel zijn gaan uitmaken van het jargon van de onmiddellijk omringende tekst.
+            worden, behalve waar het gaat om eigennamen, technische termen, woorden uit een onbepaalde taal en woorden of zinsdelen die deel zijn gaan uitmaken van het jargon van de onmiddellijk omringende tekst.
           </p>
         </content>
         <level>AA</level>
@@ -1832,12 +1794,10 @@
             <dd>
               Verzendingen kunnen ongedaan gemaakt worden.
             </dd>
-
             <dt>Gecontroleerd</dt>
             <dd>
               Door de gebruiker ingevoerde gegevens worden gecontroleerd op invoerfouten en de gebruiker wordt de mogelijkheid gegeven om ze te verbeteren.
             </dd>
-
             <dt>Bevestigd</dt>
             <dd>
               Er is een mechanisme beschikbaar voor het beoordelen, bevestigen en verbeteren van informatie voordat de verzending wordt voltooid.
@@ -1874,12 +1834,10 @@
             <dd>
               Verzendingen kunnen ongedaan gemaakt worden.
             </dd>
-
             <dt>Gecontroleerd</dt>
             <dd>
               Door de gebruiker ingevoerde gegevens worden gecontroleerd op invoerfouten en de gebruiker wordt de mogelijkheid gegeven om ze te verbeteren.
             </dd>
-
             <dt>Bevestigd</dt>
             <dd>
               Er is een mechanisme beschikbaar voor het beoordelen, bevestigen en verbeteren van informatie voordat de verzending wordt voltooid.
@@ -1999,13 +1957,10 @@
         <a>content</a>
         die de primaire content illustreert of verduidelijkt
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">Een audioversie van een
         <a>webpagina</a>.</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">Een illustratie van een complex
         <a>proces</a>.</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een alinea die een samenvatting geeft van de belangrijkste uitkomsten en aanbevelingen van een onderzoekstudie.
       </p>
@@ -2017,11 +1972,9 @@
     <name>pointer inputs</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml" class="change">New</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         invoerapparaat dat een specifieke coördinaat (of een reeks coördinaten) op een scherm kan aanwijzen, zoals een muis, pen of aanraking.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         Zie ook
         <a href="https://www.w3.org/TR/pointerevents/#dfn-pointer">Definitie aanwijzergebeurtenissen</a>
@@ -2037,12 +1990,10 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         tekst die in niet-tekstuele vorm (bijvoorbeeld een afbeelding) is weergegeven om een bijzonder visueel effect te realiseren
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         <a>Tekst</a>
         die onderdeel is van een afbeelding die significant andere visuele content bevat, valt hier niet onder.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">Iemands naam op een naamkaartje in een foto.</p>
     </definition>
   </term>
@@ -2054,44 +2005,36 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         verkorte vorm van een woord, zin of naam waar de afkorting geen deel van de taal is geworden
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Hier zijn inbegrepen letterwoorden en acroniemen waarbij:
       </p>
-
       <ol xmlns="http://www.w3.org/1999/xhtml">
         <li>
           <p>
             <strong>letterwoorden</strong>
             verkorte vormen zijn van een naam of zin die zijn samengesteld uit de beginletters van woorden of lettergrepen die in die naam of zin bevat zijn
           </p>
-
           <p class="note">
             Niet gedefinieerd in alle talen.
           </p>
-
           <p class="example">
             SNCF is een Frans letterwoord dat de beginletters bevat van de
             <span lang="fr">Société Nationale des Chemins de Fer</span>, de Franse nationale spoorwegen.
           </p>
-
           <p class="example">
             ESP is een letterwoord voor extra-zintuiglijke perceptie (extrasensory perception).
           </p>
         </li>
-
         <li>
           <p>
             <strong>acroniemen</strong>
             zijn afgekorte vormen die zijn samengesteld uit de beginletters of delen van andere woorden (in een naam of zin) die soms uitgesproken worden als een woord
           </p>
-
           <p class="example">
             NOAA is een acroniem dat samengesteld is uit de beginletters van de National Oceanic and Atmospheric Administration in de Verenigde Staten.
           </p>
         </li>
       </ol>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Sommige bedrijven hebben wat ooit een letterwoord was aangenomen als hun bedrijfsnaam. In deze gevallen is de nieuwe naam van het bedrijf de letters (bijvoorbeeld Ecma) en het woord wordt niet langer beschouwd als een afkorting
       </p>
@@ -2108,7 +2051,6 @@
         <strong>door</strong>
         de controle heen) als een van het volgende waar is:
       </p>
-
       <ol xmlns="http://www.w3.org/1999/xhtml">
         <li>
           er zijn niet meer dan drie
@@ -2117,15 +2059,12 @@
           <strong>rode flitsen</strong>
           binnen elke periode van één seconde; of
         </li>
-
         <li>
           het totale oppervlak van gelijktijdig optredende flitsen beslaat niet meer dan in totaal 0,006 steradialen binnen elk segment van 10 graden van het visueel veld op het scherm (25% van elk segment van 10 graden van het visueel veld op het scherm) op
           gangbare kijkafstand
         </li>
       </ol>
-
       <p xmlns="http://www.w3.org/1999/xhtml">waar:</p>
-
       <ul xmlns="http://www.w3.org/1999/xhtml">
         <li>
           Een
@@ -2135,38 +2074,32 @@
           van 10% of meer van de maximum relatieve luminantie waar de relatieve luminantie van de donkerste afbeelding beneden 0,80 is; en waar "een koppel tegengestelde veranderingen" een stijging is gevolgd door een daling, of een daling gevolgd door een
           stijging, en
         </li>
-
         <li>
           Een
           <strong>rode flits</strong>
           is gedefinieerd als een paar tegengestelde overgangen waaronder één naar verzadigd rood.
         </li>
       </ul>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         <em>Uitzondering:</em>
         Het flitsen van een fijnmazig en evenwichtig patroon zoals witte ruis of een alternerend schaakbordpatroon met "vierkanten" kleiner dan 0,1 graad (van het visuele veld op karakteristieke kijkafstand) op een kant is niet in strijd met de
         drempelwaarden.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Voor algemene software of webcontent zal, als de content wordt bekeken op een scherm van 1024 x 768 pixels, een rechthoek van 341 x 256 pixels op een willekeurige plek op het beeldscherm een goede schatting zijn voor een visueel veld van 10 graden
         voor standaard schermafmetingen en kijk afstanden (bijvoorbeeld een scherm van 15-17 inch op een kijkafstand van 22-26 inch). (Beeldschermen met een hogere resolutie die dezelfde weergave van de content vertonen leveren kleinere en veiliger beelden
         op, dus het zijn lagere resoluties die gebruikt worden om de drempels te definiëren).
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Een overgang is de verandering in relatieve luminantie (of relatieve luminantie/kleur voor rode flitsen) tussen naast elkaar liggende pieken en dalen in een grafiek van de meting van relatieve luminantie (of relatieve luminantie/kleur voor rode
         flitsen) tegen de tijd. Een flits bestaat uit twee tegengestelde overgangen.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         De huidige definitie waar in de branche voor
         <strong>"paar tegengestelde overgangen, waaronder één naar verzadigd rood"</strong>
         mee wordt gewerkt is waar, voor elk van beide of beide toestanden in elke overgang R/(R + G + B) ≥ 0,8 en de verandering in de waarde van (R - G - B)x320 &gt; 20 is voor beide overgangen (negatieve waarden van (R - G - B)x320 worden op nul gesteld).
         R, G, B waarden variëren van 0-1 zoals gespecificeerd in de definitie van "relatieve luminantie". [[?HARDING-BINNIE]]
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Er zijn instrumenten beschikbaar die een analyse zullen uitvoeren van schermopnames. Er is evenwel geen instrument noodzakelijk voor deze voorwaarde als het flitsen kleiner of gelijk is aan 3 flitsen per seconde. Content komt automatisch door de
         controle (zie #1 en #2 hierboven).
@@ -2180,7 +2113,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         document dat in correcte volgorde gegeven tekstbeschrijvingen van op tijd gebaseerde visuele en auditieve informatie bevat en een middel aanbiedt om de uitkomsten van om het even welke op tijd gebaseerde interactie te realiseren
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Een scenario dat gebruikt wordt om de gesynchroniseerde-media-content te creëren zou alleen aan deze definitie voldoen als het verbeterd werd om de uiteindelijke gesynchroniseerde media na editing accuraat te representeren.
       </p>
@@ -2202,7 +2134,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         de technologie van geluidsweergave
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Audio kan synthetisch worden gecreëerd (met inbegrip van spraaksynthese), opgenomen vanuit echte geluiden of beide.
       </p>
@@ -2216,24 +2147,20 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         gesproken tekst die is toegevoegd aan het geluidsspoor om belangrijke visuele details te beschrijven, die niet vanuit het hoofdgeluid alleen zijn te begrijpen
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Audiodescriptie van
         <a>video</a>
         levert informatie over handelingen, personages, sceneveranderingen, tekst op het scherm en andere visuele content.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Bij standaard audiodescriptie wordt de gesproken tekst toegevoegd tijdens bestaande pauzes in de dialoog. (Zie ook
         <a>verlengde audiodescriptie</a>.)
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Waar alle
         <a>video</a>-informatie al aangeboden wordt in bestaande
         <a>audio</a>, is geen aanvullende audiodescriptie nodig.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Wordt ook wel "videobeschrijving" genoemd.
       </p>
@@ -2247,7 +2174,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         periode van zes jaar die begint tussen vijf en zeven jaar, mogelijk zonder enige vooropleiding
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Deze definitie is gebaseerd op de International Standard Classification of Education van de [[UNESCO]].
       </p>
@@ -2258,7 +2184,6 @@
     <name>bewegingsanimatie</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml" class="change">New</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         de toevoeging van stappen tussen stadia om de illusie van beweging of het gevoel van een soepele overgang te creëren
       </p>
@@ -2275,11 +2200,9 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         letterwoord voor "Completely Automated Public Turing test to tell Computers and Humans Apart"
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         CAPTCHA-tests vragen vaak aan de gebruiker om tekst in te typen die getoond wordt in een onduidelijk gemaakte afbeelding of door middel van vervormd geluid.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Een Turing-test is een willekeurig systeem van testen die ontworpen zijn om een mens van een computer te onderscheiden. Ze is genoemd naar de beroemde informaticus Alan Turing. De term werd bedacht door onderzoekers aan de universiteit van Carnegie
         Mellon.
@@ -2297,20 +2220,16 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         een deel van de content die door gebruikers wordt waargenomen als een enkel bedieningselement voor een duidelijke functie
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Meerdere componenten van de gebruikersinterface kunnen geïmplementeerd worden als een enkel programmeerbaar element. Componenten zoals hier bedoeld zijn niet gebonden aan programmeertechnieken, maar aan wat de gebruiker waarneemt als aparte
         bedieningselementen.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Componenten van de gebruikersinterface omvatten formulierelementen en links, evenals door scripts gegenereerde componenten.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Wat hier wordt bedoeld met "component" of "component van de gebruikersinterface" wordt soms ook "element van de gebruikersinterface" genoemd.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Voorbeeld: Een applet heeft een "bedieningselement" dat gebruikt kan worden om per regel of pagina of op willekeurige wijze door content te bewegen. Aangezien elk van die drie een naam zou moeten hebben en onafhankelijk instelbaar zou moeten zijn,
         zouden ze elk een "component van de gebruikersinterface" zijn.
@@ -2324,12 +2243,10 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         versie die:
       </p>
-
       <ol xmlns="http://www.w3.org/1999/xhtml">
         <li>
           conformeert op het aangegeven niveau en
         </li>
-
         <li>
           volledig dezelfde informatie en
           <a>functionaliteit</a>
@@ -2337,66 +2254,53 @@
           <a>menselijke taal</a>
           en
         </li>
-
         <li>
           even actueel is als de niet-conforme content en
         </li>
-
         <li>
           <p>
             waarvoor ten minste één van de volgende zaken waar is:
           </p>
-
           <ol>
             <li>
               de conforme versie kan bereikt worden vanuit de niet-conforme pagina via een door
               <a>toegankelijkheid ondersteund</a>
               <a>mechanisme</a>, of
             </li>
-
             <li>
               de niet-conforme versie kan slechts bereikt worden vanuit de conforme versie of
             </li>
-
             <li>
               de niet-conforme versie kan slechts bereikt worden vanuit een conforme pagina die ook een mechanisme levert om de conforme versie te bereiken
             </li>
           </ol>
         </li>
       </ol>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         In deze definitie betekent "kan slechts bereikt worden" dat er een mechanisme is, zoals een conditionele verwijzing, die de gebruiker verhindert de niet conforme versie te "bereiken" ("laden"), tenzij de gebruiker direct via de conforme versie is
         gekomen.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         De alternatieve versie hoeft niet pagina voor pagina overeen te stemmen met het origineel (de conforme alternatieve versie kan bijvoorbeeld bestaan uit meerdere pagina's).
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Als versies in meerdere talen beschikbaar zijn, dan zijn voor elke aangeboden taal conforme alternatieve versies vereist.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Er kunnen alternatieve versies geleverd worden om verschillende technologie omgevingen of gebruikersgroepen van dienst te zijn. Elke versie moet zo conform mogelijk zijn. Eén versie zou volledig conform moeten zijn om aan<a href="#cc1">conformiteitseis 1</a>
         tegemoet te komen.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         De conforme alternatieve versie hoeft zich niet te bevinden binnen de reikwijdte van de conformiteitsverklaring of op dezelfde website, zolang ze even vrijelijk beschikbaar is als de niet-conforme versie.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Alternatieve versies moeten niet verward worden met
         <a>aanvullende content</a>, die de oorspronkelijke pagina ondersteunt en de begrijpelijkheid vergroot.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Het binnen de content instellen van gebruikersvoorkeuren om een conforme versie te produceren is een acceptabel mechanisme om een andere versie te bereiken, zolang de methode die gebruikt wordt om de voorkeuren in te stellen door toegankelijkheid
         ondersteund wordt.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         Zie
         <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding Conforming Alternate Versions</a>
@@ -2435,7 +2339,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         hulptekst die informatie aanbiedt in verband met de functie die momenteel wordt uitgevoerd
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Duidelijke labels kunnen dienst doen als contextgevoelige hulp.
       </p>
@@ -2454,32 +2357,25 @@
         <a>webpagina's</a>
         die, als ze gemaakt worden zonder dat de gebruiker er bewust van is, gebruikers die niet in staat zijn de hele pagina tegelijkertijd te bekijken kan desoriënteren
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         Veranderingen in context zijn onder meer veranderingen van:
       </p>
-
       <ol xmlns="http://www.w3.org/1999/xhtml">
         <li>
           <a>user agent</a>;</li>
-
         <li>
           <a>weergavekader</a>;</li>
-
         <li>
           focus;
         </li>
-
         <li>
           <a>content</a>
           die de betekenis van de webpagina verandert.</li>
       </ol>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Een verandering van content is niet altijd een contextwijziging. Veranderingen in content, zoals een uitklapbare lijst, dynamisch menu of tab-toets bediening veranderen niet noodzakelijk de context, tenzij ze ook één van de bovengenoemde dingen
         (bijvoorbeeld focus) veranderen.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een nieuw venster openen, de focus naar een andere component verplaatsen, naar een nieuwe pagina gaan (waaronder alles wat voor een gebruiker eruit zou zien alsof zij/hij naar een nieuwe pagina was verplaatst) of een significante herordening van de
         content van een pagina, zijn voorbeelden van contextwijzigingen.
@@ -2491,44 +2387,34 @@
     <name>contrastverhouding</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml">(L1 + 0.05) / (L2 + 0.05), waar</p>
-
       <ul xmlns="http://www.w3.org/1999/xhtml">
         <li>
           L1 de
           <a>relatieve luminantie</a>
           van de lichtste van de kleuren is en
         </li>
-
-        <li>
-          L2 de
+        <li>L2 de
           <a>relatieve luminantie</a>
-          van de donkerste van de kleuren.
-        </li>
+          van de donkerste van de kleuren.</li>
       </ul>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Contrastverhoudingen kunnen variëren van 1 tot 21 (gewoonlijk geschreven als 1:1 tot 21:1).
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Omdat auteurs geen zeggenschap hebben over gebruikersinstellingen met betrekking tot de weergave van tekst (bijvoorbeeld font smoothing en anti-aliasing), kan de contrastverhouding voor tekst worden geëvalueerd terwijl anti-aliasing uitstaat.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Ten behoeve van succescriteria 1.4.3 en 1.4.6 wordt het contrast gemeten met betrekking tot de gespecificeerde achtergrond waarop de tekst bij normaal gebruik wordt weergegeven. Indien geen achtergrondkleur is gespecificeerd, wordt verondersteld dat
         dit wit is.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Achtergrondkleur is de gespecificeerde kleur van de content waarop de tekst bij normaal gebruik wordt weergegeven. Het is een fout als wel de kleur van de tekst is gespecificeerd, maar niet de achtergrondkleur, omdat de standaard door de gebruiker
         gebruikte achtergrondkleur niet bekend is en dus niet kan worden gebruikt om te meten of het contrast volstaat. Om dezelfde reden is het een fout als wel de achtergrondkleur maar niet de tekstkleur is gespecificeerd.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Als er een rand om de letter is, kan de rand contrast toevoegen en de rand zou gebruikt worden in de berekening van het contrast tussen de letter en zijn achtergrond. Een smalle rand om de letter zou gebruikt worden als letter. Een brede rand om de
         letter die de inwendige details van de letters invult doet dienst als een halo en zou beschouwd worden als achtergrond.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         WCAG-conformiteit moet worden geëvalueerd voor in de content gespecificeerde kleurparen waarvan een auteur zou verwachten dat ze in een karakteristieke presentatie naast elkaar verschijnen. Auteurs hoeven geen ongebruikelijke vormen van presentatie
         in acht te nemen, zoals door de user agent gemaakte kleurveranderingen, behalve als ze veroorzaakt worden door code van de auteur.
@@ -2550,9 +2436,7 @@
     <name>css pixels</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml" class="change">New</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">visuele hoek van circa 0,0213 graden</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         Een CSS-pixel is een gangbare meeteenheid voor alle lengtes en afmetingen in CSS. Deze eenheid is dichtheidsonafhankelijk en verschilt van de werkelijke hardwarepixels in een scherm. User agents en besturingssystemen moeten ervoor zorgen dat de
         CSS-pixel zo dicht mogelijk bij de
@@ -2566,7 +2450,6 @@
     <name>dezelfde functionaliteit</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml">zelfde resultaat indien gebruikt</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een "zoek"-knop op één webpagina en een "vind"-knop op een andere webpagina kunnen allebei een veld hebben voor het invoeren van een term en het vermelden van onderwerpen in de website die verband houden met de ingevoerde term. In dat geval zouden
         zij dezelfde functionaliteit hebben, maar niet consistent gelabeld zijn.
@@ -2578,7 +2461,6 @@
     <name>dezelfde relatieve volgorde</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml">zelfde positie ten opzichte van andere onderdelen</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Onderdelen worden geacht in dezelfde relatieve volgorde te zijn, zelfs als andere onderdelen worden ingevoegd of verwijderd uit de oorspronkelijke volgorde. Openklappende navigatiemenu's kunnen bijvoorbeeld een extra detailniveau invoegen of een
         secundaire navigatieparagraaf kan in de leesvolgorde worden ingevoegd.
@@ -2590,11 +2472,9 @@
     <name>doelgebied</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml" class="change">New</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         deel van het scherm waar een actie met de aanwijzer kan worden uitgevoerd, zoals een interactief gedeelte van een component van de gebruikersinterface
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Wanneer er sprake is van overlapping tussen twee of meer doelgebieden voor aanraken (touch), dan moet het overlappende gedeelte niet worden meegenomen bij het berekenen van de grootte van het doel, tenzij de overlappende doelen dezelfde actie
         uitvoeren of dezelfde pagina openen.
@@ -2611,11 +2491,9 @@
         <a>user agents</a>, met inbegrip van
         <a>hulptechnologieën</a>, deze informatie kunnen oproepen en in verschillende modaliteiten aan gebruikers kunnen tonen.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Bepaald in een opmaaktaal uit elementen en attributen die direct gebruikt worden door algemeen beschikbare hulptechnologie.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Bepaald uit technologiegebonden gegevensstructuren in een niet-opmaaktaal en aan hulptechnologie getoond via een toegankelijkheid-API die ondersteund wordt door algemeen beschikbare hulptechnologie.
       </p>
@@ -2632,12 +2510,10 @@
         <a>relaties</a>
         met een link en die, in combinatie met de linktekst, in verschillende modaliteiten aan de gebruikers wordt gepresenteerd
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         In HTML is informatie, die door software bepaalbaar is uit een link in het Engels, de tekst die zich in dezelfde alinea, lijst, of tabelcel bevindt als de link, of de informatie bevindt zich in een tabelkopcel die geassocieerd is met de tabelcel die
         de link bevat.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Aangezien schermlezers leestekens interpreteren, kunnen ze ook de context uit de lopende zin aanbieden wanneer de focus op een link in die zin komt.
       </p>
@@ -2664,11 +2540,9 @@
         van de gebruikers, alsmede door de toegankelijkheidseigenschappen in browsers en andere
         <a>user agents</a>
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         Om te kwalificeren als een door toegankelijkheid ondersteund gebruik van een web content technologie (of eigenschap van een technologie) moet voor een web content technologie (of -eigenschap) aan zowel 1 als 2 voldaan zijn:
       </p>
-
       <ol xmlns="http://www.w3.org/1999/xhtml">
         <li>
           <p>
@@ -2680,61 +2554,50 @@
             <a>menselijke taal</a>
             (talen) van de content,
           </p>
-
           <p>
             <strong>EN</strong>
           </p>
         </li>
-
         <li>
           <p>
             <strong>De web content technologie moet door toegankelijkheid ondersteunde user agents hebben die beschikbaar zijn voor gebruikers.
             </strong>
             Dit betekent dat ten minste één van de vier volgende verklaringen waar is:
           </p>
-
           <ol>
             <li>
               <p>
                 De technologie wordt van nature ondersteund in wijdverbreide user agents die ook door toegankelijkheid ondersteund worden (zoals HTML en CSS);
               </p>
-
               <p>
                 <strong>OF</strong>
               </p>
             </li>
-
             <li>
               <p>
                 De technologie wordt ondersteund in een breed wijdverbreide plug-in die ook door toegankelijkheid ondersteund wordt;
               </p>
-
               <p>
                 <strong>OF</strong>
               </p>
             </li>
-
             <li>
               <p>
                 De content is beschikbaar in een gesloten omgeving, zoals een universiteits- of bedrijfsnetwerk, waar de user agent die door de technologie wordt vereist en door de organisatie gebruikt wordt ook door toegankelijkheid ondersteund wordt;
               </p>
-
               <p>
                 <strong>OF</strong>
               </p>
             </li>
-
             <li>
               <p>
                 De user agent(s) die de technologie ondersteunen worden door toegankelijkheid ondersteund en zijn beschikbaar voor download of aanschaf op een manier die:
               </p>
-
               <ul>
                 <li>
                   een persoon met een functiebeperking niet meer kost dan een persoon zonder functiebeperking
                   <strong>en</strong>
                 </li>
-
                 <li>
                   even makkelijk is te vinden en te verkrijgen voor een persoon met functiebeperking als voor een persoon zonder functiebeperking.
                 </li>
@@ -2743,12 +2606,10 @@
           </ol>
         </li>
       </ol>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         De WCAG-werkgroep en het W3C specificeren niet welke en hoeveel ondersteuning door hulptechnologieën er moet zijn voor het gebruik van een specifieke webtechnologie, zodat die geclassificeerd kan worden als door toegankelijkheid ondersteund. (Zie
         <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Niveau of Assistive Technology Support Needed for "Accessibility Support"</a>).
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Webtechnologieën kunnen gebruikt worden op manieren die niet door toegankelijkheid ondersteund worden, zolang er niet op
         <a>gesteund wordt</a>
@@ -2756,18 +2617,15 @@
         <a href="#cc4">Conformance Criterion 4</a>: Slechts toegankelijkheid ondersteunende manieren om technologieën te gebruiken en
         <a href="#cc5">Conformance Criterion 5</a>: Niet-interferentie.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Als een
         <a>webtechnologie</a>
         wordt toegepast op een manier die "door toegankelijkheid ondersteund wordt", houdt dit niet in dat de hele technologie of alle mogelijke toepassingen van de technologie ondersteund worden. De meeste technologieën, inclusief HTML, missen ondersteuning
         voor ten minste één eigenschap of toepassing. Pagina's zijn alleen conform aan WCAG als er op vertrouwd kan worden dat de toepassing van de door toegankelijkheid ondersteunde technologie voldoet aan de WCAG-eisen.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Als men web content technologieën citeert die meerdere versies hebben, dan moet(en) de ondersteunde versie(s) worden gespecificeerd.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Eén manier voor auteurs om toepassingen van een technologie te vinden die door toegankelijkheid ondersteund zijn, zou zijn om compilaties van toepassingen te raadplegen die volgens documentatie door toegankelijkheid ondersteund zijn. (Zie
         <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding Accessibility-Supported Web Technology Uses</a>.) Auteurs, bedrijven, technologieaanbieders, of anderen kunnen door toegankelijkheid ondersteunde manieren om web content
@@ -2796,7 +2654,6 @@
         het doel kan niet bepaald worden uit de link en uit alle informatie van de webpagina die aan de gebruiker tegelijkertijd met de link wordt gepresenteerd (d.w.z. lezers zonder functiebeperking zouden niet weten wat een link zou doen tot ze hem
         activeerden
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Het woord guava in de volgende zin "Eén van de opmerkelijke exportartikelen is guava" is een link. De link zou kunnen leiden naar een definitie van guava, een grafiek die de hoeveelheid geëxporteerde guava weergeeft of een foto van mensen die guava
         oogsten. Tot de link wordt geactiveerd zijn alle lezers onkundig en de persoon met een functiebeperking wordt op geen enkele wijze benadeeld
@@ -2808,7 +2665,6 @@
     <name>enkele aanwijzer</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml" class="change">new</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         aanwijzerinvoer waarbij slechts sprake is van één contactpunt op het scherm, zoals eenmaal tikken of klikken, dubbeltikken en -klikken, lang indrukken en padgebaseerde bewegingen.
       </p>
@@ -2835,13 +2691,11 @@
         <a>relatieve luminantie</a>
         dat toevallen kan veroorzaken bij sommige mensen als de veranderingen groot genoeg zijn en in het juiste frequentiegebied vallen
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Zie
         <a>algemene flits- en rodeflitsdrempelwaarden</a>
         voor informatie over flitssoorten die niet zijn toegestaan.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">Zie ook
         <a>knipperen</a>.</p>
     </definition>
@@ -2875,7 +2729,6 @@
         vertaling van één taal, in het algemeen een gesproken taal, in een
         <a>gebarentaal</a>
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Echte gebarentalen zijn onafhankelijke talen die niet gerelateerd zijn aan de gesproken taal/talen van hetzelfde land of dezelfde streek.
       </p>
@@ -2888,11 +2741,9 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         gegevens waarvan de bedoeling is dat ze door gebruikers ingezien en (desgewenst) gewijzigd worden
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Dit verwijst niet naar zaken als internetlogs en monitorgegevens van zoekmachines.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Naam- en adresvelden voor het account van een gebruiker.
       </p>
@@ -2903,9 +2754,7 @@
     <name>gebruikersinactiviteit</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml" class="change">new</p>
-      <p xmlns="http://www.w3.org/1999/xhtml">
-        een aaneengesloten periode waarin geen gebruikersacties plaatsvinden
-      </p>
+      <p xmlns="http://www.w3.org/1999/xhtml">een aaneengesloten periode waarin geen gebruikersacties plaatsvinden</p>
       <p xmlns="http://www.w3.org/1999/xhtml">
         De manier waarop dit wordt bijgehouden, wordt bepaald door de website of applicatie.
       </p>
@@ -2948,27 +2797,22 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         (tekst) met een lettergrootte van ten minste 18 punt of 14 punt vetgedrukt of een lettergrootte die voor Chinese, Japanse en Koreaanse (CJK) lettertypen een equivalente grootte oplevert
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Lettertypen met buitengewoon dunne strepen of ongewone kenmerken en eigenschappen die de herkenbaarheid van hun lettervormen verminderen zijn moeilijker te lezen, in het bijzonder bij lagere contrastniveaus.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Lettergrootte is de grootte wanneer de content wordt aangeboden. Het omvat niet het herschalen dat door de gebruiker kan worden gedaan.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         De feitelijke grootte van het karakter dat de gebruiker ziet, is afhankelijk van zowel de door de auteur gedefinieerde grootte als van het beeldscherm van de gebruiker of de instelling van de user agent. Voor veel gangbare lettertypen is 14- en
         18-punts ruwweg equivalent met 1,2 en 1,5 em, of met 120% of 150% van de standaardgrootte voor korpstekst (aannemend dat het hoofdlettertype 100% is), maar auteurs zouden dit moeten controleren voor de specifieke lettertypen die ze gebruiken. Als
         lettertypen gedefinieerd worden in relatieve eenheden, wordt de feitelijke lettergrootte voor vertoning door de user agent berekend. De lettergrootte moet worden verkregen van de user agent, of berekend op basis van lettertypemetriek, zoals de user
         agent doet bij de evaluatie van dit succescriterium. Gebruikers die beperkt zicht hebben, zouden verantwoordelijk zijn voor het kiezen van de geschikte instellingen.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Als tekst wordt gebruikt zonder specificatie van de lettergrootte, zou de kleinste lettergrootte die op de meest gangbare browsers voor ongespecificeerde tekst gebruikt wordt een redelijke maat zijn om voor het lettertype aan te nemen. Als een kop
         van niveau 1 wordt weergegeven in 14- of meerpunts vet op de meest gangbare browsers, mag redelijkerwijs worden aangenomen dat het grote tekst is. Relatieve schaling kan op een soortgelijke manier worden berekend uit de standaardmaten.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         De 18- en 14-punts-lettergroottes voor romeinse teksten worden afgeleid uit de minimumgrootte voor grote letters (14-punts) en de grootste standaardlettergrootte (18-punts). De "equivalente" groottes voor andere lettertypen, zoals de CJK-talen,
         zouden de minimale grootte voor grote tekst en de daaropvolgende grotere standaardgrootte voor die talen zijn.
@@ -2984,50 +2828,40 @@
         hardware en/of software die handelt als een
         <a>user agent</a>, of samen met een algemeen gangbare user agent optreedt, om functionaliteit aan te bieden om te voldoen aan de eisen van gebruikers met functiebeperkingen die verder gaan dan wat door gangbare user agents wordt aangeboden
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Door een hulptechnologie aangeboden functionaliteit omvat alternatieve vormen van weergave (bijvoorbeeld als synthetische spraak of vergrote content), alternatieve invoermethoden (bijvoorbeeld stem), aanvullende navigatie- of oriëntatiemechanismen,
         en contenttransformaties (bijvoorbeeld om tabellen toegankelijker te maken).
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Hulptechnologieën communiceren vaak gegevens en boodschappen met algemeen gangbare user agents door APIs te gebruiken en te monitoren.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Het verschil tussen algemeen gangbare user agents en hulptechnologieën is niet absoluut. Veel gangbare user agents bieden een aantal opties aan om mensen met een functiebeperking te helpen. Het fundamentele verschil is dat gangbare user agents mikken
         op brede en diverse doelgroepen die doorgaans mensen met en zonder functiebeperkingen bevatten. Hulptechnologieën mikken op nauwkeurig gedefinieerde bevolkingsgroepen van gebruikers met specifieke functiebeperkingen. De door een hulptechnologie
         geleverde assistentie is meer specifiek en geschikt voor de behoeften van de beoogde gebruikers. De algemeen gangbare user agent kan belangrijke functionaliteit leveren aan hulptechnologieën als het oproepen van webcontent uit programmaobjecten of
         het parsen van opmaak tot identificeerbare pakketten.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Hulptechnologieën die belangrijk zijn in de context van dit document omvatten onder andere:
       </p>
-
       <ul xmlns="http://www.w3.org/1999/xhtml">
         <li>
           schermvergroters en andere visuele leeshulpmiddelen, die gebruikt worden door mensen met visuele, perceptuele en physical print functiebeperkingen om lettertype, grootte, spatiëring, kleur, synchronisatie met spraak, etc. te veranderen om de visuele
           leesbaarheid van de weergegeven tekst en afbeeldingen te verbeteren;
         </li>
-
         <li>
           schermlezers, die gebruikt worden door mensen die blind zijn om tekstuele informatie te lezen door middel van synthetische spraak of braille;
         </li>
-
         <li>
           software die tekst in synthetische spraak omzet, gebruikt door mensen met cognitieve, taal- en leermoeilijkheden;
         </li>
-
         <li>
           spraakherkenningsoftware, die gebruikt kan worden door mensen met bepaalde fysieke functiebeperkingen;
         </li>
-
         <li>
           alternatieve toetsenborden, die gebruikt worden door mensen met bepaalde fysieke functiebeperkingen om het toetsenbord te simuleren (met inbegrip van alternatieve toetsenborden die "head pointers", eenknopsschakelaars, zuig-/blaasschakelaars en
           andere speciale invoerapparatuur gebruiken);
         </li>
-
         <li>
           alternatieve aanwijsapparaten, die gebruikt worden door mensen met zekere fysieke functiebeperkingen om muisaanwijzing en knopactiveringen te simuleren.
         </li>
@@ -3042,19 +2876,15 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         uitdrukking waarvan de betekenis niet kan worden afgeleid uit de betekenis van de afzonderlijke woorden en waarin de specifieke woorden niet veranderd kunnen worden zonder dat de uitdrukking haar betekenis verliest
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Idiomatische uitdrukkingen kunnen niet direct – woord voor woord – worden vertaald zonder dat de uitdrukking haar (culturele of taalgebonden) betekenis verliest.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         In het Engels betekent "spilling the beans" "een geheim onthullen." Maar "knocking over the beans" of "spilling the vegetables" betekenen niet hetzelfde.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         In het Japans kan de uitdrukking "<span lang="ja">さじを投げる</span>" letterlijk vertaald worden met "hij gooit de lepel," maar het betekent dat hij niets meer kan doen en het uiteindelijk opgeeft.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         In het Nederlands kan "<span lang="nl">Hij ging met de kippen op stok</span>" letterlijk vertaald worden met ""He went to roost with the chickens," maar het betekent dat hij vroeg naar bed ging.
       </p>
@@ -3065,7 +2895,6 @@
     <name>informatief</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml">ter informatie en niet vereist voor conformiteit</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Content die voor
         <a>conformiteit</a>, is vereist wordt aangeduid met "<a>normatief</a>".
@@ -3076,18 +2905,13 @@
     <id>dfn-invoerfout</id>
     <name>invoerfout</name>
     <definition>
-      <p xmlns="http://www.w3.org/1999/xhtml">
-        door de gebruiker geleverde informatie die niet geaccepteerd wordt
-      </p>
-
+      <p xmlns="http://www.w3.org/1999/xhtml">door de gebruiker geleverde informatie die niet geaccepteerd wordt</p>
       <div xmlns="http://www.w3.org/1999/xhtml" class="note">
         <p>Dit omvat:</p>
-
         <ol>
           <li>
             informatie die de webpagina vereist, maar door de gebruiker wordt weggelaten;
           </li>
-
           <li>
             informatie die door de gebruiker wordt ingevoerd, maar buiten de vereiste gegevensindeling of waardenbereik valt.
           </li>
@@ -3102,7 +2926,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         woorden die op een bijzondere manier door mensen in een bepaald vakgebied worden gebruikt
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Het woord StickyKeys is jargon uit het vakgebied van de hulptechnologie/toegankelijkheid.
       </p>
@@ -3116,7 +2939,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         het heen en weer schakelen tussen twee visuele toestanden op een manier die bedoeld is om aandacht te trekken
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Zie ook
         <a>flits</a>. Het is mogelijk dat iets groot genoeg is en helder genoeg knippert met de juiste frequentie om ook geclassificeerd te worden als flits.
@@ -3136,13 +2958,11 @@
         <a>webcontent</a>
         te identificeren
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Een label wordt aan alle gebruikers gepresenteerd, terwijl de
         <a>naam</a>
         verborgen kan zijn en alleen wordt getoond door hulptechnologie. In veel (maar niet alle) gevallen zijn de naam en het label hetzelfde.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         De term label is niet beperkt tot het label-element in HTML.
       </p>
@@ -3158,7 +2978,6 @@
         <a>basisonderwijs</a>
         eindigt.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Deze definitie is gebaseerd op de
         <span lang="en" xml:lang="en">International Standard Classification of Education van de UNESCO</span>.
@@ -3185,12 +3004,10 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         informatie die is opgenomen tijdens een reële gebeurtenis in de samenleving en doorgestuurd naar de ontvanger met niet meer dan een uitzendvertraging
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Een uitzendvertraging is een korte (doorgaans geautomatiseerde) vertraging, die bijvoorbeeld gebruikt wordt om de uitzender tijd te geven om de audio- of video-invoer te serialiseren of te censureren, maar niet voldoende om significante editing toe
         te staan.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Als informatie volledig wordt gegenereerd door een computer, is ze niet direct.
       </p>
@@ -3229,7 +3046,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         <a>proces</a>
         of techniek om een resultaat te bereiken</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Het mechanisme kan expliciet aangeboden worden in de content of er kan
         <a>gesteund worden</a>
@@ -3237,7 +3053,6 @@
         <a>user agents</a>, met inbegrip van
         <a>hulptechnologieën</a>.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Het mechanisme moet voldoen aan alle succescriteria voor het niveau in de conformiteitsclaim.
       </p>
@@ -3250,7 +3065,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         medium dat niet meer informatie presenteert dan al in de tekst wordt gepresenteerd (direct of via tekstalternatieven)
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Er wordt een media-alternatief voor tekst aangeboden voor degenen die baat hebben bij alternatieve representaties van tekst. Mediumalternatieven voor tekst kunnen louter-geluid, louter-videobeeld (waaronder gebarentaalvideo), of audio-video zijn.
       </p>
@@ -3264,7 +3078,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         taal die wordt gesproken, geschreven of getekend (door visuele of tastbare middelen) om met mensen te communiceren
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">Zie ook
         <a>gebarentaal</a>.</p>
     </definition>
@@ -3276,13 +3089,11 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         tekst waardoor software een component binnen webcontent kan identificeren aan de gebruiker
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         De naam kan verborgen zijn en alleen door hulptechnologie vertoond worden, terwijl een
         <a>label</a>
         aan alle gebruikers wordt gepresenteerd. In veel (maar niet alle) gevallen zijn de label en de naam hetzelfde.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dit staat los van het name-attribuut in HTML.</p>
     </definition>
   </term>
@@ -3297,7 +3108,6 @@
         <a>menselijke taal</a>
         uitdrukt
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Hierbij is inbegrepen
         <a>ASCII-art</a>
@@ -3319,11 +3129,9 @@
     <name>normatief</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml">voor conformiteit vereist</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Men kan op verschillende specifieke manieren aan dit document conformeren.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Content die geïdentificeerd is als "<a>informatief</a>" of "niet-normatief" is voor
         <a>conformiteit</a>
@@ -3340,30 +3148,24 @@
         <a>tekstalternatief</a>
         voor zowel gesproken als andersoortige audio-informatie, die bedoeld is om de mediacontent te begrijpen
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Ondertitels voor doven en slechthorenden zijn vergelijkbaar met ondertitels voor dialoog, behalve dat ondertitels voor doven en slechthorenden niet alleen de inhoud van de gesproken dialoog overbrengen, maar ook equivalenten voor andersoortige
         audio-informatie die nodig is om de programma-inhoud te begrijpen, met inbegrip van geluidseffecten, muziek, gelach, locatie en identificatie van de spreker.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Gesloten ondertitels voor doven en slechthorenden zijn equivalenten die bij sommige spelers aan- en uitgezet kunnen worden.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Open ondertitels voor doven en slechthorenden zijn alle ondertitels voor doven en slechthorenden die niet uitgezet kunnen worden. Bijvoorbeeld, als ondertitels voor doven en slechthorenden visueel equivalente
         <a>afbeeldingen van tekst zijn</a>, ingebed in
         <a>video</a>.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Ondertitels voor doven en slechthorenden horen relevante informatie in de video niet onduidelijk te maken of in de weg te staan.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         In sommige landen worden ondertitels voor doven en slechthorenden ondertitels genoemd.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         <a>Audiodescripties</a>
         kunnen ondertitels voor doven en slechthorenden krijgen, maar dat hoeft niet, aangezien het beschrijvingen zijn van informatie die visueel al gepresenteerd wordt.
@@ -3377,7 +3179,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         woorden die gebruikt worden op een speciale manier die van gebruikers vereist dat ze precies weten welke definitie ze moeten toepassen om de content correct te begrijpen
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         De term "gig" betekent iets anders als ze voorkomt in een discussie over muziekconcerten dan als ze voorkomt in een artikel over computer harde schijf ruimte, maar de juiste definitie kan bepaald worden uit de context. Daarentegen wordt het woord
         "tekst" op een heel specifieke manier gebruikt in WCAG 2.0, dus een definitie wordt gegeven in de verklarende woordenlijst.
@@ -3391,7 +3192,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         op een desktop/laptop scherm van de meest gangbare grootte met gemaximaliseerd weergavekader
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Aangezien mensen hun computers in het algemeen verscheidene jaren houden, is het het beste om, als deze evaluatie wordt gemaakt, niet af te gaan op de meest recente desktop/laptop-schermresoluties, maar de gangbare desktop/laptop-schermresoluties
         gemiddeld over diverse jaren in acht te nemen.
@@ -3405,7 +3205,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         Een op zichzelf staand gedeelte van geschreven content die gaat over één of meer gerelateerde onderwerpen of ideeën
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Een paragraaf kan bestaan uit één of meer alinea's en grafieken, tabellen, lijsten en subparagrafen bevatten.
       </p>
@@ -3440,11 +3239,9 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         serie handelingen van de gebruiker waarbij elke handeling vereist is om een activiteit te voltooien
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Succesvol gebruik van een serie webpagina's op een winkelwebsite vereist dat gebruikers alternatieve producten, prijzen en aanbiedingen bekijken, producten kiezen, een bestelling invoeren en verzenden, verzendinformatie en betaalinformatie geven.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een pagina voor registratie van een account vereist succesvolle voltooiing van een Turingtest voordat aan het registratieformulier toegang wordt gegeven.
       </p>
@@ -3457,11 +3254,9 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         dient alleen een esthetisch doel, geeft geen informatie en heeft geen functionaliteit
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Tekst is alleen puur decoratief als de woorden gerangschikt of vervangen kunnen worden zonder dat hun doel verandert.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         De omslagpagina van een woordenboek heeft willekeurig uitgezochte woorden in zeer lichte tekst op de achtergrond.
       </p>
@@ -3475,15 +3270,12 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         gebeurtenis die a) plaatsvindt op dezelfde tijd als het kijken en b) niet volledig gegenereerd wordt door de content
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een webcast van een live-uitvoering (vindt plaats op dezelfde tijd als het kijken en is niet vooraf opgenomen).
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een online veiling met biedende mensen (vindt plaats op dezelfde tijd als het kijken).
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Levende mensen die door middel van avatars in een virtuele wereld interacteren (wordt niet volledig gegenereerd door de content en vindt plaats op dezelfde tijd als het kijken).
       </p>
@@ -3501,9 +3293,7 @@
       <p xmlns="http://www.w3.org/1999/xhtml">waarneembaar,
         <a>door software bepaald</a>
         gedeelte van content</p>
-      <p xmlns="http://www.w3.org/1999/xhtml" class="note">
-        In HTML is elk gebied met een landmark role een region.
-      </p>
+      <p xmlns="http://www.w3.org/1999/xhtml" class="note">In HTML is elk gebied met een landmark role een region.</p>
     </definition>
   </term>
   <term>
@@ -3520,7 +3310,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         de relatieve helderheid van elk punt in een kleurenruimte, genormaliseerd naar 0 voor het donkerste zwart en 1 voor het lichtste wit
       </p>
-
       <div xmlns="http://www.w3.org/1999/xhtml" class="note">
         <p>
           Voor de sRGB-kleurenruimte is de relatieve luminantie van een kleur gedefinieerd als L = 0,2126 *
@@ -3536,7 +3325,6 @@
           <strong>B</strong>
           gedefinieerd zijn als:
         </p>
-
         <ul>
           <li>
             als RsRGB &lt;= 0.03928 dan
@@ -3545,7 +3333,6 @@
             <strong>R</strong>
             = ((RsRGB+0.055)/1.055) ^ 2.4
           </li>
-
           <li>
             als GsRGB &lt;= 0.03928 dan
             <strong>G</strong>
@@ -3553,7 +3340,6 @@
             <strong>G</strong>
             = ((GsRGB+0.055)/1.055) ^ 2.4
           </li>
-
           <li>
             als BsRGB &lt;= 0.03928 dan
             <strong>B</strong>
@@ -3562,36 +3348,27 @@
             = ((BsRGB+0.055)/1.055) ^ 2.4
           </li>
         </ul>
-
         <p>en RsRGB, GsRGB en BsRGB gedefinieerd zijn als:</p>
-
         <ul>
           <li>RsRGB = R8bit/255</li>
-
           <li>GsRGB = G8bit/255</li>
-
           <li>BsRGB = B8bit/255</li>
         </ul>
-
         <p>
           Het "^"-symbool is de machtsverheffingsoperator. (Formule overgenomen uit [[sRGB]] en [[IEC-4WD]]).
         </p>
       </div>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Bijna alle systemen die tegenwoordig gebruikt worden om webcontent te bekijken werken met sRGB-codering. Tenzij bekend is dat een andere kleurenruimte gebruikt zal worden om de content te verwerken en te vertonen, moeten auteurs de sRGB-kleurenruimte
         gebruiken om kleuren te evalueren. Indien andere kleurenruimtes gebruikt worden, zie Contrast (Minimum):
         <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Understanding Success Criterion 1.4.3</a>.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Als dithering plaatsvindt na aflevering, wordt de bronkleurwaarde gebruikt. Voor kleuren die geditherd worden bij de bron, moeten de gemiddelde waarden van de kleuren die geditherd worden gebruikt worden (gemiddelde R, gemiddelde G en gemiddelde B).
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Er zijn instrumenten beschikbaar die de berekeningen om contrast en flits te testen automatisch doen.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Er is een
         <a href="relative-luminance.xml">MathML-versie van de relatieve helderheidsdefinitie</a>
@@ -3606,7 +3383,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         tekst of getal waardoor software de functie van een component binnen webcontent kan identificeren
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een getal dat aangeeft of een afbeelding dienst doet als hyperlink, commandoknop of aanvinkhokje.
       </p>
@@ -3628,7 +3404,6 @@
     <name>keyboard shortcuts</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml" class="change">New</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         alternatieve manier om een actie te activeren door op één of meerdere toetsen te drukken
       </p>
@@ -3641,10 +3416,7 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         een zintuiglijke ervaring die niet puur decoratief is en niet primair belangrijke informatie overbrengt of een functie uitvoert
       </p>
-
-      <p xmlns="http://www.w3.org/1999/xhtml" class="example">
-        Een uitvoering van een fluitsolo, visuele kunst, enz.
-      </p>
+      <p xmlns="http://www.w3.org/1999/xhtml" class="example">Een uitvoering van een fluitsolo, visuele kunst, enz.</p>
     </definition>
   </term>
   <term>
@@ -3653,11 +3425,9 @@
     <name>statussen</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml" class="change">New</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         dynamische eigenschap die de kenmerken weergeeft van een component van de gebruikersinterface die mogelijk verandert als gevolg van een actie van de gebruiker of van geautomatiseerde processen
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         De toestand heeft geen invloed op de aard van de component. De toestand vertegenwoordigt de gegevens met betrekking tot de component of de mogelijke gebruikersinteracties. Voorbeelden: gefocust, zwevend (hover), geselecteerd, ingedrukt,
         gecontroleerd, bezocht/niet bezocht en uit-/samengevouwen.
@@ -3670,7 +3440,6 @@
     <name>statusberichten</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml" class="change">New</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml">
         een bericht dat een verandering van content maar geen
         <a>contextwijziging</a>
@@ -3713,12 +3482,9 @@
           <a>webpagina's</a>
           zijn gestructureerd ten opzichte van elkaar, en
         </li>
-
-        <li>
-          De wijze waarop een verzameling
+        <li>De wijze waarop een verzameling
           <a>webpagina's</a>
-          is georganiseerd
-        </li>
+          is georganiseerd</li>
       </ol>
     </definition>
   </term>
@@ -3738,16 +3504,13 @@
         om instructies te coderen die weergegeven, afgespeeld of uitgevoerd worden door
         <a>user agents</a>
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Zoals ze in deze richtlijnen gebruikt worden, verwijzen "webtechnologie" en het woord "technologie" (als het afzonderlijk wordt gebruikt) beide naar web content technologieën.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Onder web content technologieën kunnen vallen: opmaaktalen, gegevensformaten of programmeertalen die auteurs alleen kunnen gebruiken of in combinatie om eindgebruikers-ervaringen te creëren die variëren van statische webpagina's tot gesynchroniseerde
         mediapresentaties tot dynamische webapplicaties.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Enige gangbare voorbeelden van web content technologieën zijn HTML, CSS, SVG, PNG, PDF, Flash en JavaScript.
       </p>
@@ -3778,11 +3541,9 @@
         <a>door software bepaald</a>
         kan worden uit de niet-tekstuele content
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een afbeelding van een grafiek wordt in tekst beschreven in de alinea na de grafiek. Het korte tekstalternatief voor de grafiek geeft aan dat een beschrijving volgt.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Zie
         <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding "Text Alternatives"</a>
@@ -3806,16 +3567,13 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         interface die gebruikt wordt door software om invoer van een toetsaanslag te verkrijgen
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Een toetsenbordinterface staat gebruikers toe om invoer door middel van toetsaanslagen te leveren aan programma's, zelfs als de technologie oorspronkelijk geen toetsenbord bevat.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een PDA met aanraakscherm heeft zowel een toetsenbordinterface in zijn besturingssysteem ingebouwd als een aansluitpunt voor externe toetsenborden. Applicaties op de PDA kunnen de interface gebruiken om toetsenbordinvoer te verkrijgen ofwel van een
         extern toetsenbord of van andere applicaties die gesimuleerde toetsenborduitvoer leveren, zoals handschriftvertolkers of spraak-naar-tekst applicaties met "toetsenbord-emulatie functionaliteit".
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Bediening van de applicatie (of onderdelen van de applicatie) door middel van een door een toetsenbord bediende muisemulator, zoals muistoetsen, wordt niet beschouwd als bediening door middel van een toetsenbordinterface, omdat de bediening van het
         programma gebeurt door middel van zijn aanwijsinterface, niet door middel van zijn toetsenbordinterface.
@@ -3840,10 +3598,7 @@
     <name>user agent</name>
     <name>user agents</name>
     <definition>
-      <p xmlns="http://www.w3.org/1999/xhtml">
-        alle software die webcontent voor gebruikers ophaalt en presenteert
-      </p>
-
+      <p xmlns="http://www.w3.org/1999/xhtml">alle software die webcontent voor gebruikers ophaalt en presenteert</p>
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Webbrowsers, mediaspelers, plug-ins en andere programma's – waaronder
         <a>hulptechnologieën</a>
@@ -3860,7 +3615,6 @@
         <a>video</a>
         te pauzeren zodat er tijd is om een aanvullende beschrijving toe te voegen
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Deze techniek wordt alleen gebruikt als de sfeer van de
         <a>video</a>
@@ -3879,12 +3633,10 @@
         <a>webpagina's</a>
         die een gemeenschappelijk doel delen en die worden gecreëerd door dezelfde auteur, groep of organisatie
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Bijvoorbeeld een publicatie die over verschillende webpagina's is verdeeld en waarbij elke pagina één hoofdstuk of een ander afgebakend gedeelte van het werk bevat. De publicatie is logischerwijs een enkele, doorlopende eenheid die navigatiefuncties
         bevat die toegang bieden tot alle pagina's.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Verschillende taalversies worden beschouwd als verschillende verzamelingen webpagina's.
       </p>
@@ -3894,10 +3646,7 @@
     <id>dfn-video</id>
     <name>video</name>
     <definition>
-      <p xmlns="http://www.w3.org/1999/xhtml">
-        de technologie van bewegende of opeenvolgende plaatjes of afbeeldingen
-      </p>
-
+      <p xmlns="http://www.w3.org/1999/xhtml">de technologie van bewegende of opeenvolgende plaatjes of afbeeldingen</p>
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Video kan gemaakt worden van animatiebeelden of fotografische beelden of beide.
       </p>
@@ -3907,9 +3656,7 @@
     <id>dfn-visueel-aangepast</id>
     <name>visueel aangepast</name>
     <definition>
-      <p xmlns="http://www.w3.org/1999/xhtml">
-        lettertype, grootte, kleur en achtergrond kunnen ingesteld worden
-      </p>
+      <p xmlns="http://www.w3.org/1999/xhtml">lettertype, grootte, kleur en achtergrond kunnen ingesteld worden</p>
     </definition>
   </term>
   <term>
@@ -3942,28 +3689,22 @@
         <a>user agent</a>
         gebruikt worden bij het weergeven of bedoeld zijn om samen met het niet ingebedde bestand te worden weergegeven
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Hoewel alle "andere bestanden" weergegeven zouden worden met het primaire bestand, zouden ze niet noodzakelijk tegelijkertijd met elkaar worden.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Ter wille van conformiteit met deze richtlijnen moet een bestand "niet ingebed" zijn binnen de reikwijdte van conformiteit om als een webpagina te worden.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een webbestand met inbegrip van alle ingebedde afbeeldingen en media.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een webmailprogramma dat opgebouwd is met gebruik van Asynchrone JavaScript en XML (AJAX). Het programma bevindt zich in zijn geheel op http://example.com/mail, maar bevat een inbox, een lijst met contacten en een kalender. Er worden links of knoppen
         geleverd, die er voor zorgen dat de inbox, de lijst met contacten of de kalender getoond worden, maar die de URI van de pagina als geheel niet veranderen.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een aanpasbare portaalpagina waarbij gebruikers te tonen content kunnen kiezen uit een set van verschillende contentmodules.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Als je met je browser naar "http://shopping.example.com/" gaat, ga je een filmachtige interactieve winkel binnen waar je je visueel in een winkel verplaatst en producten van de schappen om je heen pakt en in een visuele winkelwagen voor je plaatst.
         Als je een product aanklikt, wordt het aan je gedemonstreerd met een folder met specificaties daarnaast zwevend. Dit kan een website van een enkele pagina zijn of gewoon één pagina binnen een website.
@@ -3975,14 +3716,12 @@
     <name>weergavekader</name>
     <definition>
       <p xmlns="http://www.w3.org/1999/xhtml">object waarin de user agent content presenteert</p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         de
         <a>user agent</a>
         presenteert content door één of meer weergavekaders. Weergavekaders omvatten beeldschermvensters, frames, luidsprekers en virtuele vergrootglazen. Een weergavekader kan zelf een weergavekader bevatten (geneste frames bijvoorbeeld). Door de user agent
         gecreëerde interface componenten, zoals signaleringscomponenten, menu's en alert meldingen, zijn geen weergavekaders.
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="note">
         Deze definitie is gebaseerd op
         <a href="https://www.w3.org/TR/WAI-USERAGENT/glossary.html">User Agent Accessibility Guidelines 1.0 Glossary</a>[[UAAG10]].
@@ -3996,7 +3735,6 @@
       <p xmlns="http://www.w3.org/1999/xhtml">
         transacties waarbij de persoon een overeenkomst aangaat waaruit juridisch bindende rechten en plichten voortkomen
       </p>
-
       <p xmlns="http://www.w3.org/1999/xhtml" class="example">
         Een huwelijksakte, handel in aandelen (financieel en juridisch), een testament, een lening, adoptie, voor het leger tekenen, elk willekeurig contract, etc.
       </p>

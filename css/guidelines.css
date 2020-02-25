@@ -30,3 +30,7 @@ div.note-title, div.ednote-title {
 	color: #008400
 }
 span.screenreader {position: absolute; left: -10000px}
+
+span + .secno {
+  margin-left: 0.25em;
+}

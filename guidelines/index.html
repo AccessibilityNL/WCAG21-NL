@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl">
+
   <head>
     <meta charset="UTF-8" />
     <title>Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1</title>
-    <script
-      src="../submodules/respec/builds/respec-w3c-common.js"
-      class="remove"
-    ></script>
+    <script src="../submodules/respec/builds/respec-w3c-common.js" class="remove"></script>
     <script src="../biblio.js" class="remove"></script>
     <script src="../script/wcag21.js" class="remove"></script>
     <script src="../script/translation.js" class="remove"></script>
     <script src="respec-config.js" class="remove"></script>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../css/sources.css"
-      class="remove"
-    />
-    <link rel="stylesheet" type="text/css" href="guidelines.css" />
+    <link rel="stylesheet" type="text/css" href="../css/sources.css" class="remove" />
+
     <style type="text/css">
       .transheader {
         display: block;
@@ -32,14 +25,15 @@
         background: #eeeedd;
         font-weight: bolder;
       }
+
     </style>
+
+    <style type="text/css" data-include="../css/guidelines.css"></style>
   </head>
 
   <body>
-    <div
-      data-include="status-translation.html"
-      data-include-replace="true"
-    ></div>
+
+    <div data-include="status-translation.html" data-include-replace="true"></div>
 
     <div data-include="document-header.html" data-include-replace="true"></div>
 
@@ -67,17 +61,13 @@
         ondersteuning voor het voldoen aan de succescriteria bij gebruik van
         specifieke technologieën en algemene informatie over de interpretatie
         van de succescriteria. Zie het
-        <a href="http://www.w3.org/WAI/standards-guidelines/wcag/"
-          >Web Content Accessibility Guidelines (WCAG) Overview</a
-        >
+        <a href="http://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a>
         voor een inleiding en links naar technisch en educatief WCAG-materiaal.
       </p>
       <p>
         Dit document, de Nederlandse vertaling van WCAG 2.1, is een uitbreiding
         van de
-        <a href="https://www.w3.org/Translations/WCAG20-nl/"
-          >Richtlijnen voor Toegankelijkheid van Webcontent 2.0</a
-        >
+        <a href="https://www.w3.org/Translations/WCAG20-nl/">Richtlijnen voor Toegankelijkheid van Webcontent 2.0</a>
         [[WCAG20]]. Dit is de Nederlandse vertaling van de Web Content
         Accessibility Guidelines (WCAG) 2.0, gepubliceerd als W3C Aanbeveling in
         december 2008. De content die voldoet aan WCAG 2.1 voldoet ook aan WCAG
@@ -114,9 +104,7 @@
         </p>
         <p>
           WCAG 2.1 is ontwikkeld door middel van het
-          <a href="https://www.w3.org/WAI/standards-guidelines/w3c-process/"
-            >W3C process</a
-          >
+          <a href="https://www.w3.org/WAI/standards-guidelines/w3c-process/">W3C process</a>
           in samenwerking met individuen en organisaties wereldwijd, met het
           doel om een gemeenschappelijke standaard voor toegankelijkheid van
           webcontent te leveren, die internationaal tegemoetkomt aan de
@@ -126,9 +114,7 @@
           verschillende webtechnologieën voor nu en in de toekomst en om
           testbaar te zijn met een combinatie van automatisch testen en
           menselijke evaluatie. Voor een inleiding tot WCAG, zie het
-          <a href="http://www.w3.org/WAI/standards-guidelines/wcag/"
-            >Web Content Accessibility Guidelines (WCAG) Overview</a
-          >.
+          <a href="http://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a>.
         </p>
         <p>
           Tijdens het definiëren van aanvullende criteria voor cognitieve, taal-
@@ -138,11 +124,9 @@
           internationale overwegingen van voorstellen. Werk op dit gebied wordt
           voortgezet in toekomstige versies van WCAG. We moedigen auteurs aan om
           te verwijzen naar onze aanvullende documenten over
-          <a href="http://www.w3.org/WAI/standards-guidelines/wcag/#supplement"
-            >het verbeteren van de inclusie voor mensen met functiebeperkingen,
+          <a href="http://www.w3.org/WAI/standards-guidelines/wcag/#supplement">het verbeteren van de inclusie voor mensen met functiebeperkingen,
             inclusief leer- en cognitieve beperkingen, slechtziendheid en
-            andere</a
-          >.
+            andere</a>.
         </p>
         <p>
           Webtoegankelijkheid hangt niet alleen af van de toegankelijkheid van
@@ -154,23 +138,17 @@
         <ul>
           <li>
             <strong>
-              <a href="https://www.w3.org/WAI/fundamentals/components/"
-                >Essential Components of Web Accessibility</a
-              >
+              <a href="https://www.w3.org/WAI/fundamentals/components/">Essential Components of Web Accessibility</a>
             </strong>
           </li>
           <li>
             <strong>
-              <a href="https://www.w3.org/WAI/standards-guidelines/uaag/"
-                >User Agent Accessibility Guidelines (UAAG) Overview</a
-              >
+              <a href="https://www.w3.org/WAI/standards-guidelines/uaag/">User Agent Accessibility Guidelines (UAAG) Overview</a>
             </strong>
           </li>
           <li>
             <strong>
-              <a href="https://www.w3.org/WAI/standards-guidelines/atag/"
-                >Authoring Tool Accessibility Guidelines (ATAG) Overview</a
-              >
+              <a href="https://www.w3.org/WAI/standards-guidelines/atag/">Authoring Tool Accessibility Guidelines (ATAG) Overview</a>
             </strong>
           </li>
         </ul>
@@ -196,10 +174,7 @@
               <strong>Principes</strong> - Bovenaan staan vier principes die het
               fundament voor webtoegankelijkheid vormen:
               <em>waarneembaar, bedienbaar, begrijpelijk en robuust</em>.
-              <a
-                href="https://www.w3.org/WAI/WCAG21/Understanding/intro#understanding-the-four-principles-of-accessibility"
-                >Understanding the Four Principles of Accessibility</a
-              >.
+              <a href="https://www.w3.org/WAI/WCAG21/Understanding/intro#understanding-the-four-principles-of-accessibility">Understanding the Four Principles of Accessibility</a>.
             </p>
           </li>
           <li>
@@ -223,10 +198,7 @@
               groepen en verschillende situaties te voldoen, zijn drie niveaus
               van conformiteit gedefinieerd: A (laagst), AA en AAA (hoogst).
               Aanvullende informatie over WCAG-niveaus is te vinden in
-              <a
-                href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels"
-                >Understanding Levels of Conformance</a
-              >.
+              <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels">Understanding Levels of Conformance</a>.
             </p>
           </li>
           <li>
@@ -244,10 +216,7 @@
               die niet afgedekt worden door de testbare succescriteria. Waar
               gangbare fouten bekend zijn, worden die ook gedocumenteerd. Zie
               ook
-              <a
-                href="https://www.w3.org/WAI/WCAG21/Understanding/understanding-techniques"
-                >Sufficient and Advisory Techniques in Understanding WCAG 2.0</a
-              >.
+              <a href="https://www.w3.org/WAI/WCAG21/Understanding/understanding-techniques">Sufficient and Advisory Techniques in Understanding WCAG 2.0</a>.
             </p>
           </li>
         </ul>
@@ -268,10 +237,7 @@
           te overwegen, en ook om advies te vragen wat de huidige beste praktijk
           is om webcontent voor deze doelgroep zo toegankelijk mogelijk te
           maken.
-          <a
-            href="https://www.w3.org/WAI/WCAG21/Understanding/understanding-metadata"
-            >Metadata</a
-          >
+          <a href="https://www.w3.org/WAI/WCAG21/Understanding/understanding-metadata">Metadata</a>
           kan gebruikers helpen om content te vinden die het best aansluit bij
           hun behoeften.
         </p>
@@ -293,9 +259,7 @@
           <li>
             <p>
               <strong>
-                <a href="https://www.w3.org/WAI/WCAG21/quickref/"
-                  >How to Meet WCAG 2.1</a
-                >
+                <a href="https://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG 2.1</a>
               </strong>
               - Een op maat aan te passen snelle verwijzing naar WCAG 2.1; deze
               omvat alle richtlijnen, succescriteria en technieken voor auteurs
@@ -308,9 +272,7 @@
           <li>
             <p>
               <strong>
-                <a href="https://www.w3.org/WAI/WCAG21/Understanding/"
-                  >Understanding WCAG 2.1</a
-                >
+                <a href="https://www.w3.org/WAI/WCAG21/Understanding/">Understanding WCAG 2.1</a>
               </strong>
               - Een gids om WCAG 2.1 te begrijpen en te implementeren. Er is in
               WCAG 2.1 een kort "uitleg"-document voor elke richtlijn en voor
@@ -320,9 +282,7 @@
           <li>
             <p>
               <strong>
-                <a href="https://www.w3.org/WAI/WCAG21/Techniques/"
-                  >Techniques for WCAG 2.1</a
-                >
+                <a href="https://www.w3.org/WAI/WCAG21/Techniques/">Techniques for WCAG 2.1</a>
               </strong>
               - Een verzameling technieken en algemeen gangbare fouten, elk in
               een apart document dat een beschrijving, voorbeelden, codering en
@@ -332,9 +292,7 @@
           <li>
             <p>
               <strong>
-                <a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/"
-                  >The WCAG Documents</a
-                >
+                <a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">The WCAG Documents</a>
               </strong>
               - Een diagram en beschrijving van hoe de technische documenten
               zich tot elkaar verhouden en verbonden zijn.
@@ -343,9 +301,7 @@
         </ol>
         <p>
           Zie
-          <a href="https://www.w3.org/WAI/standards-guidelines/wcag/"
-            >Web Content Accessibility Guidelines (WCAG) Overview</a
-          >
+          <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a>
           voor een beschrijving van het WCAG 2.0 hulpmateriaal, waaronder
           leermateriaal gerelateerd aan WCAG 2. Aanvullende bronnen die
           onderwerpen behandelen zoals de businesscase voor webtoegankelijkheid,
@@ -359,9 +315,7 @@
         <h3>Eisen aan WCAG 2.1</h3>
         <p>
           WCAG 2.1 voldoet aan een reeks
-          <a href="https://w3c.github.io/wcag21/requirements/"
-            >eisen die aan WCAG 2.1 worden gesteld</a
-          >. Deze eisen zijn op hun beurt afgeleid van WCAG 2.0. De gestelde
+          <a href="https://w3c.github.io/wcag21/requirements/">eisen die aan WCAG 2.1 worden gesteld</a>. Deze eisen zijn op hun beurt afgeleid van WCAG 2.0. De gestelde
           eisen zorgen voor het gestructureerde kader voor de richtlijnen en
           garanderen compatibiliteit met eerdere versies. De Werkgroep heeft ook
           minder formele acceptatiecriteria voor de succescriteria gebruikt,
@@ -417,34 +371,53 @@
             De volgende succescriteria zijn toegevoegd aan WCAG 2.1:
           </p>
           <ul>
-            <li>1.3.4
+            <li>
+              1.3.4
               <a href="#weergavestand">Weergavestand</a>
-              (AA)</li>
-            <li>1.3.5
+              (AA)
+            </li>
+            <li>
+              1.3.5
               <a href="#identificeer-het-doel-van-de-input">Identificeer het doel van de input</a>
-              (AA)</li>
-            <li>1.3.6
+              (AA)
+            </li>
+            <li>
+              1.3.6
               <a href="#identificeer-het-doel">Identificeer het doel</a>
-              (AAA)</li>
-            <li>1.4.10
+              (AAA)
+            </li>
+            <li>
+              1.4.10
               <a href="#reflow">Reflow</a>
-              (AA)</li>
-            <li>1.4.11
+              (AA)
+            </li>
+            <li>
+              1.4.11
               <a href="#contrast-van-niet-tekstuele-content">Contrast van niet-tekstuele content</a>
-              (AA)</li>
-            <li>1.4.12
+              (AA)
+            </li>
+            <li>
+              1.4.12
               <a href="#tekstafstand">Tekstafstand</a>
-              (AA)</li>
-            <li>1.4.13
+              (AA)
+            </li>
+            <li>
+              1.4.13
               <a href="#content-bij-hover-of-focus">Content bij hover of focus</a>
-              (AA)</li>
-            <li>2.1.4
+              (AA)
+            </li>
+            <li>
+              2.1.4
               <a href="#enkel-teken-sneltoetsen">Enkel teken sneltoetsen</a>
-              (A)</li>
-            <li>2.2.6
+              (A)
+            </li>
+            <li>
+              2.2.6
               <a href="#time-outs">Time-outs</a>
-              (AAA)</li>
-            <li>2.3.3
+              (AAA)
+            </li>
+            <li>
+              2.3.3
               <a href="#animatie-uit-interacties">Animatie uit interacties</a>
               (AAA)
             </li>
@@ -458,16 +431,12 @@
             </li>
             <li>
               2.5.5
-              <a href="#grootte-van-het-aanwijsgebied"
-                >Grootte van het aanwijsgebied</a
-              >
+              <a href="#grootte-van-het-aanwijsgebied">Grootte van het aanwijsgebied</a>
               (AAA)
             </li>
             <li>
               2.5.6
-              <a href="#input-gelijktijdige-invoermechanismen"
-                >Input gelijktijdige invoermechanismen</a
-              >
+              <a href="#input-gelijktijdige-invoermechanismen">Input gelijktijdige invoermechanismen</a>
               (AAA)
             </li>
             <li>4.1.3 <a href="#statusberichten">Statusberichten</a> (AA)</li>
@@ -482,20 +451,30 @@
             paginavarianten toegevoegd aan
             <a href="#cc2">Volledige pagina's</a>. Daarnaast is een optie voor
             machine-leesbare metadata toegevoegd aan
-            <a href="#optionele-componenten-van-een-conformiteitsclaim"
-              >Optionele componenten van een conformiteitsclaim</a
-            >.
+            <a href="#optionele-componenten-van-een-conformiteitsclaim">Optionele componenten van een conformiteitsclaim</a>.
           </p>
         </section>
 
         <section>
           <h4>Nummering in WCAG 2.1</h4>
-          <p>Om verwarring te voorkomen bij gebruikers die veel waarde hechten aan achterwaartse compatibiliteit met WCAG 2.0, zijn de nieuwe succescriteria in WCAG 2.1 aan het einde van de reeks succescriteria van de betreffende richtlijn toegevoegd. Hierdoor hoeft de
-            paragraafnummering van de succescriteria in WCAG 2.0 niet te worden aangepast. Dat zou wel noodzakelijk zijn geweest als de nieuwe succescriteria tussen de bestaande succescriteria waren toegevoegd. Het gevolg is wel dat de succescriteria van elke
-            richtlijn niet meer per conformiteitsniveau zijn gegroepeerd. De volgorde van de succescriteria van elke richtlijn geeft geen informatie over het conformiteitsniveau; dit kan alleen worden afgeleid uit de indicaties (A / AA / AAA) behorende bij het
-            betreffende succescriterium. De <a href="https://www.w3.org/WAI/WCAG21/quickref/">Quick Reference naar WCAG 2.1</a>
-            beschrijft manieren om succescriteria gegroepeerd per conformiteitsniveau te bekijken samen met andere filter- en sorteermogelijkheden.
-
+          <p>
+            Om verwarring te voorkomen bij gebruikers die veel waarde hechten
+            aan achterwaartse compatibiliteit met WCAG 2.0, zijn de nieuwe
+            succescriteria in WCAG 2.1 aan het einde van de reeks succescriteria
+            van de betreffende richtlijn toegevoegd. Hierdoor hoeft de
+            paragraafnummering van de succescriteria in WCAG 2.0 niet te worden
+            aangepast. Dat zou wel noodzakelijk zijn geweest als de nieuwe
+            succescriteria tussen de bestaande succescriteria waren toegevoegd.
+            Het gevolg is wel dat de succescriteria van elke richtlijn niet meer
+            per conformiteitsniveau zijn gegroepeerd. De volgorde van de
+            succescriteria van elke richtlijn geeft geen informatie over het
+            conformiteitsniveau; dit kan alleen worden afgeleid uit de
+            indicaties (A / AA / AAA) behorende bij het betreffende
+            succescriterium. De
+            <a href="https://www.w3.org/WAI/WCAG21/quickref/">Quick Reference naar WCAG 2.1</a>
+            beschrijft manieren om succescriteria gegroepeerd per
+            conformiteitsniveau te bekijken samen met andere filter- en
+            sorteermogelijkheden.
           </p>
         </section>
 
@@ -517,12 +496,22 @@
       <section>
         <h3>Latere versies van de Richtlijnen voor Toegankelijkheid</h3>
 
-        <p>Naast WCAG 2.1 ontwikkelt de Accessibility Guidelines Werkgroep een nieuwe hoofdversie van de richtlijnen voor toegankelijkheid. 
-          Het verwachte resultaat van dit werk is een meer substantiële herstructurering van de toegankelijkheidsrichtlijnen dan realistisch zou zijn voor een dot-release van WCAG 2. Er wordt een op onderzoeksresultaten en gebruikers gerichte ontwerpmethode gevolgd om het meest effectieve en flexibele resultaat te creëren, inclusief de rollen van
-          <em>content authoring</em>, <em>user agent support</em> en <em>authoring tool support</em>. Omdat het gaat om een meerjarige inspanning, is WCAG 2.1 nodig als interim maatregel. WCAG 2.1 omvat bijgewerkte aanbevelingen voor toegankelijkheid die een weerspiegeling zijn van de
-          veranderingen op het web sinds de publicatie van WCAG 2.0. De Werkgroep kan op korte termijn meer interim-versies maken, beginnend met WCAG 2.2, om extra ondersteuning te bieden terwijl de hoofdversie wordt
-          voltooid.
-
+        <p>
+          Naast WCAG 2.1 ontwikkelt de Accessibility Guidelines Werkgroep een
+          nieuwe hoofdversie van de richtlijnen voor toegankelijkheid. Het
+          verwachte resultaat van dit werk is een meer substantiële
+          herstructurering van de toegankelijkheidsrichtlijnen dan realistisch
+          zou zijn voor een dot-release van WCAG 2. Er wordt een op
+          onderzoeksresultaten en gebruikers gerichte ontwerpmethode gevolgd om
+          het meest effectieve en flexibele resultaat te creëren, inclusief de
+          rollen van <em>content authoring</em>, <em>user agent support</em> en
+          <em>authoring tool support</em>. Omdat het gaat om een meerjarige
+          inspanning, is WCAG 2.1 nodig als interim maatregel. WCAG 2.1 omvat
+          bijgewerkte aanbevelingen voor toegankelijkheid die een weerspiegeling
+          zijn van de veranderingen op het web sinds de publicatie van WCAG 2.0.
+          De Werkgroep kan op korte termijn meer interim-versies maken,
+          beginnend met WCAG 2.2, om extra ondersteuning te bieden terwijl de
+          hoofdversie wordt voltooid.
         </p>
       </section>
     </section>
@@ -542,10 +531,7 @@
           grote letters, braille, spraak, symbolen of eenvoudigere taal.
         </p>
 
-        <section
-          data-include="sc/20/non-text-content.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/non-text-content.html" data-include-replace="true"></section>
       </section>
 
       <section class="guideline">
@@ -554,50 +540,23 @@
           Lever alternatieven voor op tijd gebaseerde media.
         </p>
 
-        <section
-          data-include="sc/20/audio-only-and-video-only-prerecorded.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/audio-only-and-video-only-prerecorded.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/captions-prerecorded.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/captions-prerecorded.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/audio-description-or-media-alternative-prerecorded.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/audio-description-or-media-alternative-prerecorded.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/captions-live.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/captions-live.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/audio-description-prerecorded.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/audio-description-prerecorded.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/sign-language-prerecorded.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/sign-language-prerecorded.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/extended-audio-description-prerecorded.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/extended-audio-description-prerecorded.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/media-alternative-prerecorded.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/media-alternative-prerecorded.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/audio-only-live.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/audio-only-live.html" data-include-replace="true"></section>
       </section>
 
       <section class="guideline">
@@ -608,35 +567,17 @@
           structuur.
         </p>
 
-        <section
-          data-include="sc/20/info-and-relationships.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/info-and-relationships.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/meaningful-sequence.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/meaningful-sequence.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/sensory-characteristics.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/sensory-characteristics.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/orientation.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/orientation.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/identify-input-purpose.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/identify-input-purpose.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/identify-purpose.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/identify-purpose.html" data-include-replace="true"></section>
       </section>
 
       <section class="guideline">
@@ -646,70 +587,31 @@
           waaronder scheiding van voorgrond en achtergrond.
         </p>
 
-        <section
-          data-include="sc/20/use-of-color.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/use-of-color.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/audio-control.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/audio-control.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/contrast-minimum.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/contrast-minimum.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/resize-text.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/resize-text.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/images-of-text.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/images-of-text.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/contrast-enhanced.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/contrast-enhanced.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/low-or-no-background-audio.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/low-or-no-background-audio.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/visual-presentation.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/visual-presentation.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/images-of-text-no-exception.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/images-of-text-no-exception.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/reflow.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/reflow.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/non-text-contrast.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/non-text-contrast.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/text-spacing.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/text-spacing.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/content-on-hover-or-focus.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/content-on-hover-or-focus.html" data-include-replace="true"></section>
       </section>
     </section>
 
@@ -726,25 +628,13 @@
           Maak alle functionaliteit beschikbaar vanaf een toetsenbord.
         </p>
 
-        <section
-          data-include="sc/20/keyboard.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/keyboard.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/no-keyboard-trap.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/no-keyboard-trap.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/keyboard-no-exception.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/keyboard-no-exception.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/character-key-shortcuts.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/character-key-shortcuts.html" data-include-replace="true"></section>
       </section>
 
       <section class="guideline">
@@ -753,35 +643,17 @@
           Geef gebruikers genoeg tijd om content te lezen en te gebruiken.
         </p>
 
-        <section
-          data-include="sc/20/timing-adjustable.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/timing-adjustable.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/pause-stop-hide.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/pause-stop-hide.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/no-timing.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/no-timing.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/interruptions.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/interruptions.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/re-authenticating.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/re-authenticating.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/timeouts.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/timeouts.html" data-include-replace="true"></section>
       </section>
 
       <section class="guideline new">
@@ -791,20 +663,11 @@
           of fysieke reacties veroorzaakt.
         </p>
 
-        <section
-          data-include="sc/20/three-flashes-or-below-threshold.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/three-flashes-or-below-threshold.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/three-flashes.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/three-flashes.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/animation-from-interactions.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/animation-from-interactions.html" data-include-replace="true"></section>
       </section>
 
       <section class="guideline">
@@ -814,55 +677,25 @@
           te bepalen waar ze zijn.
         </p>
 
-        <section
-          data-include="sc/20/bypass-blocks.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/bypass-blocks.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/page-titled.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/page-titled.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/focus-order.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/focus-order.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/link-purpose-in-context.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/link-purpose-in-context.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/multiple-ways.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/multiple-ways.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/headings-and-labels.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/headings-and-labels.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/focus-visible.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/focus-visible.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/location.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/location.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/link-purpose-link-only.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/link-purpose-link-only.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/section-headings.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/section-headings.html" data-include-replace="true"></section>
       </section>
 
       <section class="guideline new">
@@ -873,35 +706,17 @@
           met andere vormen van invoer dan alleen het toetsenbord.
         </p>
 
-        <section
-          data-include="sc/21/pointer-gestures.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/pointer-gestures.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/pointer-cancellation.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/pointer-cancellation.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/label-in-name.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/label-in-name.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/motion-actuation.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/motion-actuation.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/target-size.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/target-size.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/concurrent-input-mechanisms.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/concurrent-input-mechanisms.html" data-include-replace="true"></section>
       </section>
     </section>
 
@@ -918,35 +733,17 @@
           Maak tekstcontent leesbaar en begrijpelijk.
         </p>
 
-        <section
-          data-include="sc/20/language-of-page.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/language-of-page.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/language-of-parts.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/language-of-parts.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/unusual-words.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/unusual-words.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/abbreviations.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/abbreviations.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/reading-level.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/reading-level.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/pronunciation.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/pronunciation.html" data-include-replace="true"></section>
       </section>
 
       <section class="guideline">
@@ -955,30 +752,15 @@
           Maak het uiterlijk en de bediening van webpagina's voorspelbaar.
         </p>
 
-        <section
-          data-include="sc/20/on-focus.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/on-focus.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/on-input.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/on-input.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/consistent-navigation.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/consistent-navigation.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/consistent-identification.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/consistent-identification.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/change-on-request.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/change-on-request.html" data-include-replace="true"></section>
       </section>
 
       <section class="guideline">
@@ -987,35 +769,17 @@
           Help gebruikers om fouten te vermijden en ze te verbeteren.
         </p>
 
-        <section
-          data-include="sc/20/error-identification.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/error-identification.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/labels-or-instructions.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/labels-or-instructions.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/error-suggestion.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/error-suggestion.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/error-prevention-legal-financial-data.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/error-prevention-legal-financial-data.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/help.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/help.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/error-prevention-all.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/error-prevention-all.html" data-include-replace="true"></section>
       </section>
     </section>
 
@@ -1034,20 +798,11 @@
           met inbegrip van hulptechnologieën.
         </p>
 
-        <section
-          data-include="sc/20/parsing.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/parsing.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/20/name-role-value.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/20/name-role-value.html" data-include-replace="true"></section>
 
-        <section
-          data-include="sc/21/status-messages.html"
-          data-include-replace="true"
-        ></section>
+        <section data-include="sc/21/status-messages.html" data-include-replace="true"></section>
       </section>
     </section>
 
@@ -1060,9 +815,7 @@
         wat het betekent om door toegankelijkheid ondersteund te zijn, aangezien
         alleen <a>door toegankelijkheid ondersteunde</a> manieren om technologie
         te gebruiken <a>gesteund worden</a> voor conformiteit.
-        <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance"
-          >Understanding Conformance</a
-        >
+        <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding Conformance</a>
         geeft verdere uitleg van het begrip door toegankelijkheid ondersteund.
       </p>
 
@@ -1148,9 +901,7 @@
             Auteurs van webpagina's, die niet kunnen conformeren omdat ze te
             maken hebben met content waar zij geen zeggenschap over hebben,
             kunnen een
-            <a href="#verklaring-van-partiele-conformiteit-content-van-derden"
-              >verklaring van partiële conformiteit</a
-            >
+            <a href="#verklaring-van-partiele-conformiteit-content-van-derden">verklaring van partiële conformiteit</a>
             overwegen.
           </p>
           <p class="note new">
@@ -1195,9 +946,7 @@
             functionaliteit die geleverd wordt op een manier die niet door
             toegankelijkheid ondersteund wordt, is ook beschikbaar op een manier
             die door toegankelijkheid ondersteund is. (Zie
-            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance"
-              >Understanding accessibility support</a
-            >.)
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding accessibility support</a>.)
           </p>
         </section>
 
@@ -1248,9 +997,7 @@
           </p>
           <p>
             Voor meer informatie, inclusief voorbeelden zie
-            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance"
-              >Understanding Conformance Requirements</a
-            >.
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding Conformance Requirements</a>.
           </p>
         </section>
       </section>
@@ -1277,9 +1024,7 @@
             <li>
               <strong>Titel, versie en URI</strong> van de richtlijnen "Web
               Content Accessibility Guidelines 2.1
-              <a href="https://www.w3.org/TR/WCAG21/"
-                >https://www.w3.org/TR/WCAG21/</a
-              >"
+              <a href="https://www.w3.org/TR/WCAG21/">https://www.w3.org/TR/WCAG21/</a>"
             </li>
             <li>
               <strong>Conformiteitsniveau </strong> waaraan voldaan is: (Niveau
@@ -1306,8 +1051,7 @@
               Een lijst van de
               <strong>
                 <a>web content technologieën</a>
-                <a>waarop wordt gesteund</a> </strong
-              >.
+                <a>waarop wordt gesteund</a> </strong>.
             </li>
           </ol>
           <p class="note">
@@ -1332,9 +1076,7 @@
               gebruikers, bij voorkeur machine-leesbare metadata.
             </li>
             <li>
-              Een lijst van de specifieke technologieën die "<em
-                >gebruikt worden, maar waarop niet <a>gesteund wordt</a> </em
-              >."
+              Een lijst van de specifieke technologieën die "<em>gebruikt worden, maar waarop niet <a>gesteund wordt</a> </em>."
             </li>
             <li>
               Een lijst van user agents, met inbegrip van hulptechnologieën die
@@ -1359,16 +1101,12 @@
           </ul>
           <p class="note">
             We verwijzen naar
-            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance"
-              >Understanding Conformance Claims</a
-            >
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding Conformance Claims</a>
             voor meer informatie en voorbeeld conformiteitsclaims.
           </p>
           <p class="note">
             We verwijzen naar
-            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixC"
-              >Understanding Metadata</a
-            >
+            <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixC">Understanding Metadata</a>
             voor meer informatie over het gebruik van metadata in
             conformiteitsclaims.
           </p>
@@ -1457,455 +1195,197 @@
       <h1>Verklarende woordenlijst</h1>
       <dl id="terms">
         <!--aanvullende content-->
-        <dt
-          data-include="terms/20/supplemental-content.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/supplemental-content.html" data-include-replace="true"></dt>
         <!--aanwijzerinvoer-->
-        <dt
-          data-include="terms/21/pointer-input.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/pointer-input.html" data-include-replace="true"></dt>
         <!--afbeeldingen van tekst-->
-        <dt
-          data-include="terms/20/image-of-text.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/image-of-text.html" data-include-replace="true"></dt>
         <!--afkortingen-->
-        <dt
-          data-include="terms/20/abbreviation.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/abbreviation.html" data-include-replace="true"></dt>
         <!--algemene flits- en rodeflitsdrempelwaarden-->
-        <dt
-          data-include="terms/20/general-flash-and-red-flash-thresholds.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/general-flash-and-red-flash-thresholds.html" data-include-replace="true"></dt>
         <!--alternatief geleverd voor op tijd gebaseerde media-->
-        <dt
-          data-include="terms/20/alternative-for-time-based-media.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/alternative-for-time-based-media.html" data-include-replace="true"></dt>
         <!--ASCII-art-->
-        <dt
-          data-include="terms/20/ascii-art.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/ascii-art.html" data-include-replace="true"></dt>
         <!--audio-->
         <dt data-include="terms/20/audio.html" data-include-replace="true"></dt>
         <!--audiodescriptie-->
-        <dt
-          data-include="terms/20/audio-description.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/audio-description.html" data-include-replace="true"></dt>
         <!--basisonderwijsniveau-->
-        <dt
-          data-include="terms/20/primary-education-level.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/primary-education-level.html" data-include-replace="true"></dt>
         <!--bewegingsanimatie-->
-        <dt
-          data-include="terms/21/motion-animation.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/motion-animation.html" data-include-replace="true"></dt>
         <!--CAPTCHA-->
-        <dt
-          data-include="terms/20/captcha.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/captcha.html" data-include-replace="true"></dt>
         <!--componenten van de gebruikersinterface-->
-        <dt
-          data-include="terms/20/user-interface-component.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/user-interface-component.html" data-include-replace="true"></dt>
         <!--conforme alternatieve versie-->
-        <dt
-          data-include="terms/20/conforming-alternate-version.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/conforming-alternate-version.html" data-include-replace="true"></dt>
         <!--conformiteit-->
-        <dt
-          data-include="terms/20/conformance.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/conformance.html" data-include-replace="true"></dt>
         <!--content-->
-        <dt
-          data-include="terms/20/content.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/content.html" data-include-replace="true"></dt>
         <!--contextgevoelige hulp-->
-        <dt
-          data-include="terms/20/context-sensitive-help.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/context-sensitive-help.html" data-include-replace="true"></dt>
         <!--contextwijziging-->
-        <dt
-          data-include="terms/20/changes-of-context.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/changes-of-context.html" data-include-replace="true"></dt>
         <!--contrastverhouding-->
-        <dt
-          data-include="terms/20/contrast-ratio.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/contrast-ratio.html" data-include-replace="true"></dt>
         <!--correcte leesvolgorde-->
-        <dt
-          data-include="terms/20/correct-reading-sequence.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/correct-reading-sequence.html" data-include-replace="true"></dt>
         <!--CSS-pixels-->
-        <dt
-          data-include="terms/21/css-pixel.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/css-pixel.html" data-include-replace="true"></dt>
         <!--dezelfde functionaliteit-->
-        <dt
-          data-include="terms/20/same-functionality.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/same-functionality.html" data-include-replace="true"></dt>
         <!--dezelfde relatieve volgorde-->
-        <dt
-          data-include="terms/20/same-relative-order.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/same-relative-order.html" data-include-replace="true"></dt>
         <!--Doelgebied-->
-        <dt
-          data-include="terms/21/target.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/target.html" data-include-replace="true"></dt>
         <!--door software bepaald-->
-        <dt
-          data-include="terms/20/programmatically-determined.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/programmatically-determined.html" data-include-replace="true"></dt>
         <!--door software bepaalde linkcontext-->
-        <dt
-          data-include="terms/20/programmatically-determined-link-context.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/programmatically-determined-link-context.html" data-include-replace="true"></dt>
         <!--door software ingesteld-->
-        <dt
-          data-include="terms/20/programmatically-set.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/programmatically-set.html" data-include-replace="true"></dt>
         <!--door toegankelijkheid ondersteunde-->
-        <dt
-          data-include="terms/20/accessibility-supported.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/accessibility-supported.html" data-include-replace="true"></dt>
         <!--down-event-->
-        <dt
-          data-include="terms/21/down-event.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/down-event.html" data-include-replace="true"></dt>
         <!--dubbelzinnig voor gebruikers in het algemeen-->
-        <dt
-          data-include="terms/20/ambiguous-to-users-in-general.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/ambiguous-to-users-in-general.html" data-include-replace="true"></dt>
         <!--enkele aanwijzer-->
-        <dt
-          data-include="terms/21/single-pointer.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/single-pointer.html" data-include-replace="true"></dt>
         <!--essentieel-->
-        <dt
-          data-include="terms/20/essential.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/essential.html" data-include-replace="true"></dt>
         <!--flits-->
         <dt data-include="terms/20/flash.html" data-include-replace="true"></dt>
         <!--functionaliteit-->
-        <dt
-          data-include="terms/20/functionality.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/functionality.html" data-include-replace="true"></dt>
         <!--gebarentaal-->
-        <dt
-          data-include="terms/20/sign-language.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/sign-language.html" data-include-replace="true"></dt>
         <!--gebarentaalvertolking-->
-        <dt
-          data-include="terms/20/sign-language-interpretation.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/sign-language-interpretation.html" data-include-replace="true"></dt>
         <!--gebruikers bedienbaar-->
-        <dt
-          data-include="terms/20/user-controllable.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/user-controllable.html" data-include-replace="true"></dt>
         <!--gebruikersinactiviteit-->
-        <dt
-          data-include="terms/21/user-inactivity.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/user-inactivity.html" data-include-replace="true"></dt>
         <!--gesteund worden-->
-        <dt
-          data-include="terms/20/relied-upon.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/relied-upon.html" data-include-replace="true"></dt>
         <!--gesynchroniseerde media-->
-        <dt
-          data-include="terms/20/synchronized-media.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/synchronized-media.html" data-include-replace="true"></dt>
         <!--grote-->
-        <dt
-          data-include="terms/20/large-scale.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/large-scale.html" data-include-replace="true"></dt>
         <!--hulptechnologie-->
-        <dt
-          data-include="terms/20/assistive-technology.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/assistive-technology.html" data-include-replace="true"></dt>
         <!--idiomatische uitdrukkingen-->
         <dt data-include="terms/20/idiom.html" data-include-replace="true"></dt>
         <!--informatief-->
-        <dt
-          data-include="terms/20/informative.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/informative.html" data-include-replace="true"></dt>
         <!--invoerfout-->
-        <dt
-          data-include="terms/20/input-error.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/input-error.html" data-include-replace="true"></dt>
         <!--jargon-->
-        <dt
-          data-include="terms/20/jargon.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/jargon.html" data-include-replace="true"></dt>
         <!--knipperen-->
-        <dt
-          data-include="terms/20/blinking.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/blinking.html" data-include-replace="true"></dt>
         <!--label-->
         <dt data-include="terms/20/label.html" data-include-replace="true"></dt>
         <!--lager middelbaar onderwijsniveau-->
-        <dt
-          data-include="terms/20/lower-secondary-education-level.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/lower-secondary-education-level.html" data-include-replace="true"></dt>
         <!--linkdoel-->
-        <dt
-          data-include="terms/20/link-purpose.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/link-purpose.html" data-include-replace="true"></dt>
         <!--live-->
         <dt data-include="terms/20/live.html" data-include-replace="true"></dt>
         <!--louter-geluid-->
-        <dt
-          data-include="terms/20/audio-only.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/audio-only.html" data-include-replace="true"></dt>
         <!--louter-videobeeld-->
-        <dt
-          data-include="terms/20/video-only.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/video-only.html" data-include-replace="true"></dt>
         <!--mechanisme-->
-        <dt
-          data-include="terms/20/mechanism.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/mechanism.html" data-include-replace="true"></dt>
         <!--media-alternatief voor tekst-->
-        <dt
-          data-include="terms/20/media-alternative-for-text.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/media-alternative-for-text.html" data-include-replace="true"></dt>
         <!--menselijke taal-->
-        <dt
-          data-include="terms/20/human-language.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/human-language.html" data-include-replace="true"></dt>
         <!--naam-->
         <dt data-include="terms/20/name.html" data-include-replace="true"></dt>
         <!--niet-tekstuele content-->
-        <dt
-          data-include="terms/20/non-text-content.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/non-text-content.html" data-include-replace="true"></dt>
         <!--noodsituatie-->
-        <dt
-          data-include="terms/20/emergency.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/emergency.html" data-include-replace="true"></dt>
         <!--normatief-->
-        <dt
-          data-include="terms/20/normative.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/normative.html" data-include-replace="true"></dt>
         <!--ondertitels-->
-        <dt
-          data-include="terms/20/captions.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/captions.html" data-include-replace="true"></dt>
         <!--op een ongebruikelijke of beperkte manier gebruikt-->
-        <dt
-          data-include="terms/20/used-in-an-unusual-or-restricted-way.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/used-in-an-unusual-or-restricted-way.html" data-include-replace="true"></dt>
         <!--op een venster even groot als het volle beeld-->
-        <dt
-          data-include="terms/20/on-a-full-screen-window.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/on-a-full-screen-window.html" data-include-replace="true"></dt>
         <!--paragraaf-->
-        <dt
-          data-include="terms/20/section.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/section.html" data-include-replace="true"></dt>
         <!--pauzeren-->
-        <dt
-          data-include="terms/20/paused.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/paused.html" data-include-replace="true"></dt>
         <!--presentatie-->
-        <dt
-          data-include="terms/20/presentation.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/presentation.html" data-include-replace="true"></dt>
         <!--proces-->
-        <dt
-          data-include="terms/20/process.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/process.html" data-include-replace="true"></dt>
         <!--puur decoratief-->
-        <dt
-          data-include="terms/20/pure-decoration.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/pure-decoration.html" data-include-replace="true"></dt>
         <!--real-time gebeurtenissen-->
-        <dt
-          data-include="terms/20/real-time-event.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/real-time-event.html" data-include-replace="true"></dt>
         <!--regio's-->
-        <dt
-          data-include="terms/21/region.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/region.html" data-include-replace="true"></dt>
         <!--relaties-->
-        <dt
-          data-include="terms/20/relationships.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/relationships.html" data-include-replace="true"></dt>
         <!--relatieve luminantie-->
-        <dt
-          data-include="terms/20/relative-luminance.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/relative-luminance.html" data-include-replace="true"></dt>
         <!--rol-->
         <dt data-include="terms/20/role.html" data-include-replace="true"></dt>
         <!--sequentieel genavigeerd-->
-        <dt
-          data-include="terms/20/navigated-sequentially.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/navigated-sequentially.html" data-include-replace="true"></dt>
         <!--sneltoets-->
-        <dt
-          data-include="terms/21/keyboard-shortcut.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/keyboard-shortcut.html" data-include-replace="true"></dt>
         <!--specifieke zintuiglijke ervaring-->
-        <dt
-          data-include="terms/20/specific-sensory-experience.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/specific-sensory-experience.html" data-include-replace="true"></dt>
         <!--status-->
         <dt data-include="terms/21/state.html" data-include-replace="true"></dt>
         <!--statusbericht-->
-        <dt
-          data-include="terms/21/status-message.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/status-message.html" data-include-replace="true"></dt>
         <!--stijleigenschap-->
-        <dt
-          data-include="terms/21/style-property.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/style-property.html" data-include-replace="true"></dt>
         <!--structuur-->
-        <dt
-          data-include="terms/20/structure.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/structure.html" data-include-replace="true"></dt>
         <!--technologie-->
-        <dt
-          data-include="terms/20/technology.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/technology.html" data-include-replace="true"></dt>
         <!--tekst-->
         <dt data-include="terms/20/text.html" data-include-replace="true"></dt>
         <!--tekstalternatief-->
-        <dt
-          data-include="terms/20/text-alternative.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/text-alternative.html" data-include-replace="true"></dt>
         <!--tekstblokken-->
-        <dt
-          data-include="terms/20/blocks-of-text.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/blocks-of-text.html" data-include-replace="true"></dt>
         <!--toetsenbordinterface-->
-        <dt
-          data-include="terms/20/keyboard-interface.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/keyboard-interface.html" data-include-replace="true"></dt>
         <!--up-event-->
-        <dt
-          data-include="terms/21/up-event.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/up-event.html" data-include-replace="true"></dt>
         <!--user agent-->
-        <dt
-          data-include="terms/20/user-agent.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/user-agent.html" data-include-replace="true"></dt>
         <!--verlengde audiodescriptie-->
-        <dt
-          data-include="terms/20/extended-audio-description.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/extended-audio-description.html" data-include-replace="true"></dt>
         <!--verzameling webpagina's-->
-        <dt
-          data-include="terms/21/set-of-web-pages.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/21/set-of-web-pages.html" data-include-replace="true"></dt>
         <!--video-->
         <dt data-include="terms/20/video.html" data-include-replace="true"></dt>
         <!--visueel aangepast-->
-        <dt
-          data-include="terms/20/visually-customized.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/visually-customized.html" data-include-replace="true"></dt>
         <!--voldoet aan een succescriterium-->
-        <dt
-          data-include="terms/20/satisfies-a-success-criterion.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/satisfies-a-success-criterion.html" data-include-replace="true"></dt>
         <!--vooraf opgenomen-->
-        <dt
-          data-include="terms/20/prerecorded.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/prerecorded.html" data-include-replace="true"></dt>
         <!--webpagina's-->
-        <dt
-          data-include="terms/20/web-page.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/web-page.html" data-include-replace="true"></dt>
         <!--weergavekader-->
-        <dt
-          data-include="terms/20/viewport.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/viewport.html" data-include-replace="true"></dt>
         <!--wettelijke verplichtingen-->
-        <dt
-          data-include="terms/20/legal-commitments.html"
-          data-include-replace="true"
-        ></dt>
+        <dt data-include="terms/20/legal-commitments.html" data-include-replace="true"></dt>
       </dl>
     </section>
 
@@ -1921,4 +1401,5 @@
       Na momentopname referenties vervangen door `references.html`.
     </div>
   </body>
+
 </html>
