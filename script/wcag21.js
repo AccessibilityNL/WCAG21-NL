@@ -3,17 +3,12 @@ function titleToPathFrag (title) {
 }
 
 function linkUnderstanding() {
-  var understandingBaseURI;
-  if (respecConfig.specStatus == 'ED') understandingBaseURI = '../understanding/';
-  else understandingBaseURI = 'https://www.w3.org/WAI/WCAG21/Understanding/';
+  var understandingBaseURI = 'https://www.w3.org/WAI/WCAG21/Understanding/';
   document.querySelectorAll('.sc').forEach(function(node){
-    var wcagVersionPath = node.classList.contains('new')
-      ? '21/'
-      : '20/';
     var altId = node.dataset.altId || '';
     var heading = node.firstElementChild.textContent;
     var pathFrag = altId
-      ? wcagVersionPath + titleToPathFrag(altId)
+      ? titleToPathFrag(altId)
       : 'index';
     var el = document.createElement('div');
     el.setAttribute('class', 'doclinks');
