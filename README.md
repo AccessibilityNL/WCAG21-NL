@@ -4,12 +4,12 @@
 
 Authorized Translation of WCAG 2.1 in Dutch.
 
-## Werkversie
+## Werkversie (Onder de map guidelines)
 
 [https://accessibilitynl.github.io/WCAG21-NL/guidelines/](https://accessibilitynl.github.io/WCAG21-NL/guidelines/)
 
 
-## Gepubliceerde vertalingen
+## Gepubliceerde vertalingen (Onder de map translations)
 
 
 - [Laatste publicatie](https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/)
@@ -22,16 +22,10 @@ Authorized Translation of WCAG 2.1 in Dutch.
 
 
 
-## Errata
+## Errata (in de map translations/WCAG21-nl/errata/)
 
 - [Werkversie](https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/errata/edit/)
 
 - [Publicatie](https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/errata/)
 
-  Symbolische link naar laatste publicatie.
-
-- Publicaties:
-
-  https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/errata/versions/
-
-  - [Initiele publicatie (2020/02/14)](https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/errata/versions/20200211/)
+  Dit is een momentopname van de werkversie
