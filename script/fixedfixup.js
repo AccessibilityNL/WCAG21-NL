@@ -1,9 +1,13 @@
 /******************************************************************************
- *                 JS Extension for the W3C Spec Style Sheet                  *
+ * NB: THIS IS A MODIFICATION OF:                                             *
+ * JS Extension for the W3C Spec Style Sheet                                  *
  *                                                                            *
  * This code handles:                                                         *
  * - some fixup to improve the table of contents                              *
  * - the obsolete warning on outdated specs                                   *
+ *
+ * MODIFICATIONS:
+ * - Translated linkcontent to Dutch (nl-NL)
  ******************************************************************************/
 (function() {
   'use strict';
