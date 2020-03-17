@@ -43,7 +43,6 @@ var respecConfig = {
     {
       name: 'Andrew Kirkpatrick',
       url: 'http://www.adobe.com/',
-      mailto: 'akirkpat@adobe.com',
       company: 'Adobe',
       companyURI: 'http://www.adobe.com/',
       w3cid: 39770
@@ -51,7 +50,6 @@ var respecConfig = {
     {
       name: 'Joshue O Connor',
       url: 'http://interaccess.ie/',
-      mailto: 'josh@interaccess.ie',
       company: 'Invited Expert, InterAccess',
       companyURI: 'http://interaccess.ie/',
       w3cid: 41218
@@ -59,7 +57,6 @@ var respecConfig = {
     {
       name: 'Alastair Campbell',
       url: 'https://www.nomensa.com/',
-      mailto: 'acampbell@nomensa.com',
       company: 'Nomensa',
       companyURI: 'https://www.nomensa.com/',
       w3cid: 44689
@@ -67,7 +64,6 @@ var respecConfig = {
     {
       name: 'Michael Cooper',
       url: 'https://www.w3.org',
-      mailto: 'cooper@w3.org',
       company: 'W3C',
       companyURI: 'https://www.w3.org',
       w3cid: 34017
