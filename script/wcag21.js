@@ -25,9 +25,9 @@ function createSpan(title) {
 }
 
 function addTextSemantics() {
-  var principlePrefix = createSpan('Principe');
-  var guidelinePrefix = createSpan('Richtlijn');
-  var scPrefix = createSpan('Succescriterium');
+  var principlePrefix = createSpan('Principe ');
+  var guidelinePrefix = createSpan('Richtlijn ');
+  var scPrefix = createSpan('Succescriterium ');
 
   // remove the change marker
   document.querySelectorAll('p.change').forEach(function(node){
