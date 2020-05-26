@@ -17,7 +17,7 @@ Nieuwste eerst.
 
   Symbolische link naar laatste publicatie.
 
-- [AT-WCAG21-NL-20200520](https://accessibilitynl.github.io/WCAG21-NL/translations/CAT-WCAG21-NL-20200520/)
+- [AT-WCAG21-NL-20200526](https://accessibilitynl.github.io/WCAG21-NL/translations/CAT-WCAG21-NL-20200526/)
 
 - [CAT-WCAG21-NL-20200220](https://accessibilitynl.github.io/WCAG21-NL/translations/CAT-WCAG21-NL-20200220/)
 
