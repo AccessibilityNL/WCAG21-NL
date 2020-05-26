@@ -18,7 +18,7 @@ var respecConfig = (function() {
   };
 
   const _publicationConfig = {
-    publishDate: '2020-02-20'
+    publishDate: '2020-05-26'
   };
 
   const _editors = [
@@ -34,6 +34,7 @@ var respecConfig = (function() {
     ..._baseConfig,
     ..._specConfig,
     ..._publicationConfig,
-    editors: _editors
+    editors: _editors,
+    edDraftURI: 'https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/errata/edit/'
   };
 }());

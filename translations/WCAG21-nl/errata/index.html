@@ -3,8 +3,13 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="generator" content="ReSpec 25.2.1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+      Errata van Nederlandse vertaling voor Richtlijnen voor Toegankelijkheid
+      van Webcontent (WCAG) 2.1
+    </title>
+    <meta name="generator" content="ReSpec 25.2.1">
+
     <style>
       /* dfn popup panel that list all local references to a dfn */
       dfn {
@@ -73,11 +78,6 @@
         max-height: 30vh;
       }
     </style>
-
-    <title>
-      Errata van Nederlandse vertaling voor Richtlijnen voor Toegankelijkheid
-      van Webcontent (WCAG) 2.1
-    </title>
 
     <style id="respec-mainstyle">
       /*****************************************************************
@@ -454,7 +454,7 @@
 
       <h2>
         W3C Document
-        <time class="dt-published" datetime="2020-02-20">20 February 2020</time>
+        <time class="dt-published" datetime="2020-05-26" title="26 Mei 2020">26 Mei 2020</time>
       </h2>
       <dl>
         <dt>Redacteur:</dt>
@@ -487,7 +487,7 @@
       <p>
         Dit document beschrijft alle fouten gevonden in de door
         <abbr title="World Wide Web Consortium">W3C</abbr>
-        <a href="https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/">Geautoriseerde vertaling “Richtlijnen voor Toegankelijkheid van
+        <a href="https://www.w3.org/Translations/WCAG21-nl/">Geautoriseerde Nederlandse vertaling “Richtlijnen voor Toegankelijkheid van
           Webcontent (WCAG) 2.1”</a>
         na publicatie.<br>
       </p>
@@ -569,7 +569,166 @@
     <p role="navigation" id="back-to-top">
       <a href="#title"><abbr title="Back to Top">↑</abbr></a>
     </p>
-    <script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script>
+    <script>
+      /******************************************************************************
+       * NB: THIS IS A MODIFICATION OF:                                             *
+       * JS Extension for the W3C Spec Style Sheet                                  *
+       *                                                                            *
+       * This code handles:                                                         *
+       * - some fixup to improve the table of contents                              *
+       * - the obsolete warning on outdated specs                                   *
+       *
+       * MODIFICATIONS:
+       * - Translated linkcontent to Dutch (nl-NL)
+       ******************************************************************************/
+      (function() {
+        'use strict';
+        var ESCAPEKEY = 27;
+        var collapseSidebarText =
+          '<span aria-hidden="true">←</span> ' + '<span>Zijbalk inklappen</span>';
+        var expandSidebarText =
+          '<span aria-hidden="true">→</span> ' + '<span>Zijbalk uitklappen</span>';
+        var tocJumpText =
+          '<span aria-hidden="true">↑</span> ' + '<span>Naar de inhoudsopgave</span>';
+        var sidebarMedia = window.matchMedia('screen and (min-width: 78em)');
+        var autoToggle = function(e) {
+          toggleSidebar(e.matches);
+        };
+        if (sidebarMedia.addListener) {
+          sidebarMedia.addListener(autoToggle);
+        }
+
+        function toggleSidebar(on, skipScroll) {
+          if (on == undefined) {
+            on = !document.body.classList.contains('toc-sidebar');
+          }
+          if (!skipScroll) {
+            /* Don't scroll to compensate for the ToC if we're above it already. */
+            var headY = 0;
+            var head = document.querySelector('.head');
+            if (head) {
+              // terrible approx of "top of ToC"
+              headY += head.offsetTop + head.offsetHeight;
+            }
+            skipScroll = window.scrollY < headY;
+          }
+          var toggle = document.getElementById('toc-toggle');
+          var tocNav = document.getElementById('toc');
+          if (on) {
+            var tocHeight = tocNav.offsetHeight;
+            document.body.classList.add('toc-sidebar');
+            document.body.classList.remove('toc-inline');
+            toggle.innerHTML = collapseSidebarText;
+            if (!skipScroll) {
+              window.scrollBy(0, 0 - tocHeight);
+            }
+            tocNav.focus();
+            sidebarMedia.addListener(autoToggle); // auto-collapse when out of room
+          } else {
+            document.body.classList.add('toc-inline');
+            document.body.classList.remove('toc-sidebar');
+            toggle.innerHTML = expandSidebarText;
+            if (!skipScroll) {
+              window.scrollBy(0, tocNav.offsetHeight);
+            }
+            if (toggle.matches(':hover')) {
+              /* Unfocus button when not using keyboard navigation,
+                 because I don't know where else to send the focus. */
+              toggle.blur();
+            }
+          }
+        }
+
+        function createSidebarToggle() {
+          /* Create the sidebar toggle in JS; it shouldn't exist when JS is off. */
+          var toggle = document.createElement('a');
+          /* This should probably be a button, but appearance isn't standards-track. */
+          toggle.id = 'toc-toggle';
+          toggle.class = 'toc-toggle';
+          toggle.href = '#toc';
+          toggle.innerHTML = collapseSidebarText;
+          sidebarMedia.addListener(autoToggle);
+          var toggler = function(e) {
+            e.preventDefault();
+            sidebarMedia.removeListener(autoToggle); // persist explicit off states
+            toggleSidebar();
+            return false;
+          };
+          toggle.addEventListener('click', toggler, false);
+          /* Get <nav id=toc-nav>, or make it if we don't have one. */
+          var tocNav = document.getElementById('toc-nav');
+          if (!tocNav) {
+            tocNav = document.createElement('p');
+            tocNav.id = 'toc-nav';
+            /* Prepend for better keyboard navigation */
+            document.body.insertBefore(tocNav, document.body.firstChild);
+          }
+          /* While we're at it, make sure we have a Jump to Toc link. */
+          var tocJump = document.getElementById('toc-jump');
+          if (!tocJump) {
+            tocJump = document.createElement('a');
+            tocJump.id = 'toc-jump';
+            tocJump.href = '#toc';
+            tocJump.innerHTML = tocJumpText;
+            tocNav.appendChild(tocJump);
+          }
+          tocNav.appendChild(toggle);
+        }
+        var toc = document.getElementById('toc');
+        if (toc) {
+          if (!document.getElementById('toc-toggle')) {
+            createSidebarToggle();
+          }
+          toggleSidebar(sidebarMedia.matches, true);
+          /* If the sidebar has been manually opened and is currently overlaying the text
+             (window too small for the MQ to add the margin to body),
+             then auto-close the sidebar once you click on something in there. */
+          toc.addEventListener(
+            'click',
+            function(e) {
+              if (
+                document.body.classList.contains('toc-sidebar') &&
+                !sidebarMedia.matches
+              ) {
+                var el = e.target;
+                while (el != toc) {
+                  // find closest <a>
+                  if (el.tagName.toLowerCase() == 'a') {
+                    toggleSidebar(false);
+                    return;
+                  }
+                  el = el.parentElement;
+                }
+              }
+            },
+            false
+          );
+        } else {
+          console.warn(
+            'Can\'t find Table of Contents. Please use <nav id=\'toc\'> around the ToC.'
+          );
+        }
+        /* Wrap tables in case they overflow */
+        var tables = document.querySelectorAll(
+          ':not(.overlarge) > table.data, :not(.overlarge) > table.index'
+        );
+        var numTables = tables.length;
+        for (var i = 0; i < numTables; i++) {
+          var table = tables[i];
+          if (
+            !table.matches('.example *, .note *, .advisement *, .def *, .issue *')
+          ) {
+            /* Overflowing colored boxes looks terrible, and also
+               the kinds of tables inside these boxes
+               are less likely to need extra space. */
+            var wrapper = document.createElement('div');
+            wrapper.className = 'overlarge';
+            table.parentNode.insertBefore(wrapper, table);
+            wrapper.appendChild(table);
+          }
+        }
+      })();
+    </script>
   </body>
 
 </html>
