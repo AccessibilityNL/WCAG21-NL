@@ -11,14 +11,20 @@ Authorized Translation of WCAG 2.1 in Dutch.
 
 ## Gepubliceerde vertalingen (Onder de map translations)
 
+Nieuwste eerst.
 
 - [Laatste publicatie](https://accessibilitynl.github.io/WCAG21-NL/translations/WCAG21-nl/)
 
   Symbolische link naar laatste publicatie.
 
-- [Versie 1.0.0 (CAT WCAG21 NL 2019 11 25)](https://accessibilitynl.github.io/WCAG21-NL/translations/CAT-WCAG21-NL-20191125/)
+- [AT-WCAG21-NL-20200526](https://accessibilitynl.github.io/WCAG21-NL/translations/CAT-WCAG21-NL-20200526/)
 
-- [Versie 1.0.1 (CAT WCAG21 NL 2020 02 11)](https://accessibilitynl.github.io/WCAG21-NL/translations/CAT-WCAG21-NL-20200211/)
+- [CAT-WCAG21-NL-20200220](https://accessibilitynl.github.io/WCAG21-NL/translations/CAT-WCAG21-NL-20200220/)
+
+- [CAT-WCAG21-NL-20200211](https://accessibilitynl.github.io/WCAG21-NL/translations/CAT-WCAG21-NL-20200211/)
+
+- [CAT-WCAG21-NL-20191125](https://accessibilitynl.github.io/WCAG21-NL/translations/CAT-WCAG21-NL-20191125/)
+
 
 
 
